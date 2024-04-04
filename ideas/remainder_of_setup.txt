@@ -1,0 +1,5 @@
+TODO
+
+- add path to sqlite.exe
+- omni -> opens omni..db wit sqlite
+- idea command
