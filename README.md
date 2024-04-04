@@ -1,12 +1,12 @@
 ## How to authenticate in new Linux installation
 
-`sudo apt install gh`
+`sudo apt install gh`	
 `gh auth login`
 
 ## Glossary
-
-|       `aux` | my auxilary files such as plaintext, CSV, etc.                                         |
+|      object | purpose                                                                                |
 |------------:|----------------------------------------------------------------------------------------|
+|       `aux` | my auxilary files such as plaintext, CSV, etc.                                         |
 |       `bin` | script repository; all commands go here.                                               |
 | `bin/repos` | Github repositories go here; which may be use by scripts in ~/bin                      |
 |     `ideas` | idea repository; stores all the ideas I have which quickly need to be stored somewhere |
