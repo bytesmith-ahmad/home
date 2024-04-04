@@ -1,6 +1,7 @@
 ## How to authenticate in new Linux installation
 
-`sudo apt install gh`	
+`sudo apt install gh`
+
 `gh auth login`
 
 ## Glossary
