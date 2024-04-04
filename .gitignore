@@ -1,0 +1,15 @@
+# SECRETS !!!
+.ssh/
+.config/gh/
+.config/rclone/
+# other
+.cache/
+.local/
+__pychache__/
+bin/modules/
+.bash_history
+.bash_logout
+.lesshst
+.motd_shown
+.profile
+.sudo_as_admin_successful

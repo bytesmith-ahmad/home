@@ -1,0 +1,10 @@
+[init]
+	defaultBranch = master
+[user]
+	email = b-9k@outlook.com
+	name = bytesmith
+[core]
+	editor = nano
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

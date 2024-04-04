@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Check the number of arguments provided
+if [ "$#" -eq 0 ]; then
+    # If no arguments provided, open current directory in File Explorer
+    explorer.exe .
+elif [ "$#" -eq 1 ]; then
+    # If one argument provided, open the specified directory or file in File Explorer
+    explorer.exe "$1"
+else
+    # If more than one argument provided, display usage message
+    echo "Usage: $(basename "$0") [directory or file]"
+    exit 1
+fi

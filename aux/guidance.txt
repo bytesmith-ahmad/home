@@ -1,0 +1,3 @@
+config    Opens the config file linked to .bashrc
+omni      Opens the database's directory
+todo      Lists tasks. Do --help for usage
