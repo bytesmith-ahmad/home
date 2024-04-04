@@ -2,7 +2,7 @@
 	defaultBranch = master
 [user]
 	email = b-9k@outlook.com
-	name = bytesmith
+	name = bytesmith-ahmad
 [core]
 	editor = nano
 [credential "https://github.com"]

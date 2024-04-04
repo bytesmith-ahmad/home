@@ -15,3 +15,4 @@
 |     `cloud` | symlink to cloud-stored files; for now, using OneDrive                                 |
 | `downloads` | symlink to Windows > C:/Users/ahmad/Downloads                                          |
 |  `homework` | symlink to my homework folder                                                          |
+
