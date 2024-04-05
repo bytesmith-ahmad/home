@@ -1,7 +1,6 @@
 # SECRETS !!!
 .ssh/
-.config/gh/
-.config/rclone/
+.config/
 # other
 .cache/
 .local/
@@ -13,3 +12,4 @@ bin/repos/
 .motd_shown
 .profile
 .sudo_as_admin_successful
+# !excluded/file
