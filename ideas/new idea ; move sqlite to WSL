@@ -1,0 +1,4 @@
+new idea ; move sqlite to WSL
+
+Cannot access DB outside WSL, move dbs inside.
+Maybe use github to sync or rclone?

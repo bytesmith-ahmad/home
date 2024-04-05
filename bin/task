@@ -1,0 +1,94 @@
+#!/bin/bash
+
+# Define ANSI escape color codes
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+YELLOW='\033[0;33m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
+
+# Define the file path for storing tasks
+task_file="$HOME/aux/tasks.txt"
+
+# Ensure the task file exists
+touch "$task_file"
+
+# Function to add a task to the file
+add_task() {
+    # Combine all arguments following 'add' as a single string
+    local task_description="$*"
+    
+    # Decorate with a box of asterisks
+    local asterisks_length=60
+    printf "%*s\n" "$asterisks_length" "" | tr " " "*"
+    echo -e "${GREEN}Task added successfully.${NC}"
+    echo "$task_description" >> "$task_file"
+    printf "%*s\n" "$asterisks_length" "" | tr " " "*"
+}
+
+# Function to view all tasks in the file
+view_tasks() {
+    if [ -s "$task_file" ]; then
+        # Decorate with side borders of asterisks
+        local asterisks_length=60
+        printf "%*s\n" "$asterisks_length" "" | tr " " "*"
+        echo -e "${BLUE}Tasks:${NC}"
+        cat -n "$task_file" | sed 's/^/* /'
+        printf "%*s\n" "$asterisks_length" "" | tr " " "*"
+    else
+        echo -e "${YELLOW}No tasks found.${NC}"
+    fi
+}
+
+# Function to remove a task by its index
+remove_task() {
+    local index="$1"
+    if [ -s "$task_file" ]; then
+        if [ "$index" -gt 0 ] && [ "$index" -le "$(wc -l < "$task_file")" ]; then
+            sed -i "${index}d" "$task_file"
+            echo -e "${GREEN}Task removed successfully.${NC}"
+        else
+            echo -e "${RED}Invalid index.${NC}"
+        fi
+    else
+        echo -e "${YELLOW}No tasks found.${NC}"
+    fi
+}
+
+# Main script
+
+# Check if an argument is provided
+if [ $# -eq 0 ]; then
+    view_tasks
+    echo -e "${YELLOW}Usage: $0 [add|get|del] [task]${NC}"
+    exit 0
+fi
+
+# Perform action based on the first argument
+case $1 in
+    "add")
+        shift
+        add_task "$@"
+        ;;
+    "get")
+        view_tasks
+        ;;
+    "del")
+        if [ $# -lt 2 ]; then
+            echo -e "${RED}Usage: $0 del [index1] [index2] ...${NC}"
+            exit 1
+        fi
+        shift
+        while [ $# -gt 0 ]; do
+            remove_task "$1"
+            shift
+        done
+        ;;
+    *)
+        echo -e "${RED}Invalid action. Usage: $0 [add|get|del] [task]${NC}"
+        exit 1
+        ;;
+esac
+
+exit 0
+

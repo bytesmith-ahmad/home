@@ -6,7 +6,7 @@
 .cache/
 .local/
 __pychache__/
-bin/modules/
+bin/repos/
 .bash_history
 .bash_logout
 .lesshst

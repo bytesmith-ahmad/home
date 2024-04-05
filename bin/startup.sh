@@ -35,11 +35,6 @@ print_decoration "=" 50
 echo ""
 print_decoration "-" 50
 print_color "For guidance: enter 'guide'" "1;33"
+#print_color "To view list of commands: 'ls -1 bin'" "1;33"
 print_decoration "-" 50
-
-# Add any other metadata or commands you want to display
 echo ""
-print_decoration "=" 50
-print_color "Hostname: $(hostname)" "1;34"
-print_color "User: $USER" "1;34"
-print_decoration "=" 50
