@@ -1,5 +1,2 @@
 repos/
-modules/
-pycache/
-*.config
-*.ini
+__pycache__/
