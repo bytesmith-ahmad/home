@@ -1,10 +1,12 @@
-# Ignore everything
-*
+# Ignore everything...
+/*
 
-# but not these files...
-!aux/
-!bin/
-!ideas/
+# ... except for these directories ...
+!/aux/
+!/bin/
+!/ideas/
+
+# ... and except for those files
 !.bashrc
 !.gitconfig
 !.gitignore
@@ -15,3 +17,4 @@
 !README.md
 !repos
 !TODO
+
