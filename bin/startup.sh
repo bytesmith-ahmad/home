@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Check for github changes and pull them
+~/bin/check_github_changes.sh
+
 # Run screenfetch for system information
 screenfetch
 
