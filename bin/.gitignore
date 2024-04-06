@@ -1,0 +1,5 @@
+repos/
+modules/
+pycache/
+*.config
+*.ini

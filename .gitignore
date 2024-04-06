@@ -1,15 +1,17 @@
-# SECRETS !!!
-.ssh/
-.config/
-# other
-.cache/
-.local/
-__pychache__/
-bin/repos/
-.bash_history
-.bash_logout
-.lesshst
-.motd_shown
-.profile
-.sudo_as_admin_successful
-# !excluded/file
+# Ignore everything
+*
+
+# but not these files...
+!aux/
+!bin/
+!ideas/
+!.bashrc
+!.gitconfig
+!.gitignore
+!arch
+!cloud
+!downloads
+!homework
+!README.md
+!repos
+!TODO
