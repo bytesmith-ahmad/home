@@ -4,7 +4,7 @@
 ~/bin/check_github_changes.sh
 
 # Run screenfetch for system information
-screenfetch
+# screenfetch
 
 # Function to print decorations
 print_decoration() {
