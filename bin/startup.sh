@@ -28,11 +28,7 @@ print_decoration "*" 50
 
 # Display tasks with decoration
 echo ""
-print_decoration "=" 50
-print_color "Tasks:" "1;35"
-echo ""
-#todo
-print_decoration "=" 50
+task get
 
 # Display guidance message with decoration
 echo ""
