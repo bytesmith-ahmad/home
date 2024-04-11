@@ -2,12 +2,14 @@
 /*
 
 # ... except for these directories ...
+!/.task
 !/aux/
 !/bin/
 !/ideas/
 
 # ... and except for those files
 !.bashrc
+!.taskrc
 !.gitconfig
 !.gitignore
 !arch

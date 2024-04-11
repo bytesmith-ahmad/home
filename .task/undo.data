@@ -1,0 +1,17 @@
+time 1712861608
+new [description:"dummy task" entry:"1712861608" modified:"1712861608" status:"pending" uuid:"474be601-d3bc-4071-ac5e-26ed9b4af215"]
+---
+time 1712861617
+new [description:"dummy task" due:"1712894400" entry:"1712861617" modified:"1712861617" status:"pending" uuid:"16f0261f-0bab-4e41-80ac-c501976a8478"]
+---
+time 1712864289
+new [description:"Move credentials from omnirecords to \/home\/ahmad\/.password-store using {pass insert}" entry:"1712864289" modified:"1712864289" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1712864332
+old [description:"dummy task" entry:"1712861608" modified:"1712861608" status:"pending" uuid:"474be601-d3bc-4071-ac5e-26ed9b4af215"]
+new [description:"dummy task" end:"1712864327" entry:"1712861608" modified:"1712864332" status:"deleted" uuid:"474be601-d3bc-4071-ac5e-26ed9b4af215"]
+---
+time 1712864400
+old [description:"dummy task" due:"1712894400" entry:"1712861617" modified:"1712861617" status:"pending" uuid:"16f0261f-0bab-4e41-80ac-c501976a8478"]
+new [description:"dummy task" due:"1712894400" end:"1712864400" entry:"1712861617" modified:"1712864400" status:"completed" uuid:"16f0261f-0bab-4e41-80ac-c501976a8478"]
+---

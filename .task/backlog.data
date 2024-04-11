@@ -1,0 +1,5 @@
+{"description":"dummy task","entry":"20240411T185328Z","modified":"20240411T185328Z","status":"pending","uuid":"474be601-d3bc-4071-ac5e-26ed9b4af215"}
+{"description":"dummy task","due":"20240412T040000Z","entry":"20240411T185337Z","modified":"20240411T185337Z","status":"pending","uuid":"16f0261f-0bab-4e41-80ac-c501976a8478"}
+{"description":"Move credentials from omnirecords to \/home\/ahmad\/.password-store using {pass insert}","entry":"20240411T193809Z","modified":"20240411T193809Z","status":"pending","uuid":"71c8f043-0e93-4d72-8db4-95f6eaec60e1"}
+{"description":"dummy task","end":"20240411T193847Z","entry":"20240411T185328Z","modified":"20240411T193852Z","status":"deleted","uuid":"474be601-d3bc-4071-ac5e-26ed9b4af215"}
+{"description":"dummy task","due":"20240412T040000Z","end":"20240411T194000Z","entry":"20240411T185337Z","modified":"20240411T194000Z","status":"completed","uuid":"16f0261f-0bab-4e41-80ac-c501976a8478"}
