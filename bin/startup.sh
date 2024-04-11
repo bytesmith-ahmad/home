@@ -26,9 +26,8 @@ print_decoration "*" 50
 print_color "Current date and time: $(date)" "1;36"
 print_decoration "*" 50
 
-# Display tasks with decoration
-echo ""
-task get
+# Display tasks from taskwarrior
+task
 
 # Display guidance message with decoration
 echo ""

@@ -15,3 +15,63 @@ time 1712864400
 old [description:"dummy task" due:"1712894400" entry:"1712861617" modified:"1712861617" status:"pending" uuid:"16f0261f-0bab-4e41-80ac-c501976a8478"]
 new [description:"dummy task" due:"1712894400" end:"1712864400" entry:"1712861617" modified:"1712864400" status:"completed" uuid:"16f0261f-0bab-4e41-80ac-c501976a8478"]
 ---
+time 1712865320
+new [description:"Consult https:\/\/taskwarrior.org\/docs\/30second\/ to use taskwarrior to fullest potential" entry:"1712865320" modified:"1712865320" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+---
+time 1712865371
+new [description:"p:H pay bills" entry:"1712865371" modified:"1712865371" status:"pending" uuid:"5e416b05-744a-43f4-9a6c-67408e706f0c"]
+---
+time 1712865386
+new [description:"pay bills" entry:"1712865386" modified:"1712865386" priority:"H" status:"pending" uuid:"0f399a37-c3ce-429d-952c-9f3eb0ef9a98"]
+---
+time 1712865397
+new [description:"pay bills" entry:"1712865397" modified:"1712865397" priority:"H" status:"pending" uuid:"8d39fb56-59a0-4a67-a37e-67b682c4b7f7"]
+---
+time 1712865404
+new [description:"pr:H pay bills" entry:"1712865404" modified:"1712865404" status:"pending" uuid:"232560e1-7ec5-44d0-a817-35e464de9ba7"]
+---
+time 1712865409
+new [description:"pay bills" entry:"1712865409" modified:"1712865409" priority:"H" status:"pending" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+---
+time 1712865433
+old [description:"pay bills" entry:"1712865386" modified:"1712865386" priority:"H" status:"pending" uuid:"0f399a37-c3ce-429d-952c-9f3eb0ef9a98"]
+new [description:"pay bills" end:"1712865427" entry:"1712865386" modified:"1712865433" priority:"H" status:"deleted" uuid:"0f399a37-c3ce-429d-952c-9f3eb0ef9a98"]
+---
+time 1712865436
+old [description:"pay bills" entry:"1712865397" modified:"1712865397" priority:"H" status:"pending" uuid:"8d39fb56-59a0-4a67-a37e-67b682c4b7f7"]
+new [description:"pay bills" end:"1712865433" entry:"1712865397" modified:"1712865436" priority:"H" status:"deleted" uuid:"8d39fb56-59a0-4a67-a37e-67b682c4b7f7"]
+---
+time 1712865457
+old [description:"p:H pay bills" entry:"1712865371" modified:"1712865371" status:"pending" uuid:"5e416b05-744a-43f4-9a6c-67408e706f0c"]
+new [description:"p:H pay bills" end:"1712865454" entry:"1712865371" modified:"1712865457" status:"deleted" uuid:"5e416b05-744a-43f4-9a6c-67408e706f0c"]
+---
+time 1712865457
+old [description:"pr:H pay bills" entry:"1712865404" modified:"1712865404" status:"pending" uuid:"232560e1-7ec5-44d0-a817-35e464de9ba7"]
+new [description:"pr:H pay bills" end:"1712865457" entry:"1712865404" modified:"1712865457" status:"deleted" uuid:"232560e1-7ec5-44d0-a817-35e464de9ba7"]
+---
+time 1712865597
+old [description:"Consult https:\/\/taskwarrior.org\/docs\/30second\/ to use taskwarrior to fullest potential" entry:"1712865320" modified:"1712865320" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+new [description:"editor" entry:"1712865320" modified:"1712865597" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+---
+time 1712865838
+new [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1712865838" status:"pending" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+---
+time 1712866209
+old [description:"editor" entry:"1712865320" modified:"1712865597" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+new [description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1712866209" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+---
+time 1712866387
+new [description:"Check TIMEWARRIOR, can create and modify events?" entry:"1712866387" modified:"1712866387" status:"pending" uuid:"ba1dcf04-e5c9-4ebd-aa2f-3123aecd0811"]
+---
+time 1712866430
+new [description:"Make automatic sync to make sure tasks and events remain synchronized" entry:"1712866430" modified:"1712866430" status:"pending" uuid:"38c6b385-d209-4aa4-87df-afde65eabf35"]
+---
+time 1712868593
+new [description:"Check mail sitting on desk" entry:"1712868593" modified:"1712868593" priority:"H" status:"pending" uuid:"fb8dbed5-d6fd-4813-b57b-c28691849e34"]
+---
+time 1712868615
+new [description:"import Tasks from TODO list" entry:"1712868615" modified:"1712868615" status:"pending" uuid:"106fc802-e8f5-4d0a-9425-9241deac7045"]
+---
+time 1712868645
+new [description:"Search for tasklist for android with import\/export functionality" entry:"1712868645" modified:"1712868645" status:"pending" uuid:"069f137f-5909-4c8a-8c42-c2cb34e74180"]
+---
