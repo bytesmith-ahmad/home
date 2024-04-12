@@ -78,3 +78,6 @@ new [description:"Search for tasklist for android with import\/export functional
 time 1712874229
 new [description:"Make a job application manager in the same fashion as .password-store with its own repository\n" entry:"1712874229" modified:"1712874229" status:"pending" uuid:"9ccf79f6-c5d2-4b4b-924c-baa04cb0468e"]
 ---
+time 1712937542
+new [description:"Copy key from Xenon2 to Luminous" entry:"1712937542" modified:"1712937542" status:"pending" uuid:"3fbf36d7-aa04-42e6-893c-c72361d3004d"]
+---
