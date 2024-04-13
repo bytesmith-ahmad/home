@@ -23,3 +23,29 @@
 {"description":"Search for tasklist for android with import\/export functionality","entry":"20240411T205045Z","modified":"20240411T205045Z","status":"pending","uuid":"069f137f-5909-4c8a-8c42-c2cb34e74180"}
 {"description":"Make a job application manager in the same fashion as .password-store with its own repository\n","entry":"20240411T222349Z","modified":"20240411T222349Z","status":"pending","uuid":"9ccf79f6-c5d2-4b4b-924c-baa04cb0468e"}
 {"description":"Copy key from Xenon2 to Luminous","entry":"20240412T155902Z","modified":"20240412T155902Z","status":"pending","uuid":"3fbf36d7-aa04-42e6-893c-c72361d3004d"}
+{"description":"Add autocommit\/push for tasks and more","entry":"20240413T135232Z","modified":"20240413T135232Z","status":"pending","uuid":"bce4de11-f001-4073-9050-3e49615082c4"}
+{"description":"multi line \ntest\n","entry":"20240413T170848Z","modified":"20240413T170848Z","status":"pending","uuid":"a8ea6324-eeca-4749-a412-95553c8446ae"}
+{"description":"multi line \ntest\nsdfsd\n","entry":"20240413T170912Z","modified":"20240413T170912Z","status":"pending","uuid":"93792af2-7aa2-4810-9a2d-7426d9322662"}
+{"description":"multi line \ntest\nsdfsd\n","entry":"20240413T170914Z","modified":"20240413T170914Z","status":"pending","uuid":"fb50221d-d7e9-4922-b22b-9ede9ca3922b"}
+{"description":"multi line \ntest\nsdfsd\n","entry":"20240413T170914Z","modified":"20240413T170914Z","status":"pending","uuid":"b7106a43-9a60-4b29-abd5-cbabf5cba1ef"}
+{"description":"multi line \ntest\nsdfsd\n","entry":"20240413T170914Z","modified":"20240413T170914Z","status":"pending","uuid":"f8f86677-89f0-4af6-b39c-6bea80e85bf0"}
+{"description":"multi line \ntest\nsdfsd\n","entry":"20240413T170915Z","modified":"20240413T170915Z","status":"pending","uuid":"3e5e64c7-0295-41dc-80c7-ecf9a045fd0a"}
+{"description":"multi line \ntest\n","end":"20240413T170931Z","entry":"20240413T170848Z","modified":"20240413T170936Z","status":"deleted","uuid":"a8ea6324-eeca-4749-a412-95553c8446ae"}
+{"description":"multi line \ntest\nsdfsd\n","end":"20240413T170936Z","entry":"20240413T170912Z","modified":"20240413T170937Z","status":"deleted","uuid":"93792af2-7aa2-4810-9a2d-7426d9322662"}
+{"description":"multi line \ntest\nsdfsd\n","end":"20240413T170937Z","entry":"20240413T170914Z","modified":"20240413T170938Z","status":"deleted","uuid":"fb50221d-d7e9-4922-b22b-9ede9ca3922b"}
+{"description":"multi line \ntest\nsdfsd\n","end":"20240413T170938Z","entry":"20240413T170914Z","modified":"20240413T170939Z","status":"deleted","uuid":"b7106a43-9a60-4b29-abd5-cbabf5cba1ef"}
+{"description":"multi line \ntest\nsdfsd\n","end":"20240413T170939Z","entry":"20240413T170914Z","modified":"20240413T170939Z","status":"deleted","uuid":"f8f86677-89f0-4af6-b39c-6bea80e85bf0"}
+{"description":"multi line \ntest\nsdfsd\n","end":"20240413T170939Z","entry":"20240413T170915Z","modified":"20240413T170940Z","status":"deleted","uuid":"3e5e64c7-0295-41dc-80c7-ecf9a045fd0a"}
+{"description":"pay bills","entry":"20240411T195649Z","modified":"20240413T171003Z","priority":"H","project":"admin","status":"pending","uuid":"07164852-8b53-46a5-b465-4d051aba180f"}
+{"description":"Check mail sitting on desk","entry":"20240411T204953Z","modified":"20240413T171003Z","priority":"H","project":"admin","status":"pending","uuid":"fb8dbed5-d6fd-4813-b57b-c28691849e34"}
+{"description":"Move credentials from omnirecords to \/home\/ahmad\/.password-store using {pass insert}","entry":"20240411T193809Z","modified":"20240413T171143Z","project":"bash","status":"pending","uuid":"71c8f043-0e93-4d72-8db4-95f6eaec60e1"}
+{"description":"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest","entry":"20240411T195520Z","modified":"20240413T171148Z","project":"bash","status":"pending","uuid":"83895595-b89c-4f03-b432-38ae1fcb5735"}
+{"description":"Optionally link task to a folder, which is to be zipped and archived when done","entry":"20240411T200358Z","modified":"20240413T171210Z","project":"bash","status":"pending","uuid":"c344a63c-da1a-4637-b417-ac5da8f42047"}
+{"description":"Check TIMEWARRIOR, can create and modify events?","entry":"20240411T201307Z","modified":"20240413T171214Z","project":"bash","status":"pending","uuid":"ba1dcf04-e5c9-4ebd-aa2f-3123aecd0811"}
+{"description":"Move credentials from omnirecords to \/home\/ahmad\/.password-store using {pass insert}","entry":"20240411T193809Z","modified":"20240413T171259Z","priority":"L","project":"bash","status":"pending","uuid":"71c8f043-0e93-4d72-8db4-95f6eaec60e1"}
+{"description":"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest","entry":"20240411T195520Z","modified":"20240413T171259Z","priority":"L","project":"bash","status":"pending","uuid":"83895595-b89c-4f03-b432-38ae1fcb5735"}
+{"description":"Optionally link task to a folder, which is to be zipped and archived when done","entry":"20240411T200358Z","modified":"20240413T171259Z","priority":"L","project":"bash","status":"pending","uuid":"c344a63c-da1a-4637-b417-ac5da8f42047"}
+{"description":"Check TIMEWARRIOR, can create and modify events?","entry":"20240411T201307Z","modified":"20240413T171259Z","priority":"L","project":"bash","status":"pending","uuid":"ba1dcf04-e5c9-4ebd-aa2f-3123aecd0811"}
+{"description":"consider making task private with it's own private github","entry":"20240413T173103Z","modified":"20240413T173103Z","project":"bash","status":"pending","uuid":"289423dd-ae5b-4fd5-9f3d-a0aa461455fc"}
+{"description":"https:\/\/mosque-aylmer.ca\/marriage\/","entry":"20240413T173149Z","modified":"20240413T173149Z","project":"marriage","status":"pending","uuid":"6de52125-7c45-4510-9f11-da7a52028228"}
+{"description":"https:\/\/mosque-aylmer.ca\/marriage\/","entry":"20240413T173149Z","modified":"20240413T173218Z","priority":"H","project":"marriage","status":"pending","uuid":"6de52125-7c45-4510-9f11-da7a52028228"}

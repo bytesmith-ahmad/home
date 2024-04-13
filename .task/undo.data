@@ -81,3 +81,98 @@ new [description:"Make a job application manager in the same fashion as .passwor
 time 1712937542
 new [description:"Copy key from Xenon2 to Luminous" entry:"1712937542" modified:"1712937542" status:"pending" uuid:"3fbf36d7-aa04-42e6-893c-c72361d3004d"]
 ---
+time 1713016352
+new [description:"Add autocommit\/push for tasks and more" entry:"1713016352" modified:"1713016352" status:"pending" uuid:"bce4de11-f001-4073-9050-3e49615082c4"]
+---
+time 1713028128
+new [description:"multi line \ntest\n" entry:"1713028128" modified:"1713028128" status:"pending" uuid:"a8ea6324-eeca-4749-a412-95553c8446ae"]
+---
+time 1713028152
+new [description:"multi line \ntest\nsdfsd\n" entry:"1713028152" modified:"1713028152" status:"pending" uuid:"93792af2-7aa2-4810-9a2d-7426d9322662"]
+---
+time 1713028154
+new [description:"multi line \ntest\nsdfsd\n" entry:"1713028154" modified:"1713028154" status:"pending" uuid:"fb50221d-d7e9-4922-b22b-9ede9ca3922b"]
+---
+time 1713028154
+new [description:"multi line \ntest\nsdfsd\n" entry:"1713028154" modified:"1713028154" status:"pending" uuid:"b7106a43-9a60-4b29-abd5-cbabf5cba1ef"]
+---
+time 1713028154
+new [description:"multi line \ntest\nsdfsd\n" entry:"1713028154" modified:"1713028154" status:"pending" uuid:"f8f86677-89f0-4af6-b39c-6bea80e85bf0"]
+---
+time 1713028155
+new [description:"multi line \ntest\nsdfsd\n" entry:"1713028155" modified:"1713028155" status:"pending" uuid:"3e5e64c7-0295-41dc-80c7-ecf9a045fd0a"]
+---
+time 1713028176
+old [description:"multi line \ntest\n" entry:"1713028128" modified:"1713028128" status:"pending" uuid:"a8ea6324-eeca-4749-a412-95553c8446ae"]
+new [description:"multi line \ntest\n" end:"1713028171" entry:"1713028128" modified:"1713028176" status:"deleted" uuid:"a8ea6324-eeca-4749-a412-95553c8446ae"]
+---
+time 1713028177
+old [description:"multi line \ntest\nsdfsd\n" entry:"1713028152" modified:"1713028152" status:"pending" uuid:"93792af2-7aa2-4810-9a2d-7426d9322662"]
+new [description:"multi line \ntest\nsdfsd\n" end:"1713028176" entry:"1713028152" modified:"1713028177" status:"deleted" uuid:"93792af2-7aa2-4810-9a2d-7426d9322662"]
+---
+time 1713028178
+old [description:"multi line \ntest\nsdfsd\n" entry:"1713028154" modified:"1713028154" status:"pending" uuid:"fb50221d-d7e9-4922-b22b-9ede9ca3922b"]
+new [description:"multi line \ntest\nsdfsd\n" end:"1713028177" entry:"1713028154" modified:"1713028178" status:"deleted" uuid:"fb50221d-d7e9-4922-b22b-9ede9ca3922b"]
+---
+time 1713028179
+old [description:"multi line \ntest\nsdfsd\n" entry:"1713028154" modified:"1713028154" status:"pending" uuid:"b7106a43-9a60-4b29-abd5-cbabf5cba1ef"]
+new [description:"multi line \ntest\nsdfsd\n" end:"1713028178" entry:"1713028154" modified:"1713028179" status:"deleted" uuid:"b7106a43-9a60-4b29-abd5-cbabf5cba1ef"]
+---
+time 1713028179
+old [description:"multi line \ntest\nsdfsd\n" entry:"1713028154" modified:"1713028154" status:"pending" uuid:"f8f86677-89f0-4af6-b39c-6bea80e85bf0"]
+new [description:"multi line \ntest\nsdfsd\n" end:"1713028179" entry:"1713028154" modified:"1713028179" status:"deleted" uuid:"f8f86677-89f0-4af6-b39c-6bea80e85bf0"]
+---
+time 1713028180
+old [description:"multi line \ntest\nsdfsd\n" entry:"1713028155" modified:"1713028155" status:"pending" uuid:"3e5e64c7-0295-41dc-80c7-ecf9a045fd0a"]
+new [description:"multi line \ntest\nsdfsd\n" end:"1713028179" entry:"1713028155" modified:"1713028180" status:"deleted" uuid:"3e5e64c7-0295-41dc-80c7-ecf9a045fd0a"]
+---
+time 1713028203
+old [description:"pay bills" entry:"1712865409" modified:"1712865409" priority:"H" status:"pending" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+new [description:"pay bills" entry:"1712865409" modified:"1713028203" priority:"H" project:"admin" status:"pending" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+---
+time 1713028203
+old [description:"Check mail sitting on desk" entry:"1712868593" modified:"1712868593" priority:"H" status:"pending" uuid:"fb8dbed5-d6fd-4813-b57b-c28691849e34"]
+new [description:"Check mail sitting on desk" entry:"1712868593" modified:"1713028203" priority:"H" project:"admin" status:"pending" uuid:"fb8dbed5-d6fd-4813-b57b-c28691849e34"]
+---
+time 1713028303
+old [description:"Move credentials from omnirecords to \/home\/ahmad\/.password-store using {pass insert}" entry:"1712864289" modified:"1712864289" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"Move credentials from omnirecords to \/home\/ahmad\/.password-store using {pass insert}" entry:"1712864289" modified:"1713028303" project:"bash" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713028308
+old [description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1712866209" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+new [description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1713028308" project:"bash" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+---
+time 1713028330
+old [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1712865838" status:"pending" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+new [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713028330" project:"bash" status:"pending" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+---
+time 1713028334
+old [description:"Check TIMEWARRIOR, can create and modify events?" entry:"1712866387" modified:"1712866387" status:"pending" uuid:"ba1dcf04-e5c9-4ebd-aa2f-3123aecd0811"]
+new [description:"Check TIMEWARRIOR, can create and modify events?" entry:"1712866387" modified:"1713028334" project:"bash" status:"pending" uuid:"ba1dcf04-e5c9-4ebd-aa2f-3123aecd0811"]
+---
+time 1713028379
+old [description:"Move credentials from omnirecords to \/home\/ahmad\/.password-store using {pass insert}" entry:"1712864289" modified:"1713028303" project:"bash" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"Move credentials from omnirecords to \/home\/ahmad\/.password-store using {pass insert}" entry:"1712864289" modified:"1713028379" priority:"L" project:"bash" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713028379
+old [description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1713028308" project:"bash" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+new [description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1713028379" priority:"L" project:"bash" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+---
+time 1713028379
+old [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713028330" project:"bash" status:"pending" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+new [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713028379" priority:"L" project:"bash" status:"pending" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+---
+time 1713028379
+old [description:"Check TIMEWARRIOR, can create and modify events?" entry:"1712866387" modified:"1713028334" project:"bash" status:"pending" uuid:"ba1dcf04-e5c9-4ebd-aa2f-3123aecd0811"]
+new [description:"Check TIMEWARRIOR, can create and modify events?" entry:"1712866387" modified:"1713028379" priority:"L" project:"bash" status:"pending" uuid:"ba1dcf04-e5c9-4ebd-aa2f-3123aecd0811"]
+---
+time 1713029463
+new [description:"consider making task private with it's own private github" entry:"1713029463" modified:"1713029463" project:"bash" status:"pending" uuid:"289423dd-ae5b-4fd5-9f3d-a0aa461455fc"]
+---
+time 1713029509
+new [description:"https:\/\/mosque-aylmer.ca\/marriage\/" entry:"1713029509" modified:"1713029509" project:"marriage" status:"pending" uuid:"6de52125-7c45-4510-9f11-da7a52028228"]
+---
+time 1713029538
+old [description:"https:\/\/mosque-aylmer.ca\/marriage\/" entry:"1713029509" modified:"1713029509" project:"marriage" status:"pending" uuid:"6de52125-7c45-4510-9f11-da7a52028228"]
+new [description:"https:\/\/mosque-aylmer.ca\/marriage\/" entry:"1713029509" modified:"1713029538" priority:"H" project:"marriage" status:"pending" uuid:"6de52125-7c45-4510-9f11-da7a52028228"]
+---
