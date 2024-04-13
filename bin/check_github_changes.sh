@@ -4,7 +4,7 @@
 github_repo="$github/home"
 
 # Check for changes in the remote repository
-git remote update
+git remote update > /dev/null 2>&1
 
 # Check if there are any changes
 if git status -uno | grep -q 'Your branch is behind'; then
