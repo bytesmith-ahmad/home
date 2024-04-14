@@ -49,3 +49,41 @@
 {"description":"consider making task private with it's own private github","entry":"20240413T173103Z","modified":"20240413T173103Z","project":"bash","status":"pending","uuid":"289423dd-ae5b-4fd5-9f3d-a0aa461455fc"}
 {"description":"https:\/\/mosque-aylmer.ca\/marriage\/","entry":"20240413T173149Z","modified":"20240413T173149Z","project":"marriage","status":"pending","uuid":"6de52125-7c45-4510-9f11-da7a52028228"}
 {"description":"https:\/\/mosque-aylmer.ca\/marriage\/","entry":"20240413T173149Z","modified":"20240413T173218Z","priority":"H","project":"marriage","status":"pending","uuid":"6de52125-7c45-4510-9f11-da7a52028228"}
+{"description":"Get car ready to pick her up","entry":"20240413T211204Z","modified":"20240413T211204Z","project":"Bring wife","status":"pending","uuid":"18ca7721-fd6c-43a1-88e6-819a262d11d0"}
+{"description":"Get car ready to pick her up","entry":"20240413T211204Z","modified":"20240413T211617Z","project":"Bring wife","status":"pending","uuid":"18ca7721-fd6c-43a1-88e6-819a262d11d0","tags":["afterexams"]}
+{"description":"Add autocommit\/push for tasks and more","entry":"20240413T135232Z","modified":"20240413T211922Z","status":"pending","uuid":"bce4de11-f001-4073-9050-3e49615082c4","annotations":[{"entry":"20240413T211922Z","description":"annotation"}]}
+{"description":"placeholder","entry":"20240413T213424Z","modified":"20240413T213424Z","project":"Convert PC to Linux","status":"pending","uuid":"64aa30a8-ca55-4828-b7de-8666cebe15c7","wait":"20240420T213424Z"}
+{"description":"https:\/\/www.reddit.com\/r\/unixporn\/top\/?t=all","entry":"20240413T222459Z","modified":"20240413T222459Z","project":"Convert PC to Linux","status":"pending","uuid":"2984f7b1-099e-4580-aefa-c27b8c63ed87"}
+{"description":"Look into Go for TUIs instead of Python","entry":"20240413T222536Z","modified":"20240413T222536Z","project":"bash","status":"pending","uuid":"b164e17d-4a32-4f7b-b6f7-350616350ec4"}
+{"description":"pay bills","entry":"20240411T195649Z","modified":"20240413T230905Z","priority":"H","project":"admin","start":"20240413T230905Z","status":"pending","uuid":"07164852-8b53-46a5-b465-4d051aba180f"}
+{"description":"pay bills","entry":"20240411T195649Z","modified":"20240413T231336Z","priority":"H","project":"admin","status":"pending","uuid":"07164852-8b53-46a5-b465-4d051aba180f"}
+{"description":"p:CR test","entry":"20240413T235239Z","modified":"20240413T235239Z","status":"pending","uuid":"0af9d9ac-37b1-42db-b76f-d3e4b8877f2b"}
+{"description":"pr:CR test","entry":"20240413T235255Z","modified":"20240413T235255Z","status":"pending","uuid":"dbac971c-21c8-45b7-bc4c-c2df5e03ed03"}
+{"description":"test","entry":"20240413T235302Z","modified":"20240413T235302Z","priority":"CR","status":"pending","uuid":"c15c5969-7546-4f20-a3f0-3934e3349269"}
+{"description":"p:H","entry":"20240413T235348Z","modified":"20240413T235348Z","status":"pending","uuid":"ffa1edc8-82ac-4c6f-82cc-2b71067eb966"}
+{"description":"gg","entry":"20240413T235424Z","modified":"20240413T235424Z","priority":"Lo","status":"pending","uuid":"1287ea03-9e51-4fe3-9e36-6eff59eb59a1"}
+{"description":"new task","entry":"20240413T235815Z","modified":"20240413T235815Z","status":"pending","uuid":"a34d1ba6-0fa8-4826-8e4c-ad67930823df"}
+{"description":"new task added by function","entry":"20240414T000436Z","modified":"20240414T000436Z","status":"pending","uuid":"7a599f38-5c08-472c-ac51-252f408f7586"}
+{"description":"p:CR test","end":"20240414T000541Z","entry":"20240413T235239Z","modified":"20240414T000544Z","status":"deleted","uuid":"0af9d9ac-37b1-42db-b76f-d3e4b8877f2b"}
+{"description":"pr:CR test","end":"20240414T000544Z","entry":"20240413T235255Z","modified":"20240414T000545Z","status":"deleted","uuid":"dbac971c-21c8-45b7-bc4c-c2df5e03ed03"}
+{"description":"test","end":"20240414T000545Z","entry":"20240413T235302Z","modified":"20240414T000546Z","priority":"CR","status":"deleted","uuid":"c15c5969-7546-4f20-a3f0-3934e3349269"}
+{"description":"p:H","end":"20240414T000546Z","entry":"20240413T235348Z","modified":"20240414T000547Z","status":"deleted","uuid":"ffa1edc8-82ac-4c6f-82cc-2b71067eb966"}
+{"description":"gg","end":"20240414T000547Z","entry":"20240413T235424Z","modified":"20240414T000548Z","priority":"Lo","status":"deleted","uuid":"1287ea03-9e51-4fe3-9e36-6eff59eb59a1"}
+{"description":"new task","end":"20240414T000548Z","entry":"20240413T235815Z","modified":"20240414T000549Z","status":"deleted","uuid":"a34d1ba6-0fa8-4826-8e4c-ad67930823df"}
+{"description":"new task added by function","end":"20240414T000549Z","entry":"20240414T000436Z","modified":"20240414T000552Z","status":"deleted","uuid":"7a599f38-5c08-472c-ac51-252f408f7586"}
+{"description":"medi","entry":"20240414T001049Z","modified":"20240414T001049Z","priority":"M","status":"pending","uuid":"6c2a1374-a372-4157-a0e2-3089d12175d5"}
+{"description":"medi","entry":"20240414T001049Z","modified":"20240414T002237Z","priority":"M","start":"20240414T002237Z","status":"pending","uuid":"6c2a1374-a372-4157-a0e2-3089d12175d5"}
+{"description":"medi","entry":"20240414T001049Z","modified":"20240414T002249Z","priority":"M","status":"pending","uuid":"6c2a1374-a372-4157-a0e2-3089d12175d5"}
+{"description":"pay bills","entry":"20240411T195649Z","modified":"20240414T003026Z","priority":"H","project":"admin","scheduled":"20240426T003019Z","status":"pending","uuid":"07164852-8b53-46a5-b465-4d051aba180f"}
+{"description":"Check mail sitting on desk","entry":"20240411T204953Z","modified":"20240414T003027Z","priority":"H","project":"admin","scheduled":"20240426T003026Z","status":"pending","uuid":"fb8dbed5-d6fd-4813-b57b-c28691849e34"}
+{"description":"https:\/\/mosque-aylmer.ca\/marriage\/","entry":"20240413T173149Z","modified":"20240414T003029Z","priority":"H","project":"marriage","scheduled":"20240426T003027Z","status":"pending","uuid":"6de52125-7c45-4510-9f11-da7a52028228"}
+{"description":"Search for tasklist for android with import\/export functionality","end":"20240414T004713Z","entry":"20240411T205045Z","modified":"20240414T004715Z","status":"deleted","uuid":"069f137f-5909-4c8a-8c42-c2cb34e74180"}
+{"description":"Make automatic sync to make sure tasks and events remain synchronized","entry":"20240411T201350Z","modified":"20240414T004733Z","status":"pending","uuid":"38c6b385-d209-4aa4-87df-afde65eabf35","tags":["taskwarrior"]}
+{"description":"import Tasks from TODO list","entry":"20240411T205015Z","modified":"20240414T004733Z","status":"pending","uuid":"106fc802-e8f5-4d0a-9425-9241deac7045","tags":["taskwarrior"]}
+{"description":"FWRP","due":"20240414T035959Z","entry":"20240414T010454Z","modified":"20240414T010454Z","status":"pending","uuid":"8f533393-b871-4388-b506-595a5ce913af"}
+{"description":"FWRP","due":"20240414T035959Z","entry":"20240414T010454Z","modified":"20240414T010540Z","priority":"H","project":"java","status":"pending","uuid":"8f533393-b871-4388-b506-595a5ce913af","tags":["important"]}
+{"description":"FWRP","due":"20240414T035959Z","entry":"20240414T010454Z","modified":"20240414T010616Z","priority":"H","project":"java","scheduled":"20240414T010616Z","status":"pending","uuid":"8f533393-b871-4388-b506-595a5ce913af","tags":["important"]}
+{"description":"start","due":"20240414T035959Z","entry":"20240414T010454Z","modified":"20240414T010813Z","priority":"H","project":"java","scheduled":"20240414T010616Z","status":"pending","uuid":"8f533393-b871-4388-b506-595a5ce913af","tags":["important"]}
+{"description":"FWRP :stat:start","due":"20240414T035959Z","entry":"20240414T010454Z","modified":"20240414T010857Z","priority":"H","project":"java","scheduled":"20240414T010616Z","status":"pending","uuid":"8f533393-b871-4388-b506-595a5ce913af","tags":["important"]}
+{"description":"FWRP","due":"20240414T035959Z","entry":"20240414T010454Z","modified":"20240414T010911Z","priority":"H","project":"java","scheduled":"20240414T010616Z","status":"pending","uuid":"8f533393-b871-4388-b506-595a5ce913af","tags":["important"]}
+{"description":"FWRP","due":"20240414T035959Z","entry":"20240414T010454Z","modified":"20240414T010917Z","priority":"H","project":"java","scheduled":"20240414T010616Z","start":"20240414T010917Z","status":"pending","uuid":"8f533393-b871-4388-b506-595a5ce913af","tags":["important"]}

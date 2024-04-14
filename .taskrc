@@ -27,11 +27,11 @@ data.location=/home/ahmad/.task
 #include light-16.theme
 #include light-256.theme
 #include dark-16.theme
-#include dark-256.theme
-include dark-red-256.theme
+include dark-256.theme
+#include dark-red-256.theme
 #include dark-green-256.theme
 #include dark-blue-256.theme
-# include dark-violets-256.theme
+# nclude dark-violets-256.theme
 #include dark-yellow-green.theme
 #include dark-gray-256.theme
 #include dark-gray-blue-256.theme
@@ -41,6 +41,14 @@ include dark-red-256.theme
 
 news.version=2.6.0
 
-#^ addition
+# my additions ***************************************************
 
 editor=nano
+
+#uda.priority.label=Priority
+#uda.priority.type=string
+#uda.priority.values=CR,H,M,,L  # Include empty value
+
+#color.uda.priority.CR=color255
+
+#urgency.uda.priority.CR.coefficient=10.0

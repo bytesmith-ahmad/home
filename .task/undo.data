@@ -176,3 +176,142 @@ time 1713029538
 old [description:"https:\/\/mosque-aylmer.ca\/marriage\/" entry:"1713029509" modified:"1713029509" project:"marriage" status:"pending" uuid:"6de52125-7c45-4510-9f11-da7a52028228"]
 new [description:"https:\/\/mosque-aylmer.ca\/marriage\/" entry:"1713029509" modified:"1713029538" priority:"H" project:"marriage" status:"pending" uuid:"6de52125-7c45-4510-9f11-da7a52028228"]
 ---
+time 1713042724
+new [description:"Get car ready to pick her up" entry:"1713042724" modified:"1713042724" project:"Bring wife" status:"pending" uuid:"18ca7721-fd6c-43a1-88e6-819a262d11d0"]
+---
+time 1713042977
+old [description:"Get car ready to pick her up" entry:"1713042724" modified:"1713042724" project:"Bring wife" status:"pending" uuid:"18ca7721-fd6c-43a1-88e6-819a262d11d0"]
+new [description:"Get car ready to pick her up" entry:"1713042724" modified:"1713042977" project:"Bring wife" status:"pending" tags:"afterexams" tags_afterexams:"x" uuid:"18ca7721-fd6c-43a1-88e6-819a262d11d0"]
+---
+time 1713043162
+old [description:"Add autocommit\/push for tasks and more" entry:"1713016352" modified:"1713016352" status:"pending" uuid:"bce4de11-f001-4073-9050-3e49615082c4"]
+new [annotation_1713043162:"annotation" description:"Add autocommit\/push for tasks and more" entry:"1713016352" modified:"1713043162" status:"pending" uuid:"bce4de11-f001-4073-9050-3e49615082c4"]
+---
+time 1713044064
+new [description:"placeholder" entry:"1713044064" modified:"1713044064" project:"Convert PC to Linux" status:"pending" uuid:"64aa30a8-ca55-4828-b7de-8666cebe15c7" wait:"1713648864"]
+---
+time 1713047099
+new [description:"https:\/\/www.reddit.com\/r\/unixporn\/top\/?t=all" entry:"1713047099" modified:"1713047099" project:"Convert PC to Linux" status:"pending" uuid:"2984f7b1-099e-4580-aefa-c27b8c63ed87"]
+---
+time 1713047136
+new [description:"Look into Go for TUIs instead of Python" entry:"1713047136" modified:"1713047136" project:"bash" status:"pending" uuid:"b164e17d-4a32-4f7b-b6f7-350616350ec4"]
+---
+time 1713049745
+old [description:"pay bills" entry:"1712865409" modified:"1713028203" priority:"H" project:"admin" status:"pending" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+new [description:"pay bills" entry:"1712865409" modified:"1713049745" priority:"H" project:"admin" start:"1713049745" status:"pending" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+---
+time 1713050016
+old [description:"pay bills" entry:"1712865409" modified:"1713049745" priority:"H" project:"admin" start:"1713049745" status:"pending" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+new [description:"pay bills" entry:"1712865409" modified:"1713050016" priority:"H" project:"admin" status:"pending" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+---
+time 1713052359
+new [description:"p:CR test" entry:"1713052359" modified:"1713052359" status:"pending" uuid:"0af9d9ac-37b1-42db-b76f-d3e4b8877f2b"]
+---
+time 1713052375
+new [description:"pr:CR test" entry:"1713052375" modified:"1713052375" status:"pending" uuid:"dbac971c-21c8-45b7-bc4c-c2df5e03ed03"]
+---
+time 1713052382
+new [description:"test" entry:"1713052382" modified:"1713052382" priority:"CR" status:"pending" uuid:"c15c5969-7546-4f20-a3f0-3934e3349269"]
+---
+time 1713052428
+new [description:"p:H" entry:"1713052428" modified:"1713052428" status:"pending" uuid:"ffa1edc8-82ac-4c6f-82cc-2b71067eb966"]
+---
+time 1713052464
+new [description:"gg" entry:"1713052464" modified:"1713052464" priority:"Lo" status:"pending" uuid:"1287ea03-9e51-4fe3-9e36-6eff59eb59a1"]
+---
+time 1713052695
+new [description:"new task" entry:"1713052695" modified:"1713052695" status:"pending" uuid:"a34d1ba6-0fa8-4826-8e4c-ad67930823df"]
+---
+time 1713053076
+new [description:"new task added by function" entry:"1713053076" modified:"1713053076" status:"pending" uuid:"7a599f38-5c08-472c-ac51-252f408f7586"]
+---
+time 1713053144
+old [description:"p:CR test" entry:"1713052359" modified:"1713052359" status:"pending" uuid:"0af9d9ac-37b1-42db-b76f-d3e4b8877f2b"]
+new [description:"p:CR test" end:"1713053141" entry:"1713052359" modified:"1713053144" status:"deleted" uuid:"0af9d9ac-37b1-42db-b76f-d3e4b8877f2b"]
+---
+time 1713053145
+old [description:"pr:CR test" entry:"1713052375" modified:"1713052375" status:"pending" uuid:"dbac971c-21c8-45b7-bc4c-c2df5e03ed03"]
+new [description:"pr:CR test" end:"1713053144" entry:"1713052375" modified:"1713053145" status:"deleted" uuid:"dbac971c-21c8-45b7-bc4c-c2df5e03ed03"]
+---
+time 1713053146
+old [description:"test" entry:"1713052382" modified:"1713052382" priority:"CR" status:"pending" uuid:"c15c5969-7546-4f20-a3f0-3934e3349269"]
+new [description:"test" end:"1713053145" entry:"1713052382" modified:"1713053146" priority:"CR" status:"deleted" uuid:"c15c5969-7546-4f20-a3f0-3934e3349269"]
+---
+time 1713053147
+old [description:"p:H" entry:"1713052428" modified:"1713052428" status:"pending" uuid:"ffa1edc8-82ac-4c6f-82cc-2b71067eb966"]
+new [description:"p:H" end:"1713053146" entry:"1713052428" modified:"1713053147" status:"deleted" uuid:"ffa1edc8-82ac-4c6f-82cc-2b71067eb966"]
+---
+time 1713053148
+old [description:"gg" entry:"1713052464" modified:"1713052464" priority:"Lo" status:"pending" uuid:"1287ea03-9e51-4fe3-9e36-6eff59eb59a1"]
+new [description:"gg" end:"1713053147" entry:"1713052464" modified:"1713053148" priority:"Lo" status:"deleted" uuid:"1287ea03-9e51-4fe3-9e36-6eff59eb59a1"]
+---
+time 1713053149
+old [description:"new task" entry:"1713052695" modified:"1713052695" status:"pending" uuid:"a34d1ba6-0fa8-4826-8e4c-ad67930823df"]
+new [description:"new task" end:"1713053148" entry:"1713052695" modified:"1713053149" status:"deleted" uuid:"a34d1ba6-0fa8-4826-8e4c-ad67930823df"]
+---
+time 1713053152
+old [description:"new task added by function" entry:"1713053076" modified:"1713053076" status:"pending" uuid:"7a599f38-5c08-472c-ac51-252f408f7586"]
+new [description:"new task added by function" end:"1713053149" entry:"1713053076" modified:"1713053152" status:"deleted" uuid:"7a599f38-5c08-472c-ac51-252f408f7586"]
+---
+time 1713053449
+new [description:"medi" entry:"1713053449" modified:"1713053449" priority:"M" status:"pending" uuid:"6c2a1374-a372-4157-a0e2-3089d12175d5"]
+---
+time 1713054157
+old [description:"medi" entry:"1713053449" modified:"1713053449" priority:"M" status:"pending" uuid:"6c2a1374-a372-4157-a0e2-3089d12175d5"]
+new [description:"medi" entry:"1713053449" modified:"1713054157" priority:"M" start:"1713054157" status:"pending" uuid:"6c2a1374-a372-4157-a0e2-3089d12175d5"]
+---
+time 1713054169
+old [description:"medi" entry:"1713053449" modified:"1713054157" priority:"M" start:"1713054157" status:"pending" uuid:"6c2a1374-a372-4157-a0e2-3089d12175d5"]
+new [description:"medi" entry:"1713053449" modified:"1713054169" priority:"M" status:"pending" uuid:"6c2a1374-a372-4157-a0e2-3089d12175d5"]
+---
+time 1713054626
+old [description:"pay bills" entry:"1712865409" modified:"1713050016" priority:"H" project:"admin" status:"pending" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+new [description:"pay bills" entry:"1712865409" modified:"1713054626" priority:"H" project:"admin" scheduled:"1714091419" status:"pending" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+---
+time 1713054627
+old [description:"Check mail sitting on desk" entry:"1712868593" modified:"1713028203" priority:"H" project:"admin" status:"pending" uuid:"fb8dbed5-d6fd-4813-b57b-c28691849e34"]
+new [description:"Check mail sitting on desk" entry:"1712868593" modified:"1713054627" priority:"H" project:"admin" scheduled:"1714091426" status:"pending" uuid:"fb8dbed5-d6fd-4813-b57b-c28691849e34"]
+---
+time 1713054629
+old [description:"https:\/\/mosque-aylmer.ca\/marriage\/" entry:"1713029509" modified:"1713029538" priority:"H" project:"marriage" status:"pending" uuid:"6de52125-7c45-4510-9f11-da7a52028228"]
+new [description:"https:\/\/mosque-aylmer.ca\/marriage\/" entry:"1713029509" modified:"1713054629" priority:"H" project:"marriage" scheduled:"1714091427" status:"pending" uuid:"6de52125-7c45-4510-9f11-da7a52028228"]
+---
+time 1713055635
+old [description:"Search for tasklist for android with import\/export functionality" entry:"1712868645" modified:"1712868645" status:"pending" uuid:"069f137f-5909-4c8a-8c42-c2cb34e74180"]
+new [description:"Search for tasklist for android with import\/export functionality" end:"1713055633" entry:"1712868645" modified:"1713055635" status:"deleted" uuid:"069f137f-5909-4c8a-8c42-c2cb34e74180"]
+---
+time 1713055653
+old [description:"Make automatic sync to make sure tasks and events remain synchronized" entry:"1712866430" modified:"1712866430" status:"pending" uuid:"38c6b385-d209-4aa4-87df-afde65eabf35"]
+new [description:"Make automatic sync to make sure tasks and events remain synchronized" entry:"1712866430" modified:"1713055653" status:"pending" tags:"taskwarrior" tags_taskwarrior:"x" uuid:"38c6b385-d209-4aa4-87df-afde65eabf35"]
+---
+time 1713055653
+old [description:"import Tasks from TODO list" entry:"1712868615" modified:"1712868615" status:"pending" uuid:"106fc802-e8f5-4d0a-9425-9241deac7045"]
+new [description:"import Tasks from TODO list" entry:"1712868615" modified:"1713055653" status:"pending" tags:"taskwarrior" tags_taskwarrior:"x" uuid:"106fc802-e8f5-4d0a-9425-9241deac7045"]
+---
+time 1713056694
+new [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056694" status:"pending" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+---
+time 1713056740
+old [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056694" status:"pending" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+new [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056740" priority:"H" project:"java" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+---
+time 1713056776
+old [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056740" priority:"H" project:"java" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+new [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056776" priority:"H" project:"java" scheduled:"1713056776" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+---
+time 1713056893
+old [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056776" priority:"H" project:"java" scheduled:"1713056776" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+new [description:"start" due:"1713067199" entry:"1713056694" modified:"1713056893" priority:"H" project:"java" scheduled:"1713056776" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+---
+time 1713056937
+old [description:"start" due:"1713067199" entry:"1713056694" modified:"1713056893" priority:"H" project:"java" scheduled:"1713056776" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+new [description:"FWRP :stat:start" due:"1713067199" entry:"1713056694" modified:"1713056937" priority:"H" project:"java" scheduled:"1713056776" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+---
+time 1713056951
+old [description:"FWRP :stat:start" due:"1713067199" entry:"1713056694" modified:"1713056937" priority:"H" project:"java" scheduled:"1713056776" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+new [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056951" priority:"H" project:"java" scheduled:"1713056776" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+---
+time 1713056957
+old [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056951" priority:"H" project:"java" scheduled:"1713056776" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+new [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056957" priority:"H" project:"java" scheduled:"1713056776" start:"1713056957" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+---
