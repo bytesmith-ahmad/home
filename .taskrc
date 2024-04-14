@@ -47,7 +47,7 @@ editor=nano
 
 #uda.priority.label=Priority
 #uda.priority.type=string
-#uda.priority.values=CR,H,M,,L  # Include empty value
+#uda.priority.values=CR,H,M,L,  # Include empty value
 
 #color.uda.priority.CR=color255
 
