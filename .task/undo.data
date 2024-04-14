@@ -315,3 +315,56 @@ time 1713056957
 old [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056951" priority:"H" project:"java" scheduled:"1713056776" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
 new [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056957" priority:"H" project:"java" scheduled:"1713056776" start:"1713056957" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
 ---
+time 1713058345
+old [description:"Copy key from Xenon2 to Luminous" entry:"1712937542" modified:"1712937542" status:"pending" uuid:"3fbf36d7-aa04-42e6-893c-c72361d3004d"]
+new [description:"Copy key from Xenon2 to Luminous" end:"1713058345" entry:"1712937542" modified:"1713058345" status:"completed" uuid:"3fbf36d7-aa04-42e6-893c-c72361d3004d"]
+---
+time 1713058478
+new [description:"import omnirecords\/anniversaries" entry:"1713058478" modified:"1713058478" status:"pending" tags:"database" tags_database:"x" uuid:"2698c041-56ad-431f-b04f-d323a6af7a75"]
+---
+time 1713058591
+new [description:"Migrate omni*\/archives to \/home\/ahmad\/arch" entry:"1713058591" modified:"1713058591" status:"pending" tags:"database" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+---
+time 1713058624
+old [description:"Migrate omni*\/archives to \/home\/ahmad\/arch" entry:"1713058591" modified:"1713058591" status:"pending" tags:"database" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+new [annotation_1713058624:"note**********" description:"Migrate omni*\/archives to \/home\/ahmad\/arch" entry:"1713058591" modified:"1713058624" status:"pending" tags:"database" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+---
+time 1713058659
+old [annotation_1713058624:"note**********" description:"Migrate omni*\/archives to \/home\/ahmad\/arch" entry:"1713058591" modified:"1713058624" status:"pending" tags:"database" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+new [annotation_1713058624:"note**********" annotation_1713058659:"xxxx" description:"Migrate omni*\/archives to \/home\/ahmad\/arch" entry:"1713058591" modified:"1713058659" status:"pending" tags:"database" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+---
+time 1713058732
+old [annotation_1713058624:"note**********" annotation_1713058659:"xxxx" description:"Migrate omni*\/archives to \/home\/ahmad\/arch" entry:"1713058591" modified:"1713058659" status:"pending" tags:"database" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+new [annotation_1713058678:"unix filesystem is a superior file storage" description:"Migrate omni*\/archives to \/home\/ahmad\/arch" entry:"1713058591" modified:"1713058732" status:"pending" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+---
+time 1713058851
+new [description:"migrate omni\/assignments to taskwarrior + MSTODO" entry:"1713058851" modified:"1713058851" status:"pending" tags:"database" tags_database:"x" uuid:"28aad207-30eb-411d-867d-dd2b425cb419"]
+---
+time 1713058880
+old [description:"medi" entry:"1713053449" modified:"1713054169" priority:"M" status:"pending" uuid:"6c2a1374-a372-4157-a0e2-3089d12175d5"]
+new [description:"medi" end:"1713058878" entry:"1713053449" modified:"1713058880" priority:"M" status:"deleted" uuid:"6c2a1374-a372-4157-a0e2-3089d12175d5"]
+---
+time 1713058946
+new [description:"Add appointments category (as tags)" entry:"1713058946" modified:"1713058946" status:"pending" tags:"taskwarrior" tags_taskwarrior:"x" uuid:"9e12a525-de41-4b0c-aad1-14825f113737"]
+---
+time 1713059009
+old [annotation_1713058678:"unix filesystem is a superior file storage" description:"Migrate omni*\/archives to \/home\/ahmad\/arch" entry:"1713058591" modified:"1713058732" status:"pending" tags:"database" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+new [annotation_1713058678:"unix filesystem is a superior file storage" annotation_1713058983:"follow the same format as 'pass' module" description:"Migrate omni*\/archives to \/home\/ahmad\/arch" entry:"1713058591" modified:"1713059009" status:"pending" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+---
+time 1713059119
+new [description:"Migrate omni\/attribute to ~\/arch" entry:"1713059119" modified:"1713059119" status:"pending" uuid:"a517bd8a-54c8-48b2-9240-53236cb502ad"]
+---
+time 1713059139
+old [description:"Migrate omni\/attribute to ~\/arch" entry:"1713059119" modified:"1713059119" status:"pending" uuid:"a517bd8a-54c8-48b2-9240-53236cb502ad"]
+new [description:"Migrate omni\/attribute to ~\/arch" entry:"1713059119" modified:"1713059139" status:"pending" tags:"database" tags_database:"x" uuid:"a517bd8a-54c8-48b2-9240-53236cb502ad"]
+---
+time 1713059173
+old [annotation_1713058678:"unix filesystem is a superior file storage" annotation_1713058983:"follow the same format as 'pass' module" description:"Migrate omni*\/archives to \/home\/ahmad\/arch" entry:"1713058591" modified:"1713059009" status:"pending" tags:"database" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+new [annotation_1713058678:"unix filesystem is a superior file storage" annotation_1713058983:"follow the same format as 'pass' module" description:"Migrate omni*\/archives to ~\/arch" entry:"1713058591" modified:"1713059173" status:"pending" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+---
+time 1713063121
+new [description:"Migrate expirable_docs to ~\/arch but monitor expiration" entry:"1713063121" modified:"1713063121" status:"pending" tags:"database" tags_database:"x" uuid:"489ec448-fe44-4a0c-8319-361217bbbe59"]
+---
+time 1713063266
+new [description:"Create job application manager with attributes\ntitle, company, url, code, cover, resume, sent date, status, and notes\nin a similar way as the \"pass\" module\n" entry:"1713063266" modified:"1713063266" status:"pending" uuid:"51051d13-db91-4d50-8beb-b15434082ddf"]
+---
