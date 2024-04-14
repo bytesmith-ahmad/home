@@ -368,3 +368,42 @@ new [description:"Migrate expirable_docs to ~\/arch but monitor expiration" entr
 time 1713063266
 new [description:"Create job application manager with attributes\ntitle, company, url, code, cover, resume, sent date, status, and notes\nin a similar way as the \"pass\" module\n" entry:"1713063266" modified:"1713063266" status:"pending" uuid:"51051d13-db91-4d50-8beb-b15434082ddf"]
 ---
+time 1713065174
+new [description:"assignment example" entry:"1713065174" modified:"1713065174" status:"pending" tags:"homework" tags_homework:"x" uuid:"101657c8-8c7e-46e4-a483-71586d69804a"]
+---
+time 1713065214
+old [description:"assignment example" entry:"1713065174" modified:"1713065174" status:"pending" tags:"homework" tags_homework:"x" uuid:"101657c8-8c7e-46e4-a483-71586d69804a"]
+new [description:"assignment example" entry:"1713065174" modified:"1713065214" status:"pending" tags_homework:"x" uuid:"101657c8-8c7e-46e4-a483-71586d69804a" wait:"1714536000"]
+---
+time 1713065290
+new [description:"Reflective report overdue" entry:"1713065290" modified:"1713065290" status:"pending" uuid:"8d28b4d8-4d5c-47c8-ae09-0c850aa161b1"]
+---
+time 1713065352
+old [description:"Reflective report overdue" entry:"1713065290" modified:"1713065290" status:"pending" uuid:"8d28b4d8-4d5c-47c8-ae09-0c850aa161b1"]
+new [description:"Reflective report" due:"1712894400" entry:"1713065290" modified:"1713065352" status:"pending" uuid:"8d28b4d8-4d5c-47c8-ae09-0c850aa161b1"]
+---
+time 1713065451
+new [description:"java final @A120" entry:"1713065451" modified:"1713065451" scheduled:"1713204000" status:"pending" tags:"appointment" tags_appointment:"x" uuid:"ae33f3a7-0baf-49bf-ad45-81435c27cf5b"]
+---
+time 1713065479
+old [description:"java final @A120" entry:"1713065451" modified:"1713065451" scheduled:"1713204000" status:"pending" tags:"appointment" tags_appointment:"x" uuid:"ae33f3a7-0baf-49bf-ad45-81435c27cf5b"]
+new [description:"java final @A120" entry:"1713065451" modified:"1713065479" priority:"H" scheduled:"1713204000" status:"pending" tags:"appointment" tags_appointment:"x" uuid:"ae33f3a7-0baf-49bf-ad45-81435c27cf5b"]
+---
+time 1713065586
+new [description:"DB final @D101" due:"1713380400" entry:"1713065586" modified:"1713065586" status:"pending" tags:"appointment" tags_appointment:"x" uuid:"15f8f7b8-7958-4765-9db2-13264be7fabb"]
+---
+time 1713065649
+old [description:"java final @A120" entry:"1713065451" modified:"1713065479" priority:"H" scheduled:"1713204000" status:"pending" tags:"appointment" tags_appointment:"x" uuid:"ae33f3a7-0baf-49bf-ad45-81435c27cf5b"]
+new [description:"java final @A120" due:"1713380400" entry:"1713065451" modified:"1713065649" priority:"H" status:"pending" tags_appointment:"x" uuid:"ae33f3a7-0baf-49bf-ad45-81435c27cf5b"]
+---
+time 1713065687
+old [description:"Reflective report" due:"1712894400" entry:"1713065290" modified:"1713065352" status:"pending" uuid:"8d28b4d8-4d5c-47c8-ae09-0c850aa161b1"]
+new [description:"Reflective report" due:"1712894400" entry:"1713065290" modified:"1713065687" priority:"H" status:"pending" uuid:"8d28b4d8-4d5c-47c8-ae09-0c850aa161b1"]
+---
+time 1713065707
+old [description:"DB final @D101" due:"1713380400" entry:"1713065586" modified:"1713065586" status:"pending" tags:"appointment" tags_appointment:"x" uuid:"15f8f7b8-7958-4765-9db2-13264be7fabb"]
+new [description:"DB final @D101" due:"1713380400" entry:"1713065586" modified:"1713065707" priority:"H" status:"pending" tags:"appointment" tags_appointment:"x" uuid:"15f8f7b8-7958-4765-9db2-13264be7fabb"]
+---
+time 1713068972
+new [description:"consider storing ideas in tasks with low priority" entry:"1713068972" modified:"1713068972" priority:"L" status:"pending" tags:"idea" tags_idea:"x" uuid:"0452af62-25ab-4b07-9c6f-6196cbffd823"]
+---
