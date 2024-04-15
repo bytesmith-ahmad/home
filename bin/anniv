@@ -7,6 +7,7 @@ perl_script="$HOME/bin/enhance-table.pl"
 
 # Read the output into a variable
 output=$($python_script "$@")  # parse arguments to manipulate table
+# echo $output #~ for debugging
 
 # Check the exit status of the Python script
 if [ $? -eq 0 ]; then
