@@ -407,3 +407,34 @@ new [description:"DB final @D101" due:"1713380400" entry:"1713065586" modified:"
 time 1713068972
 new [description:"consider storing ideas in tasks with low priority" entry:"1713068972" modified:"1713068972" priority:"L" status:"pending" tags:"idea" tags_idea:"x" uuid:"0452af62-25ab-4b07-9c6f-6196cbffd823"]
 ---
+time 1713071577
+old [description:"FWRP" due:"1713067199" entry:"1713056694" modified:"1713056957" priority:"H" project:"java" scheduled:"1713056776" start:"1713056957" status:"pending" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+new [description:"FWRP" due:"1713067199" end:"1713071577" entry:"1713056694" modified:"1713071577" priority:"H" project:"java" scheduled:"1713056776" status:"completed" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+---
+time 1713101588
+old [description:"pay bills" entry:"1712865409" modified:"1713054626" priority:"H" project:"admin" scheduled:"1714091419" status:"pending" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+new [description:"pay bills" entry:"1712865409" modified:"1713101588" priority:"H" scheduled:"1714091419" status:"pending" tags:"admin" tags_admin:"x" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+---
+time 1713101588
+old [description:"Check mail sitting on desk" entry:"1712868593" modified:"1713054627" priority:"H" project:"admin" scheduled:"1714091426" status:"pending" uuid:"fb8dbed5-d6fd-4813-b57b-c28691849e34"]
+new [description:"Check mail sitting on desk" entry:"1712868593" modified:"1713101588" priority:"H" scheduled:"1714091426" status:"pending" tags:"admin" tags_admin:"x" uuid:"fb8dbed5-d6fd-4813-b57b-c28691849e34"]
+---
+time 1713102152
+old [description:"https:\/\/mosque-aylmer.ca\/marriage\/" entry:"1713029509" modified:"1713054629" priority:"H" project:"marriage" scheduled:"1714091427" status:"pending" uuid:"6de52125-7c45-4510-9f11-da7a52028228"]
+new [description:"https:\/\/mosque-aylmer.ca\/marriage\/" entry:"1713029509" modified:"1713102152" priority:"H" project:"marriage" scheduled:"1714091427" status:"pending" uuid:"6de52125-7c45-4510-9f11-da7a52028228" wait:"1713585600"]
+---
+time 1713102508
+old [description:"java final @A120" due:"1713380400" entry:"1713065451" modified:"1713065649" priority:"H" status:"pending" tags:"appointment" tags_appointment:"x" uuid:"ae33f3a7-0baf-49bf-ad45-81435c27cf5b"]
+new [description:"java final @A120" due:"1713204000" entry:"1713065451" modified:"1713102508" priority:"H" status:"pending" tags_appointment:"x" uuid:"ae33f3a7-0baf-49bf-ad45-81435c27cf5b"]
+---
+time 1713183020
+new [description:"Add AWK to my resume" entry:"1713183020" modified:"1713183020" status:"pending" uuid:"59e413f2-aa6c-49f7-8608-b76e370fcfb8"]
+---
+time 1713183162
+old [description:"Add AWK to my resume" entry:"1713183020" modified:"1713183020" status:"pending" uuid:"59e413f2-aa6c-49f7-8608-b76e370fcfb8"]
+new [description:"Add AWK to my resume" entry:"1713183020" modified:"1713183162" project:"job application" status:"pending" tags:"resume" tags_resume:"x" uuid:"59e413f2-aa6c-49f7-8608-b76e370fcfb8"]
+---
+time 1713184763
+old [description:"Add AWK to my resume" entry:"1713183020" modified:"1713183162" project:"job application" status:"pending" tags:"resume" tags_resume:"x" uuid:"59e413f2-aa6c-49f7-8608-b76e370fcfb8"]
+new [description:"Add Bash,Perl,AWK to my resume" entry:"1713183020" modified:"1713184763" project:"job application" status:"pending" tags_resume:"x" uuid:"59e413f2-aa6c-49f7-8608-b76e370fcfb8"]
+---

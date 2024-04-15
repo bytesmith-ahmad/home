@@ -1,4 +1,14 @@
-config    Opens the config file linked to .bashrc
-task	  Get tasks. From Taskwarrior
-omni      Opens the database's directory
-todo      Lists tasks. Do --help for usage
+config             Opens the config file linked to .bashrc
+startup.sh         The script that loads on start.
+task               Manage tasks from Taskwarrior (set up it's own repo)
+anniversaries      View birthdays and other important days. (help pending)
+job_applications   Manage job applications. Aliased by jbap.    
+arch               Manage archived files. (see arch dir, no script yet, untracked)
+ass                Manage assignments.    (see assignments dir, untracked)
+expenses           Manage expenses.       (Not implemented)
+email              Check emails. Need API/library.
+events             Manage events from TaskWarrior/TimeWarrior. (Not implemented)
+loans              Consult loans.         ()
+pass               Manage credentials.
+omni               Opens the database's directory   (soon to be removed)
+todo               Lists tasks. Do --help for usage (deprecated)
