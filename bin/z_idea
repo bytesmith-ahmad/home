@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Prompt the user to enter content in nano
+nano /tmp/ideas.tmp
+
+# Check if the user saved any content
+if [ -s /tmp/ideas.tmp ]; then
+    # Extract the first line from the temporary file
+    first_line=$(head -n 1 /tmp/ideas.tmp)
+
+    # Define the file path in ~/ideas/ based on the first line
+    file_path="$HOME/ideas/$first_line"
+
+    # Save the content to the file in ~/ideas/
+    cp /tmp/ideas.tmp "$file_path"
+
+    # Inform the user about the saved file
+    echo "Your idea have been saved to: $file_path"
+else
+    echo "No content was saved. Exiting."
+fi
+
+# Remove the temporary file
+rm /tmp/ideas.tmp

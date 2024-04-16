@@ -438,3 +438,232 @@ time 1713184763
 old [description:"Add AWK to my resume" entry:"1713183020" modified:"1713183162" project:"job application" status:"pending" tags:"resume" tags_resume:"x" uuid:"59e413f2-aa6c-49f7-8608-b76e370fcfb8"]
 new [description:"Add Bash,Perl,AWK to my resume" entry:"1713183020" modified:"1713184763" project:"job application" status:"pending" tags_resume:"x" uuid:"59e413f2-aa6c-49f7-8608-b76e370fcfb8"]
 ---
+time 1713225788
+old [description:"Reflective report" due:"1712894400" entry:"1713065290" modified:"1713065687" priority:"H" status:"pending" uuid:"8d28b4d8-4d5c-47c8-ae09-0c850aa161b1"]
+new [description:"Reflective report" due:"1712894400" end:"1713225777" entry:"1713065290" modified:"1713225788" priority:"H" status:"deleted" uuid:"8d28b4d8-4d5c-47c8-ae09-0c850aa161b1"]
+---
+time 1713225819
+old [description:"java final @A120" due:"1713204000" entry:"1713065451" modified:"1713102508" priority:"H" status:"pending" tags:"appointment" tags_appointment:"x" uuid:"ae33f3a7-0baf-49bf-ad45-81435c27cf5b"]
+new [description:"java final @A120" due:"1713204000" end:"1713225819" entry:"1713065451" modified:"1713225819" priority:"H" status:"completed" tags:"appointment" tags_appointment:"x" uuid:"ae33f3a7-0baf-49bf-ad45-81435c27cf5b"]
+---
+time 1713228471
+new [description:"9" end:"1713228471" entry:"1713228471" modified:"1713228471" status:"completed" uuid:"c9d7b73a-6d08-49d1-a0f0-7e88436fbd37"]
+---
+time 1713232065
+old [description:"Move credentials from omnirecords to \/home\/ahmad\/.password-store using {pass insert}" entry:"1712864289" modified:"1713028379" priority:"L" project:"bash" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713232065" priority:"L" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713232107
+old [description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713232065" priority:"L" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713232107" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713232165
+old [description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713232107" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [annotation_1713232165:"Notes" description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713232165" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713232953
+old [annotation_1713232165:"Notes" description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713232165" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [annotation_1713232165:"~\/test" description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713232953" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713232970
+old [annotation_1713232165:"~\/test" description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713232953" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [annotation_1713232165:"~\/test" annotation_1713232970:"Notes..txt" description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713232970" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713233205
+old [description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1713028379" priority:"L" project:"bash" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+new [annotation_1713233205:"Notes" description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1713233205" priority:"L" project:"bash" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+---
+time 1713233267
+old [annotation_1713233205:"Notes" description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1713233205" priority:"L" project:"bash" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+new [annotation_1713233205:"Notes" description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1713233267" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+---
+time 1713262788
+old [annotation_1713232165:"~\/test" annotation_1713232970:"Notes..txt" description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713232970" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713262788" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713262802
+old [annotation_1713233205:"Notes" description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1713233267" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+new [description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1713262802" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+---
+time 1713265743
+old [description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713262788" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [annotation_1713265743:"\/home\/ahmad\/test" description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713265743" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713267229
+new [description:"dummy" entry:"1713267229" modified:"1713267229" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713267258
+old [description:"dummy" entry:"1713267229" modified:"1713267229" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [description:"dummy" entry:"1713267229" modified:"1713267258" start:"1713267250" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713267365
+new [description:"blockingtask" entry:"1713267365" modified:"1713267365" status:"pending" uuid:"f2e46c6a-5c4e-4632-a8b5-5351d337fb89"]
+---
+time 1713267529
+old [description:"dummy" entry:"1713267229" modified:"1713267258" start:"1713267250" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [description:"dummy" entry:"1713267229" modified:"1713267529" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713267561
+old [description:"dummy" entry:"1713267229" modified:"1713267529" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [dep_f2e46c6a-5c4e-4632-a8b5-5351d337fb89:"x" depends:"f2e46c6a-5c4e-4632-a8b5-5351d337fb89" description:"dummy" entry:"1713267229" modified:"1713267561" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713268018
+old [dep_f2e46c6a-5c4e-4632-a8b5-5351d337fb89:"x" depends:"f2e46c6a-5c4e-4632-a8b5-5351d337fb89" description:"dummy" entry:"1713267229" modified:"1713267561" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [dep_f2e46c6a-5c4e-4632-a8b5-5351d337fb89:"x" depends:"f2e46c6a-5c4e-4632-a8b5-5351d337fb89" description:"dummy" entry:"1713267229" modified:"1713268018" scheduled:"1715745600" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713268052
+old [dep_f2e46c6a-5c4e-4632-a8b5-5351d337fb89:"x" depends:"f2e46c6a-5c4e-4632-a8b5-5351d337fb89" description:"dummy" entry:"1713267229" modified:"1713268018" scheduled:"1715745600" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [dep_f2e46c6a-5c4e-4632-a8b5-5351d337fb89:"x" depends:"f2e46c6a-5c4e-4632-a8b5-5351d337fb89" description:"dummy" entry:"1713267229" modified:"1713268052" scheduled:"1715745600" status:"pending" tags:"UNBLOCK" tags_UNBLOCK:"x" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713268085
+old [dep_f2e46c6a-5c4e-4632-a8b5-5351d337fb89:"x" depends:"f2e46c6a-5c4e-4632-a8b5-5351d337fb89" description:"dummy" entry:"1713267229" modified:"1713268052" scheduled:"1715745600" status:"pending" tags:"UNBLOCK" tags_UNBLOCK:"x" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [dep_f2e46c6a-5c4e-4632-a8b5-5351d337fb89:"x" description:"dummy" entry:"1713267229" modified:"1713268085" scheduled:"1715745600" status:"pending" tags:"UNBLOCK" tags_UNBLOCK:"x" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713268109
+old [dep_f2e46c6a-5c4e-4632-a8b5-5351d337fb89:"x" depends:"f2e46c6a-5c4e-4632-a8b5-5351d337fb89" description:"dummy" entry:"1713267229" modified:"1713268085" scheduled:"1715745600" status:"pending" tags:"UNBLOCK" tags_UNBLOCK:"x" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [description:"dummy" entry:"1713267229" modified:"1713268109" scheduled:"1715745600" status:"pending" tags_UNBLOCK:"x" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713268138
+old [description:"dummy" entry:"1713267229" modified:"1713268109" scheduled:"1715745600" status:"pending" tags:"UNBLOCK" tags_UNBLOCK:"x" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [description:"dummy" entry:"1713267229" modified:"1713268138" scheduled:"1715745600" status:"pending" tags_UNBLOCK:"x" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713268154
+old [description:"dummy" entry:"1713267229" modified:"1713268138" scheduled:"1715745600" status:"pending" tags:"UNBLOCK" tags_UNBLOCK:"x" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [description:"dummy" entry:"1713267229" modified:"1713268154" scheduled:"1715745600" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713268169
+old [description:"dummy" entry:"1713267229" modified:"1713268154" scheduled:"1715745600" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [description:"dummy" due:"1715745600" entry:"1713267229" modified:"1713268169" scheduled:"1715745600" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713268227
+old [description:"dummy" due:"1715745600" entry:"1713267229" modified:"1713268169" scheduled:"1715745600" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [description:"dummy" due:"1713153600" entry:"1713267229" modified:"1713268227" scheduled:"1715745600" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713268261
+old [description:"dummy" due:"1713153600" entry:"1713267229" modified:"1713268227" scheduled:"1715745600" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [description:"dummy" due:"1713153600" entry:"1713267229" modified:"1713268261" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713269883
+new [description:"dummy README.md arch assignments aux bin cloud downloads ideas repos test" entry:"1713269883" modified:"1713269883" status:"pending" uuid:"d5ce2c10-2ee0-437d-b837-f785dd3d3cd3"]
+---
+time 1713270012
+old [description:"dummy README.md arch assignments aux bin cloud downloads ideas repos test" entry:"1713269883" modified:"1713269883" status:"pending" uuid:"d5ce2c10-2ee0-437d-b837-f785dd3d3cd3"]
+new [annotation_1713270008:"purge" description:"dummy README.md arch assignments aux bin cloud downloads ideas repos test" end:"1713270008" entry:"1713269883" modified:"1713270012" status:"deleted" uuid:"d5ce2c10-2ee0-437d-b837-f785dd3d3cd3"]
+---
+time 1713270024
+old [description:"dummy" due:"1713153600" entry:"1713267229" modified:"1713268261" status:"pending" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+new [description:"dummy" due:"1713153600" end:"1713270022" entry:"1713267229" modified:"1713270024" status:"deleted" uuid:"30ff355d-e9f1-4a72-9ff6-db5f31d7598e"]
+---
+time 1713270162
+old [description:"9" end:"1713228471" entry:"1713228471" modified:"1713228471" status:"completed" uuid:"c9d7b73a-6d08-49d1-a0f0-7e88436fbd37"]
+new [description:"9" end:"1713228471" entry:"1713228471" modified:"1713270162" status:"deleted" uuid:"c9d7b73a-6d08-49d1-a0f0-7e88436fbd37"]
+---
+time 1713270162
+old [description:"java final @A120" due:"1713204000" end:"1713225819" entry:"1713065451" modified:"1713225819" priority:"H" status:"completed" tags:"appointment" tags_appointment:"x" uuid:"ae33f3a7-0baf-49bf-ad45-81435c27cf5b"]
+new [description:"java final @A120" due:"1713204000" end:"1713225819" entry:"1713065451" modified:"1713270162" priority:"H" status:"deleted" tags:"appointment" tags_appointment:"x" uuid:"ae33f3a7-0baf-49bf-ad45-81435c27cf5b"]
+---
+time 1713270162
+old [description:"FWRP" due:"1713067199" end:"1713071577" entry:"1713056694" modified:"1713071577" priority:"H" project:"java" scheduled:"1713056776" status:"completed" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+new [description:"FWRP" due:"1713067199" end:"1713071577" entry:"1713056694" modified:"1713270162" priority:"H" project:"java" scheduled:"1713056776" status:"deleted" tags:"important" tags_important:"x" uuid:"8f533393-b871-4388-b506-595a5ce913af"]
+---
+time 1713270162
+old [description:"Copy key from Xenon2 to Luminous" end:"1713058345" entry:"1712937542" modified:"1713058345" status:"completed" uuid:"3fbf36d7-aa04-42e6-893c-c72361d3004d"]
+new [description:"Copy key from Xenon2 to Luminous" end:"1713058345" entry:"1712937542" modified:"1713270162" status:"deleted" uuid:"3fbf36d7-aa04-42e6-893c-c72361d3004d"]
+---
+time 1713270162
+old [description:"dummy task" due:"1712894400" end:"1712864400" entry:"1712861617" modified:"1712864400" status:"completed" uuid:"16f0261f-0bab-4e41-80ac-c501976a8478"]
+new [description:"dummy task" due:"1712894400" end:"1712864400" entry:"1712861617" modified:"1713270162" status:"deleted" uuid:"16f0261f-0bab-4e41-80ac-c501976a8478"]
+---
+time 1713275891
+old [annotation_1713265743:"\/home\/ahmad\/test" description:"move credentials from chrome to password-store" entry:"1712864289" modified:"1713265743" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [annotation_1713265743:"\/home\/ahmad\/test" description:"move credentials from chrome to password-store" dir:"~\/test" entry:"1712864289" modified:"1713275891" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713275942
+old [annotation_1713265743:"\/home\/ahmad\/test" description:"move credentials from chrome to password-store" dir:"~\/test" entry:"1712864289" modified:"1713275891" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"move credentials from chrome to password-store" dir:"~\/test" entry:"1712864289" modified:"1713275942" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713276034
+old [description:"move credentials from chrome to password-store" dir:"~\/test" entry:"1712864289" modified:"1713275942" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"move credentials from chrome to password-store" dir:"xx" entry:"1712864289" modified:"1713276034" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713276049
+old [description:"move credentials from chrome to password-store" dir:"xx" entry:"1712864289" modified:"1713276034" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"move credentials from chrome to password-store" dir:"~\/test" entry:"1712864289" modified:"1713276049" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713276070
+old [description:"move credentials from chrome to password-store" dir:"~\/test" entry:"1712864289" modified:"1713276049" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"move credentials from chrome to password-store" dir:"\/home\/ahmad\/test" entry:"1712864289" modified:"1713276070" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713276159
+old [description:"move credentials from chrome to password-store" dir:"\/home\/ahmad\/test" entry:"1712864289" modified:"1713276070" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"move credentials from chrome to password-store" dir:"\/home\/ahmad\/test\/" entry:"1712864289" modified:"1713276159" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713276176
+old [description:"move credentials from chrome to password-store" dir:"\/home\/ahmad\/test\/" entry:"1712864289" modified:"1713276159" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"move credentials from chrome to password-store" dir:"\/home\/ahmad\/test" entry:"1712864289" modified:"1713276176" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713277606
+new [description:"STUDAY FOR FINAL EXAM" due:"1713240000" entry:"1713277606" modified:"1713277606" status:"pending" tags:"assignment,exam,hw" tags_assignment:"x" tags_exam:"x" tags_hw:"x" uuid:"627b8fbf-f1a8-48e1-8654-b214df880e12"]
+---
+time 1713277629
+old [description:"STUDAY FOR FINAL EXAM" due:"1713240000" entry:"1713277606" modified:"1713277606" status:"pending" tags:"assignment,exam,hw" tags_assignment:"x" tags_exam:"x" tags_hw:"x" uuid:"627b8fbf-f1a8-48e1-8654-b214df880e12"]
+new [description:"STUDAY FOR FINAL EXAM" due:"1713326399" entry:"1713277606" modified:"1713277629" status:"pending" tags:"assignment,exam,hw" tags_assignment:"x" tags_exam:"x" tags_hw:"x" uuid:"627b8fbf-f1a8-48e1-8654-b214df880e12"]
+---
+time 1713277826
+new [description:"dummy task should be visible only in WORK context" entry:"1713277826" modified:"1713277826" status:"pending" tags:"work" tags_work:"x" uuid:"3579f24f-e4fb-4547-9ca9-7c6b65f853da"]
+---
+time 1713284693
+new [description:"will it be sent to work?" entry:"1713284693" modified:"1713284693" status:"pending" tags:"work" tags_work:"x" uuid:"03a75bc8-b7c4-48e9-80e9-6f17f3db3d5c"]
+---
+time 1713284890
+new [description:"dummy" entry:"1713284890" modified:"1713284890" status:"pending" tags:"WORK,assignment,exam,hw" tags_WORK:"x" tags_assignment:"x" tags_exam:"x" tags_hw:"x" uuid:"2777b1dc-21f8-4de9-83c6-ae04b490b048"]
+---
+time 1713285003
+new [description:"dummy" entry:"1713285003" modified:"1713285003" status:"pending" tags:"assignment,exam,hw,work" tags_assignment:"x" tags_exam:"x" tags_hw:"x" tags_work:"x" uuid:"3876593c-415c-42f2-9b66-35346dc172ae"]
+---
+time 1713285097
+new [description:"test" due:"1713889897" entry:"1713285097" modified:"1713285097" status:"pending" tags:"OFF" tags_OFF:"x" uuid:"2e5e07f9-dfac-4c23-955b-1dc206f47b90"]
+---
+time 1713285228
+new [description:"idea" due:"1713890028" entry:"1713285228" modified:"1713285228" scheduled:"253402146000" status:"pending" tags:"OFF" tags_OFF:"x" uuid:"559de838-5bb7-495b-925e-56cad56f1990"]
+---
+time 1713285458
+old [description:"dummy" entry:"1713284890" modified:"1713284890" status:"pending" tags:"WORK,assignment,exam,hw" tags_WORK:"x" tags_assignment:"x" tags_exam:"x" tags_hw:"x" uuid:"2777b1dc-21f8-4de9-83c6-ae04b490b048"]
+new [description:"dummy" end:"1713285455" entry:"1713284890" modified:"1713285458" status:"deleted" tags:"WORK,assignment,exam,hw" tags_WORK:"x" tags_assignment:"x" tags_exam:"x" tags_hw:"x" uuid:"2777b1dc-21f8-4de9-83c6-ae04b490b048"]
+---
+time 1713285459
+old [description:"dummy" entry:"1713285003" modified:"1713285003" status:"pending" tags:"assignment,exam,hw,work" tags_assignment:"x" tags_exam:"x" tags_hw:"x" tags_work:"x" uuid:"3876593c-415c-42f2-9b66-35346dc172ae"]
+new [description:"dummy" end:"1713285458" entry:"1713285003" modified:"1713285459" status:"deleted" tags:"assignment,exam,hw,work" tags_assignment:"x" tags_exam:"x" tags_hw:"x" tags_work:"x" uuid:"3876593c-415c-42f2-9b66-35346dc172ae"]
+---
+time 1713285460
+old [description:"test" due:"1713889897" entry:"1713285097" modified:"1713285097" status:"pending" tags:"OFF" tags_OFF:"x" uuid:"2e5e07f9-dfac-4c23-955b-1dc206f47b90"]
+new [description:"test" due:"1713889897" end:"1713285459" entry:"1713285097" modified:"1713285460" status:"deleted" tags:"OFF" tags_OFF:"x" uuid:"2e5e07f9-dfac-4c23-955b-1dc206f47b90"]
+---
+time 1713285460
+old [description:"idea" due:"1713890028" entry:"1713285228" modified:"1713285228" scheduled:"253402146000" status:"pending" tags:"OFF" tags_OFF:"x" uuid:"559de838-5bb7-495b-925e-56cad56f1990"]
+new [description:"idea" due:"1713890028" end:"1713285460" entry:"1713285228" modified:"1713285460" scheduled:"253402146000" status:"deleted" tags:"OFF" tags_OFF:"x" uuid:"559de838-5bb7-495b-925e-56cad56f1990"]
+---
+time 1713286075
+old [description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" entry:"1712865320" modified:"1713262802" status:"pending" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+new [description:"Consult https:\/\/taskwarrior.org\/docs\/ to use to TASKWARRIOR to its fullest" end:"1713286075" entry:"1712865320" modified:"1713286075" status:"completed" uuid:"83895595-b89c-4f03-b432-38ae1fcb5735"]
+---
+time 1713286229
+new [description:"hw" entry:"1713286229" modified:"1713286229" status:"pending" tags:"S" tags_S:"x" uuid:"96a1f108-58eb-46c2-93a6-facf72f808df"]
+---
+time 1713287244
+old [description:"consider storing ideas in tasks with low priority" entry:"1713068972" modified:"1713068972" priority:"L" status:"pending" tags:"idea" tags_idea:"x" uuid:"0452af62-25ab-4b07-9c6f-6196cbffd823"]
+new [description:"consider storing ideas in tasks with low priority" end:"1713287242" entry:"1713068972" modified:"1713287244" priority:"L" status:"deleted" tags:"idea" tags_idea:"x" uuid:"0452af62-25ab-4b07-9c6f-6196cbffd823"]
+---
+time 1713289342
+new [description:"dummy" entry:"1713289342" modified:"1713289342" project:"test" status:"pending" uuid:"b5edc0e3-611a-42f5-8350-a36ec85bd64f"]
+---
+time 1713305667
+new [cat:"HOM" description:"mount dishrack" entry:"1713305667" modified:"1713305667" priority:"M" project:"dish rack" scheduled:"1713737667" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"df10e966-40f4-4879-b8d9-ce86e9414fb7"]
+---
+time 1713306192
+old [cat:"HOM" description:"mount dishrack" entry:"1713305667" modified:"1713305667" priority:"M" project:"dish rack" scheduled:"1713737667" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"df10e966-40f4-4879-b8d9-ce86e9414fb7"]
+new [cat:"HOM" description:"mount dishrack" entry:"1713305667" modified:"1713306192" priority:"M" project:"dish rack" scheduled:"1713737667" status:"pending" tags:"HOME,errand" tags_HOME:"x" tags_errand:"x" uuid:"df10e966-40f4-4879-b8d9-ce86e9414fb7"]
+---
+time 1713308868
+new [description:"dummy" entry:"1713308868" modified:"1713308868" status:"pending" tags:"errand" tags_errand:"x" uuid:"a2ae27f3-b4f8-442d-91fd-9da4a442a6db"]
+---

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source ~/bin/switch_task_context.sh none 2> /dev/null
+task +errand
+echo ""

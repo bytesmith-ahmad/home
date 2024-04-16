@@ -1,0 +1,25 @@
+MOD 1 = CHANGE isLoan boolean TO loan_id (foreign key)
+MOD 2 = Add reference to foreign key in create table clause
+
+START TRANSACTION; -- SPECIFIC TO EXPENSES where loan_id = 1
+
+-- TAKE 2 ARGUMENTS: id, amount_payed
+
+-- subtransax 1
+UPDATE loans
+SET balance = balance - {amount_payed}
+WHERE rowid = x.loan_id
+FROM expenses as x;
+
+-- subtransax 2
+UPDATE expenses
+SET is_paid = 1
+WHERE rowid = {id}
+
+COMMIT
+
+-- subtransax 3
+-- CHECK IF is_paid = 1, ELSE DO NOT CARRY OUT ACTION
+UPDATE expenses
+SET deadline = deadline + frequency
+WHERE rowid = {supplied id}
