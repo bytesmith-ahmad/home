@@ -773,3 +773,28 @@ time 1713334606
 old [cat:"SDQ" description:"Add hook\/script which creates directory on create, and another which opens directory" entry:"1713334385" modified:"1713334385" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"8db746de-aaae-4e10-b3bd-cced8e5d8a12"]
 new [annotation_1713334606:"Refer to https:\/\/taskwarrior.org\/docs\/hooks\/" cat:"SDQ" description:"Add hook\/script which creates directory on create, and another which opens directory" entry:"1713334385" modified:"1713334606" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"8db746de-aaae-4e10-b3bd-cced8e5d8a12"]
 ---
+time 1713335214
+new [description:"Check timewarrior" entry:"1713335214" modified:"1713335214" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"27b022e0-593a-4ba8-b543-bcafcb712068"]
+---
+time 1713335230
+old [description:"Check timewarrior" entry:"1713335214" modified:"1713335214" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"27b022e0-593a-4ba8-b543-bcafcb712068"]
+new [annotation_1713335230:"https:\/\/timewarrior.net\/docs\/" description:"Check timewarrior" entry:"1713335214" modified:"1713335230" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"27b022e0-593a-4ba8-b543-bcafcb712068"]
+---
+time 1713367904
+new [cat:"HOM" description:"home task" entry:"1713367904" modified:"1713367904" priority:"M" scheduled:"1713799904" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"bb73032f-4af1-4ca8-9736-7dbd35fa9368"]
+---
+time 1713367957
+old [cat:"ACA" description:"Study for final" due:"1713919476" entry:"1713314676" modified:"1713314676" priority:"H" scheduled:"1713573876" status:"pending" tags:"ACADEMIC" tags_ACADEMIC:"x" uuid:"4e3f36d1-827f-4e09-b2fb-df4e035d4341"]
+new [cat:"ACA" description:"Study for final" due:"1713919476" end:"1713367955" entry:"1713314676" modified:"1713367957" priority:"H" scheduled:"1713573876" status:"deleted" tags:"ACADEMIC" tags_ACADEMIC:"x" uuid:"4e3f36d1-827f-4e09-b2fb-df4e035d4341"]
+---
+time 1713368006
+old [description:"STUDAY FOR FINAL EXAM" due:"1713326399" entry:"1713277606" modified:"1713277629" status:"pending" tags:"assignment,exam,hw" tags_assignment:"x" tags_exam:"x" tags_hw:"x" uuid:"627b8fbf-f1a8-48e1-8654-b214df880e12"]
+new [description:"STUDAY FOR FINAL EXAM" due:"1713326399" end:"1713368005" entry:"1713277606" modified:"1713368006" status:"deleted" tags:"assignment,exam,hw" tags_assignment:"x" tags_exam:"x" tags_hw:"x" uuid:"627b8fbf-f1a8-48e1-8654-b214df880e12"]
+---
+time 1713368086
+new [description:"Buy piece of wood to replace jack stand @Totem" entry:"1713368086" modified:"1713368086" scheduled:"1713387600" status:"pending" tags:"errand" tags_errand:"x" uuid:"ddfc83e0-6781-4319-98f1-a33b325d1d90"]
+---
+time 1713368118
+old [cat:"WRK" description:"Get back to work ASAP" entry:"1713314351" modified:"1713314351" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+new [cat:"WRK" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" depends:"ddfc83e0-6781-4319-98f1-a33b325d1d90" description:"Get back to work ASAP" entry:"1713314351" modified:"1713368118" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+---
