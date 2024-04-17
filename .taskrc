@@ -46,7 +46,7 @@ news.version=2.6.0
 
 # editor **************************************************
 
-editor=nano
+editor=$EDITOR
 
 # priority redefinition ***********************************
 
@@ -102,5 +102,8 @@ context.home.read=   cat:HOM   priority:M  scheduled:5days           +HOME
 context.home.write=  cat:HOM   priority:M  scheduled:5days           +HOME
 context.sdqu.read=   cat:SDQ                                         +sidequest
 context.sdqu.write=  cat:SDQ                                         +sidequest
-context.jbap.read=   cat:JBA   priority:L  scheduled:1days      +job +application
-context.jbap.write=  cat:JBA   prioirty:L  scheduled:1days      +job +application
+context.jbap.read=   cat:JBA   priority:L  scheduled:1days      +Job +application
+context.jbap.write=  cat:JBA   priority:L  scheduled:1days      +Job +application
+
+# here for protection against accidental deletion, do not delete
+# context=none

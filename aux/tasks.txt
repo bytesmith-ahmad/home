@@ -1,4 +1,0 @@
-java program presentation
-Java project: in progress
-reflective report
-Move all credentials from S:OneDriveDATAomnirecords.db to /home/ahmad/.passsword-store using pass insert

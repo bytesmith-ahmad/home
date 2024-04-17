@@ -667,3 +667,109 @@ new [cat:"HOM" description:"mount dishrack" entry:"1713305667" modified:"1713306
 time 1713308868
 new [description:"dummy" entry:"1713308868" modified:"1713308868" status:"pending" tags:"errand" tags_errand:"x" uuid:"a2ae27f3-b4f8-442d-91fd-9da4a442a6db"]
 ---
+time 1713310324
+new [description:"dummy" entry:"1713310324" modified:"1713310324" status:"pending" tags:"application,job" tags_application:"x" tags_job:"x" uuid:"e9abc0aa-d869-4417-9b8f-770a03f5428a"]
+---
+time 1713310339
+new [description:"dummy -job -application" entry:"1713310339" modified:"1713310339" status:"pending" uuid:"ad082b1e-879d-4a4f-9dad-e1e76735ecea"]
+---
+time 1713310359
+old [description:"dummy -job -application" entry:"1713310339" modified:"1713310339" status:"pending" uuid:"ad082b1e-879d-4a4f-9dad-e1e76735ecea"]
+new [description:"dummy -job -application" end:"1713310355" entry:"1713310339" modified:"1713310359" status:"deleted" uuid:"ad082b1e-879d-4a4f-9dad-e1e76735ecea"]
+---
+time 1713310372
+old [description:"dummy" entry:"1713310324" modified:"1713310324" status:"pending" tags:"application,job" tags_application:"x" tags_job:"x" uuid:"e9abc0aa-d869-4417-9b8f-770a03f5428a"]
+new [description:"dummy" entry:"1713310324" modified:"1713310372" status:"pending" uuid:"e9abc0aa-d869-4417-9b8f-770a03f5428a"]
+---
+time 1713310392
+old [description:"dummy" entry:"1713310324" modified:"1713310372" status:"pending" uuid:"e9abc0aa-d869-4417-9b8f-770a03f5428a"]
+new [description:"dummy" entry:"1713310324" modified:"1713310392" status:"pending" tags:"Job,application" tags_Job:"x" tags_application:"x" uuid:"e9abc0aa-d869-4417-9b8f-770a03f5428a"]
+---
+time 1713314351
+new [cat:"WRK" description:"Get back to work ASAP" entry:"1713314351" modified:"1713314351" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+---
+time 1713314465
+new [cat:"ACA" description:"Study for final" due:"1713314465" entry:"1713314465" modified:"1713314465" priority:"H" scheduled:"1713573665" status:"pending" tags:"ACADEMIC" tags_ACADEMIC:"x" uuid:"4ced7377-6ef0-4a70-bceb-cbe8c0d06b72"]
+---
+time 1713314669
+new [cat:"ACA" description:"Study for final" due:"1713314669" entry:"1713314669" modified:"1713314669" priority:"H" scheduled:"1713573869" status:"pending" tags:"ACADEMIC" tags_ACADEMIC:"x" uuid:"81e7b5f3-3e24-4382-bb3b-e170b834b33c"]
+---
+time 1713314676
+new [cat:"ACA" description:"Study for final" due:"1713919476" entry:"1713314676" modified:"1713314676" priority:"H" scheduled:"1713573876" status:"pending" tags:"ACADEMIC" tags_ACADEMIC:"x" uuid:"4e3f36d1-827f-4e09-b2fb-df4e035d4341"]
+---
+time 1713314736
+new [cat:"WRK" description:"dummy" entry:"1713314736" modified:"1713314736" priority:"H" scheduled:"1713919536" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"5650430f-ced8-4b1c-a08e-404b70e44693"]
+---
+time 1713314756
+new [cat:"WRK" description:"dummy with custom" entry:"1713314756" modified:"1713314756" priority:"L" scheduled:"1713919556" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"65ca0eec-1398-4d5a-addb-fc592fbb8dc5"]
+---
+time 1713314873
+old [cat:"ACA" description:"Study for final" due:"1713314465" entry:"1713314465" modified:"1713314465" priority:"H" scheduled:"1713573665" status:"pending" tags:"ACADEMIC" tags_ACADEMIC:"x" uuid:"4ced7377-6ef0-4a70-bceb-cbe8c0d06b72"]
+new [cat:"ACA" description:"Study for final" due:"1713314465" end:"1713314870" entry:"1713314465" modified:"1713314873" priority:"H" scheduled:"1713573665" status:"deleted" tags:"ACADEMIC" tags_ACADEMIC:"x" uuid:"4ced7377-6ef0-4a70-bceb-cbe8c0d06b72"]
+---
+time 1713314874
+old [cat:"ACA" description:"Study for final" due:"1713314669" entry:"1713314669" modified:"1713314669" priority:"H" scheduled:"1713573869" status:"pending" tags:"ACADEMIC" tags_ACADEMIC:"x" uuid:"81e7b5f3-3e24-4382-bb3b-e170b834b33c"]
+new [cat:"ACA" description:"Study for final" due:"1713314669" end:"1713314873" entry:"1713314669" modified:"1713314874" priority:"H" scheduled:"1713573869" status:"deleted" tags:"ACADEMIC" tags_ACADEMIC:"x" uuid:"81e7b5f3-3e24-4382-bb3b-e170b834b33c"]
+---
+time 1713314875
+old [cat:"WRK" description:"dummy" entry:"1713314736" modified:"1713314736" priority:"H" scheduled:"1713919536" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"5650430f-ced8-4b1c-a08e-404b70e44693"]
+new [cat:"WRK" description:"dummy" end:"1713314874" entry:"1713314736" modified:"1713314875" priority:"H" scheduled:"1713919536" status:"deleted" tags:"WORK" tags_WORK:"x" uuid:"5650430f-ced8-4b1c-a08e-404b70e44693"]
+---
+time 1713314876
+old [cat:"WRK" description:"dummy with custom" entry:"1713314756" modified:"1713314756" priority:"L" scheduled:"1713919556" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"65ca0eec-1398-4d5a-addb-fc592fbb8dc5"]
+new [cat:"WRK" description:"dummy with custom" end:"1713314875" entry:"1713314756" modified:"1713314876" priority:"L" scheduled:"1713919556" status:"deleted" tags:"WORK" tags_WORK:"x" uuid:"65ca0eec-1398-4d5a-addb-fc592fbb8dc5"]
+---
+time 1713315080
+new [cat:"SDQ" description:"test" entry:"1713315080" modified:"1713315080" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"c011568e-26fc-4544-b0a7-fd1e3bd2dc9c"]
+---
+time 1713315132
+new [cat:"SDQ" description:"test with annote annotate:heello" entry:"1713315132" modified:"1713315132" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"fd47527c-7bea-4915-bc8d-02f18c1e00b0"]
+---
+time 1713315238
+new [cat:"SDQ" description:"test with ann annotation:hello" entry:"1713315238" modified:"1713315238" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"ae3919e1-5f00-4f10-979a-d798430b3da6"]
+---
+time 1713315272
+old [cat:"SDQ" description:"test with annote annotate:heello" entry:"1713315132" modified:"1713315132" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"fd47527c-7bea-4915-bc8d-02f18c1e00b0"]
+new [annotation_1713315272:"heeloo" cat:"SDQ" description:"test with annote annotate:heello" entry:"1713315132" modified:"1713315272" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"fd47527c-7bea-4915-bc8d-02f18c1e00b0"]
+---
+time 1713315386
+old [cat:"SDQ" description:"test" entry:"1713315080" modified:"1713315080" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"c011568e-26fc-4544-b0a7-fd1e3bd2dc9c"]
+new [annotation_1713315328:"Usage:" cat:"SDQ" description:"test" entry:"1713315080" modified:"1713315386" status:"pending" tags_sidequest:"x" uuid:"c011568e-26fc-4544-b0a7-fd1e3bd2dc9c"]
+---
+time 1713315451
+old [annotation_1713315328:"Usage:" cat:"SDQ" description:"test" entry:"1713315080" modified:"1713315386" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"c011568e-26fc-4544-b0a7-fd1e3bd2dc9c"]
+new [annotation_1713315328:"Usage:\n   ass\n       List assignments.\n   ass find <assignment-name>\n       List assignments that match...\n   ass add <course-id> <assignment-name>" cat:"SDQ" description:"test" entry:"1713315080" modified:"1713315451" status:"pending" tags_sidequest:"x" uuid:"c011568e-26fc-4544-b0a7-fd1e3bd2dc9c"]
+---
+time 1713333950
+new [cat:"SDQ" description:"Create tasks for expiring documents" entry:"1713333950" modified:"1713333950" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"5dd90969-aeb8-4402-973d-45f95903f7d9"]
+---
+time 1713333984
+old [annotation_1713315328:"Usage:\n   ass\n       List assignments.\n   ass find <assignment-name>\n       List assignments that match...\n   ass add <course-id> <assignment-name>" cat:"SDQ" description:"test" entry:"1713315080" modified:"1713315451" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"c011568e-26fc-4544-b0a7-fd1e3bd2dc9c"]
+new [annotation_1713315328:"Usage:\n   ass\n       List assignments.\n   ass find <assignment-name>\n       List assignments that match...\n   ass add <course-id> <assignment-name>" cat:"SDQ" description:"test" end:"1713333980" entry:"1713315080" modified:"1713333984" status:"deleted" tags:"sidequest" tags_sidequest:"x" uuid:"c011568e-26fc-4544-b0a7-fd1e3bd2dc9c"]
+---
+time 1713333986
+old [annotation_1713315272:"heeloo" cat:"SDQ" description:"test with annote annotate:heello" entry:"1713315132" modified:"1713315272" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"fd47527c-7bea-4915-bc8d-02f18c1e00b0"]
+new [annotation_1713315272:"heeloo" cat:"SDQ" description:"test with annote annotate:heello" end:"1713333984" entry:"1713315132" modified:"1713333986" status:"deleted" tags:"sidequest" tags_sidequest:"x" uuid:"fd47527c-7bea-4915-bc8d-02f18c1e00b0"]
+---
+time 1713333987
+old [cat:"SDQ" description:"test with ann annotation:hello" entry:"1713315238" modified:"1713315238" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"ae3919e1-5f00-4f10-979a-d798430b3da6"]
+new [cat:"SDQ" description:"test with ann annotation:hello" end:"1713333986" entry:"1713315238" modified:"1713333987" status:"deleted" tags:"sidequest" tags_sidequest:"x" uuid:"ae3919e1-5f00-4f10-979a-d798430b3da6"]
+---
+time 1713334055
+old [cat:"SDQ" description:"Create tasks for expiring documents" entry:"1713333950" modified:"1713333950" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"5dd90969-aeb8-4402-973d-45f95903f7d9"]
+new [annotation_1713334055:"docs stored as text in \/home\/ahmad\/arch\/pers*\/docs*.sql" cat:"SDQ" description:"Create tasks for expiring documents" entry:"1713333950" modified:"1713334055" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"5dd90969-aeb8-4402-973d-45f95903f7d9"]
+---
+time 1713334160
+new [cat:"SDQ" description:"Migrate anniversaries to separate instance of Taskwarrior?" entry:"1713334160" modified:"1713334160" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"f46b8db7-72d1-4f50-8e3e-aa8d1b7cb628"]
+---
+time 1713334207
+old [cat:"SDQ" description:"Migrate anniversaries to separate instance of Taskwarrior?" entry:"1713334160" modified:"1713334160" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"f46b8db7-72d1-4f50-8e3e-aa8d1b7cb628"]
+new [annotation_1713334207:"Consider using Taskwarrior as database of choice for other data too" cat:"SDQ" description:"Migrate anniversaries to separate instance of Taskwarrior?" entry:"1713334160" modified:"1713334207" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"f46b8db7-72d1-4f50-8e3e-aa8d1b7cb628"]
+---
+time 1713334385
+new [cat:"SDQ" description:"Add hook\/script which creates directory on create, and another which opens directory" entry:"1713334385" modified:"1713334385" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"8db746de-aaae-4e10-b3bd-cced8e5d8a12"]
+---
+time 1713334606
+old [cat:"SDQ" description:"Add hook\/script which creates directory on create, and another which opens directory" entry:"1713334385" modified:"1713334385" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"8db746de-aaae-4e10-b3bd-cced8e5d8a12"]
+new [annotation_1713334606:"Refer to https:\/\/taskwarrior.org\/docs\/hooks\/" cat:"SDQ" description:"Add hook\/script which creates directory on create, and another which opens directory" entry:"1713334385" modified:"1713334606" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"8db746de-aaae-4e10-b3bd-cced8e5d8a12"]
+---
