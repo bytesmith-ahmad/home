@@ -913,3 +913,10 @@ time 1713370301
 old [description:"dummy" entry:"1713308868" modified:"1713308868" status:"pending" tags:"errand" tags_errand:"x" uuid:"a2ae27f3-b4f8-442d-91fd-9da4a442a6db"]
 new [description:"dummy" end:"1713370300" entry:"1713308868" modified:"1713370301" status:"deleted" tags:"errand" tags_errand:"x" uuid:"a2ae27f3-b4f8-442d-91fd-9da4a442a6db"]
 ---
+time 1713370426
+new [description:"DJ requested 580$ by april 24th, MUST CALL so they can withdraw" due:"1713931200" entry:"1713370426" modified:"1713370426" status:"pending" tags:"finance" tags_finance:"x" uuid:"f5e9035f-bef8-4de7-b9ac-3b24da770c38"]
+---
+time 1713370447
+old [cat:"HOM" description:"mount dishrack" entry:"1713369426" modified:"1713369582" priority:"M" project:"Kitchen" scheduled:"1713801426" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"f169a9df-1c31-4d66-810c-e445b6cd25b1"]
+new [cat:"HOM" description:"mount dishrack" entry:"1713369426" modified:"1713370447" priority:"L" project:"Kitchen" scheduled:"1713801426" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"f169a9df-1c31-4d66-810c-e445b6cd25b1"]
+---

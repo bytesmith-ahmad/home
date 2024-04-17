@@ -27,6 +27,7 @@
 [annotation_1713335230:"https:\/\/timewarrior.net\/docs\/" description:"Check timewarrior" entry:"1713335214" modified:"1713335230" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"27b022e0-593a-4ba8-b543-bcafcb712068"]
 [description:"Buy piece of wood to replace jack stand @Totem" entry:"1713368086" modified:"1713368086" scheduled:"1713387600" status:"pending" tags:"errand" tags_errand:"x" uuid:"ddfc83e0-6781-4319-98f1-a33b325d1d90"]
 [description:"Go to DJ to cash in money" entry:"1713369018" modified:"1713369018" status:"pending" tags:"errand,finance" tags_errand:"x" tags_finance:"x" uuid:"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf"]
-[cat:"HOM" description:"mount dishrack" entry:"1713369426" modified:"1713369582" priority:"M" project:"Kitchen" scheduled:"1713801426" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"f169a9df-1c31-4d66-810c-e445b6cd25b1"]
+[cat:"HOM" description:"mount dishrack" entry:"1713369426" modified:"1713370447" priority:"L" project:"Kitchen" scheduled:"1713801426" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"f169a9df-1c31-4d66-810c-e445b6cd25b1"]
 [description:"get jack stand to change tires" entry:"1713369822" modified:"1713369822" status:"pending" tags:"errand" tags_errand:"x" uuid:"62e9cba8-5701-4448-8cf2-d64523bf8c57"]
 [dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" depends:"62e9cba8-5701-4448-8cf2-d64523bf8c57" description:"Rotate tires" entry:"1713369877" modified:"1713369877" status:"pending" tags:"car" tags_car:"x" uuid:"224936cf-ffe9-44c5-9e22-ef748a86243d"]
+[description:"DJ requested 580$ by april 24th, MUST CALL so they can withdraw" due:"1713931200" entry:"1713370426" modified:"1713370426" status:"pending" tags:"finance" tags_finance:"x" uuid:"f5e9035f-bef8-4de7-b9ac-3b24da770c38"]
