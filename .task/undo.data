@@ -816,3 +816,100 @@ time 1713369034
 old [description:"pay bills" entry:"1712865409" modified:"1713101588" priority:"H" scheduled:"1714091419" status:"pending" tags:"admin" tags_admin:"x" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
 new [description:"depends" entry:"1712865409" modified:"1713369034" priority:"H" scheduled:"1714091419" status:"pending" tags:"admin" tags_admin:"x" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
 ---
+time 1713369162
+old [description:"depends" entry:"1712865409" modified:"1713369034" priority:"H" scheduled:"1714091419" status:"pending" tags:"admin" tags_admin:"x" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+new [description:"Pay bills" entry:"1712865409" modified:"1713369162" priority:"H" scheduled:"1714091419" status:"pending" tags:"admin" tags_admin:"x" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+---
+time 1713369216
+old [description:"Pay bills" entry:"1712865409" modified:"1713369162" priority:"H" scheduled:"1714091419" status:"pending" tags:"admin" tags_admin:"x" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+new [dep_cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf:"x" depends:"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf" description:"Pay bills" entry:"1712865409" modified:"1713369216" priority:"H" scheduled:"1714091419" status:"pending" tags:"finance" tags_finance:"x" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+---
+time 1713369426
+new [cat:"HOM" description:"mount dishrack" entry:"1713369426" modified:"1713369426" priority:"M" scheduled:"1713801426" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"f169a9df-1c31-4d66-810c-e445b6cd25b1"]
+---
+time 1713369502
+old [description:"Check TIMEWARRIOR, can create and modify events?" entry:"1712866387" modified:"1713028379" priority:"L" project:"bash" status:"pending" uuid:"ba1dcf04-e5c9-4ebd-aa2f-3123aecd0811"]
+new [annotation_1713369496:"annot:the answer is no, it is useless apart from stopwatch" description:"Check TIMEWARRIOR, can create and modify events?" end:"1713369496" entry:"1712866387" modified:"1713369502" priority:"L" project:"bash" status:"deleted" uuid:"ba1dcf04-e5c9-4ebd-aa2f-3123aecd0811"]
+---
+time 1713369582
+old [cat:"HOM" description:"mount dishrack" entry:"1713369426" modified:"1713369426" priority:"M" scheduled:"1713801426" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"f169a9df-1c31-4d66-810c-e445b6cd25b1"]
+new [cat:"HOM" description:"mount dishrack" entry:"1713369426" modified:"1713369582" priority:"M" project:"Kitchen" scheduled:"1713801426" status:"pending" tags_HOME:"x" uuid:"f169a9df-1c31-4d66-810c-e445b6cd25b1"]
+---
+time 1713369607
+old [cat:"HOM" description:"mount dishrack" entry:"1713305667" modified:"1713306192" priority:"M" project:"dish rack" scheduled:"1713737667" status:"pending" tags:"HOME,errand" tags_HOME:"x" tags_errand:"x" uuid:"df10e966-40f4-4879-b8d9-ce86e9414fb7"]
+new [cat:"HOM" description:"mount dishrack" end:"1713369606" entry:"1713305667" modified:"1713369607" priority:"M" project:"dish rack" scheduled:"1713737667" status:"deleted" tags:"HOME,errand" tags_HOME:"x" tags_errand:"x" uuid:"df10e966-40f4-4879-b8d9-ce86e9414fb7"]
+---
+time 1713369711
+old [cat:"HOM" description:"home task" entry:"1713367904" modified:"1713367904" priority:"M" scheduled:"1713799904" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"bb73032f-4af1-4ca8-9736-7dbd35fa9368"]
+new [cat:"HOM" description:"home task" end:"1713369709" entry:"1713367904" modified:"1713369711" priority:"M" scheduled:"1713799904" status:"deleted" tags:"HOME" tags_HOME:"x" uuid:"bb73032f-4af1-4ca8-9736-7dbd35fa9368"]
+---
+time 1713369822
+new [description:"get jack stand to change tires" entry:"1713369822" modified:"1713369822" status:"pending" tags:"errand" tags_errand:"x" uuid:"62e9cba8-5701-4448-8cf2-d64523bf8c57"]
+---
+time 1713369839
+old [cat:"WRK" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" depends:"ddfc83e0-6781-4319-98f1-a33b325d1d90" description:"Get back to work ASAP" entry:"1713314351" modified:"1713368118" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+new [cat:"WRK" dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" depends:"62e9cba8-5701-4448-8cf2-d64523bf8c57,ddfc83e0-6781-4319-98f1-a33b325d1d90" description:"Get back to work ASAP" entry:"1713314351" modified:"1713369839" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+---
+time 1713369877
+new [dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" depends:"62e9cba8-5701-4448-8cf2-d64523bf8c57" description:"Rotate tires" entry:"1713369877" modified:"1713369877" status:"pending" tags:"car" tags_car:"x" uuid:"224936cf-ffe9-44c5-9e22-ef748a86243d"]
+---
+time 1713369934
+old [description:"Get car ready to pick her up" entry:"1713042724" modified:"1713042977" project:"Bring wife" status:"pending" tags:"afterexams" tags_afterexams:"x" uuid:"18ca7721-fd6c-43a1-88e6-819a262d11d0"]
+new [dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" depends:"62e9cba8-5701-4448-8cf2-d64523bf8c57" description:"Get car ready to pick her up" entry:"1713042724" modified:"1713369934" project:"Bring wife" status:"pending" tags:"afterexams" tags_afterexams:"x" uuid:"18ca7721-fd6c-43a1-88e6-819a262d11d0"]
+---
+time 1713369967
+old [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713028379" priority:"L" project:"bash" status:"pending" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+new [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713369967" priority:"L" project:"bash" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+---
+time 1713370043
+old [annotation_1713058678:"unix filesystem is a superior file storage" annotation_1713058983:"follow the same format as 'pass' module" description:"Migrate omni*\/archives to ~\/arch" entry:"1713058591" modified:"1713059173" status:"pending" tags:"database" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+new [annotation_1713058678:"unix filesystem is a superior file storage" annotation_1713058983:"follow the same format as 'pass' module" description:"Migrate omni*\/archives to ~\/arch" end:"1713370043" entry:"1713058591" modified:"1713370043" status:"completed" tags:"database" tags_database:"x" uuid:"14562d28-a416-4fc3-ab89-eca7f217c81a"]
+---
+time 1713370066
+old [description:"move credentials from chrome to password-store" dir:"\/home\/ahmad\/test" entry:"1712864289" modified:"1713276176" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"move credentials from chrome to password-store" dir:"\/home\/ahmad\/test" entry:"1712864289" modified:"1713370066" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+---
+time 1713370078
+old [description:"consider making task private with it's own private github" entry:"1713029463" modified:"1713029463" project:"bash" status:"pending" uuid:"289423dd-ae5b-4fd5-9f3d-a0aa461455fc"]
+new [description:"consider making task private with it's own private github" entry:"1713029463" modified:"1713370078" project:"bash" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"289423dd-ae5b-4fd5-9f3d-a0aa461455fc"]
+---
+time 1713370092
+old [description:"https:\/\/www.reddit.com\/r\/unixporn\/top\/?t=all" entry:"1713047099" modified:"1713047099" project:"Convert PC to Linux" status:"pending" uuid:"2984f7b1-099e-4580-aefa-c27b8c63ed87"]
+new [description:"https:\/\/www.reddit.com\/r\/unixporn\/top\/?t=all" entry:"1713047099" modified:"1713370092" project:"Convert PC to Linux" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"2984f7b1-099e-4580-aefa-c27b8c63ed87"]
+---
+time 1713370137
+old [description:"Look into Go for TUIs instead of Python" entry:"1713047136" modified:"1713047136" project:"bash" status:"pending" uuid:"b164e17d-4a32-4f7b-b6f7-350616350ec4"]
+new [description:"Look into Go for TUIs instead of Python" entry:"1713047136" modified:"1713370137" project:"bash" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"b164e17d-4a32-4f7b-b6f7-350616350ec4"]
+---
+time 1713370180
+old [description:"dummy" entry:"1713289342" modified:"1713289342" project:"test" status:"pending" uuid:"b5edc0e3-611a-42f5-8350-a36ec85bd64f"]
+new [description:"dummy" end:"1713370178" entry:"1713289342" modified:"1713370180" project:"test" status:"deleted" uuid:"b5edc0e3-611a-42f5-8350-a36ec85bd64f"]
+---
+time 1713370288
+old [description:"import omnirecords\/anniversaries" entry:"1713058478" modified:"1713058478" status:"pending" tags:"database" tags_database:"x" uuid:"2698c041-56ad-431f-b04f-d323a6af7a75"]
+new [description:"import omnirecords\/anniversaries" end:"1713370284" entry:"1713058478" modified:"1713370288" status:"deleted" tags:"database" tags_database:"x" uuid:"2698c041-56ad-431f-b04f-d323a6af7a75"]
+---
+time 1713370289
+old [description:"Migrate omni\/attribute to ~\/arch" entry:"1713059119" modified:"1713059139" status:"pending" tags:"database" tags_database:"x" uuid:"a517bd8a-54c8-48b2-9240-53236cb502ad"]
+new [description:"Migrate omni\/attribute to ~\/arch" end:"1713370288" entry:"1713059119" modified:"1713370289" status:"deleted" tags:"database" tags_database:"x" uuid:"a517bd8a-54c8-48b2-9240-53236cb502ad"]
+---
+time 1713370292
+old [description:"Migrate expirable_docs to ~\/arch but monitor expiration" entry:"1713063121" modified:"1713063121" status:"pending" tags:"database" tags_database:"x" uuid:"489ec448-fe44-4a0c-8319-361217bbbe59"]
+new [description:"Migrate expirable_docs to ~\/arch but monitor expiration" end:"1713370289" entry:"1713063121" modified:"1713370292" status:"deleted" tags:"database" tags_database:"x" uuid:"489ec448-fe44-4a0c-8319-361217bbbe59"]
+---
+time 1713370296
+old [description:"blockingtask" entry:"1713267365" modified:"1713267365" status:"pending" uuid:"f2e46c6a-5c4e-4632-a8b5-5351d337fb89"]
+new [description:"blockingtask" end:"1713370292" entry:"1713267365" modified:"1713370296" status:"deleted" uuid:"f2e46c6a-5c4e-4632-a8b5-5351d337fb89"]
+---
+time 1713370298
+old [description:"dummy task should be visible only in WORK context" entry:"1713277826" modified:"1713277826" status:"pending" tags:"work" tags_work:"x" uuid:"3579f24f-e4fb-4547-9ca9-7c6b65f853da"]
+new [description:"dummy task should be visible only in WORK context" end:"1713370296" entry:"1713277826" modified:"1713370298" status:"deleted" tags:"work" tags_work:"x" uuid:"3579f24f-e4fb-4547-9ca9-7c6b65f853da"]
+---
+time 1713370300
+old [description:"will it be sent to work?" entry:"1713284693" modified:"1713284693" status:"pending" tags:"work" tags_work:"x" uuid:"03a75bc8-b7c4-48e9-80e9-6f17f3db3d5c"]
+new [description:"will it be sent to work?" end:"1713370298" entry:"1713284693" modified:"1713370300" status:"deleted" tags:"work" tags_work:"x" uuid:"03a75bc8-b7c4-48e9-80e9-6f17f3db3d5c"]
+---
+time 1713370301
+old [description:"dummy" entry:"1713308868" modified:"1713308868" status:"pending" tags:"errand" tags_errand:"x" uuid:"a2ae27f3-b4f8-442d-91fd-9da4a442a6db"]
+new [description:"dummy" end:"1713370300" entry:"1713308868" modified:"1713370301" status:"deleted" tags:"errand" tags_errand:"x" uuid:"a2ae27f3-b4f8-442d-91fd-9da4a442a6db"]
+---
