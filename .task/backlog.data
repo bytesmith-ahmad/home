@@ -221,3 +221,10 @@
 {"description":"STUDAY FOR FINAL EXAM","due":"20240417T035959Z","end":"20240417T153325Z","entry":"20240416T142646Z","modified":"20240417T153326Z","status":"deleted","uuid":"627b8fbf-f1a8-48e1-8654-b214df880e12","tags":["assignment","exam","hw"]}
 {"description":"Buy piece of wood to replace jack stand @Totem","entry":"20240417T153446Z","modified":"20240417T153446Z","scheduled":"20240417T210000Z","status":"pending","uuid":"ddfc83e0-6781-4319-98f1-a33b325d1d90","tags":["errand"]}
 {"cat":"WRK","description":"Get back to work ASAP","entry":"20240417T003911Z","modified":"20240417T153518Z","priority":"H","scheduled":"20240424T003911Z","status":"pending","uuid":"515c77db-ba24-4376-96e5-b5070eb21c98","tags":["WORK"],"depends":["ddfc83e0-6781-4319-98f1-a33b325d1d90"]}
+{"description":"dummy","entry":"20240417T154856Z","modified":"20240417T154856Z","status":"pending","uuid":"9773d59b-f5d5-4bef-98dd-1c576931e2ff"}
+{"description":"updated","entry":"20240417T154856Z","modified":"20240417T154909Z","status":"pending","uuid":"9773d59b-f5d5-4bef-98dd-1c576931e2ff"}
+{"description":"updated","end":"20240417T154919Z","entry":"20240417T154856Z","modified":"20240417T154923Z","status":"deleted","uuid":"9773d59b-f5d5-4bef-98dd-1c576931e2ff"}
+{"description":"Go to DJ to cash in money","entry":"20240417T155018Z","modified":"20240417T155018Z","status":"pending","uuid":"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf","tags":["errand","finance"]}
+{"description":"depends","entry":"20240411T195649Z","modified":"20240417T155034Z","priority":"H","scheduled":"20240426T003019Z","status":"pending","uuid":"07164852-8b53-46a5-b465-4d051aba180f","tags":["admin"]}
+{"description":"depends","entry":"20240417T155018Z","modified":"20240417T155034Z","status":"pending","uuid":"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf","tags":["errand","finance"]}
+{"description":"Go to DJ to cash in money","entry":"20240417T155018Z","modified":"20240417T155018Z","status":"pending","uuid":"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf","tags":["errand","finance"]}

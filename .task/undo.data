@@ -798,3 +798,21 @@ time 1713368118
 old [cat:"WRK" description:"Get back to work ASAP" entry:"1713314351" modified:"1713314351" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
 new [cat:"WRK" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" depends:"ddfc83e0-6781-4319-98f1-a33b325d1d90" description:"Get back to work ASAP" entry:"1713314351" modified:"1713368118" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
 ---
+time 1713368936
+new [description:"dummy" entry:"1713368936" modified:"1713368936" status:"pending" uuid:"9773d59b-f5d5-4bef-98dd-1c576931e2ff"]
+---
+time 1713368949
+old [description:"dummy" entry:"1713368936" modified:"1713368936" status:"pending" uuid:"9773d59b-f5d5-4bef-98dd-1c576931e2ff"]
+new [description:"updated" entry:"1713368936" modified:"1713368949" status:"pending" uuid:"9773d59b-f5d5-4bef-98dd-1c576931e2ff"]
+---
+time 1713368963
+old [description:"updated" entry:"1713368936" modified:"1713368949" status:"pending" uuid:"9773d59b-f5d5-4bef-98dd-1c576931e2ff"]
+new [description:"updated" end:"1713368959" entry:"1713368936" modified:"1713368963" status:"deleted" uuid:"9773d59b-f5d5-4bef-98dd-1c576931e2ff"]
+---
+time 1713369018
+new [description:"Go to DJ to cash in money" entry:"1713369018" modified:"1713369018" status:"pending" tags:"errand,finance" tags_errand:"x" tags_finance:"x" uuid:"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf"]
+---
+time 1713369034
+old [description:"pay bills" entry:"1712865409" modified:"1713101588" priority:"H" scheduled:"1714091419" status:"pending" tags:"admin" tags_admin:"x" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+new [description:"depends" entry:"1712865409" modified:"1713369034" priority:"H" scheduled:"1714091419" status:"pending" tags:"admin" tags_admin:"x" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+---

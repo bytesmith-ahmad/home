@@ -1,5 +1,5 @@
 [description:"move credentials from chrome to password-store" dir:"\/home\/ahmad\/test" entry:"1712864289" modified:"1713276176" status:"pending" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
-[description:"pay bills" entry:"1712865409" modified:"1713101588" priority:"H" scheduled:"1714091419" status:"pending" tags:"admin" tags_admin:"x" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
+[description:"depends" entry:"1712865409" modified:"1713369034" priority:"H" scheduled:"1714091419" status:"pending" tags:"admin" tags_admin:"x" uuid:"07164852-8b53-46a5-b465-4d051aba180f"]
 [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713028379" priority:"L" project:"bash" status:"pending" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
 [description:"Check TIMEWARRIOR, can create and modify events?" entry:"1712866387" modified:"1713028379" priority:"L" project:"bash" status:"pending" uuid:"ba1dcf04-e5c9-4ebd-aa2f-3123aecd0811"]
 [description:"Make automatic sync to make sure tasks and events remain synchronized" entry:"1712866430" modified:"1713055653" status:"pending" tags:"taskwarrior" tags_taskwarrior:"x" uuid:"38c6b385-d209-4aa4-87df-afde65eabf35"]
@@ -38,3 +38,5 @@
 [annotation_1713335230:"https:\/\/timewarrior.net\/docs\/" description:"Check timewarrior" entry:"1713335214" modified:"1713335230" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"27b022e0-593a-4ba8-b543-bcafcb712068"]
 [cat:"HOM" description:"home task" entry:"1713367904" modified:"1713367904" priority:"M" scheduled:"1713799904" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"bb73032f-4af1-4ca8-9736-7dbd35fa9368"]
 [description:"Buy piece of wood to replace jack stand @Totem" entry:"1713368086" modified:"1713368086" scheduled:"1713387600" status:"pending" tags:"errand" tags_errand:"x" uuid:"ddfc83e0-6781-4319-98f1-a33b325d1d90"]
+[description:"updated" end:"1713368959" entry:"1713368936" modified:"1713368963" status:"deleted" uuid:"9773d59b-f5d5-4bef-98dd-1c576931e2ff"]
+[description:"Go to DJ to cash in money" entry:"1713369018" modified:"1713369018" status:"pending" tags:"errand,finance" tags_errand:"x" tags_finance:"x" uuid:"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf"]
