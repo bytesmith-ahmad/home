@@ -1006,3 +1006,175 @@ new [dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" depends:"62e9cba8-5701-4448-8c
 time 1713415006
 new [description:"Clean car" due:"1713448800" entry:"1713415006" modified:"1713415006" status:"pending" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
 ---
+time 1713445186
+old [description:"cleaning test test" entry:"1713411539" modified:"1713411624" priority:"H" project:"Car cleaning" status:"pending" uuid:"36cf8911-7234-4b12-b1c7-cdb90731e090"]
+new [description:"cleaning test test" entry:"1713411539" modified:"1713445186" priority:"H" project:"CLEAN-CAR" status:"pending" uuid:"36cf8911-7234-4b12-b1c7-cdb90731e090"]
+---
+time 1713446441
+new [description:"window" entry:"1713446441" modified:"1713446441" status:"pending" tags:"car" tags_car:"x" uuid:"41fe261c-7f30-42e0-84ab-d1d8012b842f"]
+---
+time 1713446446
+new [description:"seats" entry:"1713446446" modified:"1713446446" status:"pending" tags:"car" tags_car:"x" uuid:"4d06affe-beaa-4a28-b250-393e60ea8d2c"]
+---
+time 1713446455
+new [description:"dashboard" entry:"1713446455" modified:"1713446455" status:"pending" tags:"car" tags_car:"x" uuid:"dcdc0eee-a000-494d-88f3-19139048c5c5"]
+---
+time 1713446462
+new [description:"floor" entry:"1713446462" modified:"1713446462" status:"pending" tags:"car" tags_car:"x" uuid:"a540b981-38b2-4895-b6d7-d8832b6ada13"]
+---
+time 1713446489
+old [description:"window" entry:"1713446441" modified:"1713446441" status:"pending" tags:"car" tags_car:"x" uuid:"41fe261c-7f30-42e0-84ab-d1d8012b842f"]
+new [description:"window" entry:"1713446441" modified:"1713446489" project:"CAR-CLEANING" status:"pending" tags:"car" tags_car:"x" uuid:"41fe261c-7f30-42e0-84ab-d1d8012b842f"]
+---
+time 1713446489
+old [description:"seats" entry:"1713446446" modified:"1713446446" status:"pending" tags:"car" tags_car:"x" uuid:"4d06affe-beaa-4a28-b250-393e60ea8d2c"]
+new [description:"seats" entry:"1713446446" modified:"1713446489" project:"CAR-CLEANING" status:"pending" tags:"car" tags_car:"x" uuid:"4d06affe-beaa-4a28-b250-393e60ea8d2c"]
+---
+time 1713446489
+old [description:"dashboard" entry:"1713446455" modified:"1713446455" status:"pending" tags:"car" tags_car:"x" uuid:"dcdc0eee-a000-494d-88f3-19139048c5c5"]
+new [description:"dashboard" entry:"1713446455" modified:"1713446489" project:"CAR-CLEANING" status:"pending" tags:"car" tags_car:"x" uuid:"dcdc0eee-a000-494d-88f3-19139048c5c5"]
+---
+time 1713446489
+old [description:"floor" entry:"1713446462" modified:"1713446462" status:"pending" tags:"car" tags_car:"x" uuid:"a540b981-38b2-4895-b6d7-d8832b6ada13"]
+new [description:"floor" entry:"1713446462" modified:"1713446489" project:"CAR-CLEANING" status:"pending" tags:"car" tags_car:"x" uuid:"a540b981-38b2-4895-b6d7-d8832b6ada13"]
+---
+time 1713446529
+old [description:"Clean car" due:"1713448800" entry:"1713415006" modified:"1713415006" status:"pending" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
+new [dep_41fe261c-7f30-42e0-84ab-d1d8012b842f:"x" depends:"41fe261c-7f30-42e0-84ab-d1d8012b842f" description:"Clean car" due:"1713448800" entry:"1713415006" modified:"1713446529" status:"pending" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
+---
+time 1713446554
+old [dep_41fe261c-7f30-42e0-84ab-d1d8012b842f:"x" depends:"41fe261c-7f30-42e0-84ab-d1d8012b842f" description:"Clean car" due:"1713448800" entry:"1713415006" modified:"1713446529" status:"pending" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
+new [dep_41fe261c-7f30-42e0-84ab-d1d8012b842f:"x" dep_4d06affe-beaa-4a28-b250-393e60ea8d2c:"x" depends:"41fe261c-7f30-42e0-84ab-d1d8012b842f,4d06affe-beaa-4a28-b250-393e60ea8d2c" description:"Clean car" due:"1713448800" entry:"1713415006" modified:"1713446554" status:"pending" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
+---
+time 1713446555
+old [dep_41fe261c-7f30-42e0-84ab-d1d8012b842f:"x" dep_4d06affe-beaa-4a28-b250-393e60ea8d2c:"x" depends:"41fe261c-7f30-42e0-84ab-d1d8012b842f,4d06affe-beaa-4a28-b250-393e60ea8d2c" description:"Clean car" due:"1713448800" entry:"1713415006" modified:"1713446554" status:"pending" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
+new [dep_41fe261c-7f30-42e0-84ab-d1d8012b842f:"x" dep_4d06affe-beaa-4a28-b250-393e60ea8d2c:"x" dep_dcdc0eee-a000-494d-88f3-19139048c5c5:"x" depends:"41fe261c-7f30-42e0-84ab-d1d8012b842f,4d06affe-beaa-4a28-b250-393e60ea8d2c,dcdc0eee-a000-494d-88f3-19139048c5c5" description:"Clean car" due:"1713448800" entry:"1713415006" modified:"1713446555" status:"pending" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
+---
+time 1713446557
+old [dep_41fe261c-7f30-42e0-84ab-d1d8012b842f:"x" dep_4d06affe-beaa-4a28-b250-393e60ea8d2c:"x" dep_dcdc0eee-a000-494d-88f3-19139048c5c5:"x" depends:"41fe261c-7f30-42e0-84ab-d1d8012b842f,4d06affe-beaa-4a28-b250-393e60ea8d2c,dcdc0eee-a000-494d-88f3-19139048c5c5" description:"Clean car" due:"1713448800" entry:"1713415006" modified:"1713446555" status:"pending" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
+new [dep_41fe261c-7f30-42e0-84ab-d1d8012b842f:"x" dep_4d06affe-beaa-4a28-b250-393e60ea8d2c:"x" dep_a540b981-38b2-4895-b6d7-d8832b6ada13:"x" dep_dcdc0eee-a000-494d-88f3-19139048c5c5:"x" depends:"41fe261c-7f30-42e0-84ab-d1d8012b842f,4d06affe-beaa-4a28-b250-393e60ea8d2c,a540b981-38b2-4895-b6d7-d8832b6ada13,dcdc0eee-a000-494d-88f3-19139048c5c5" description:"Clean car" due:"1713448800" entry:"1713415006" modified:"1713446557" status:"pending" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
+---
+time 1713446573
+old [description:"cleaning test test" entry:"1713411539" modified:"1713445186" priority:"H" project:"CLEAN-CAR" status:"pending" uuid:"36cf8911-7234-4b12-b1c7-cdb90731e090"]
+new [description:"cleaning test test" end:"1713446571" entry:"1713411539" modified:"1713446573" priority:"H" project:"CLEAN-CAR" status:"deleted" uuid:"36cf8911-7234-4b12-b1c7-cdb90731e090"]
+---
+time 1713446595
+old [description:"window" entry:"1713446441" modified:"1713446489" project:"CAR-CLEANING" status:"pending" tags:"car" tags_car:"x" uuid:"41fe261c-7f30-42e0-84ab-d1d8012b842f"]
+new [description:"window" entry:"1713446441" modified:"1713446595" project:"CAR-CLEANING" start:"1713446593" status:"pending" tags:"car" tags_car:"x" uuid:"41fe261c-7f30-42e0-84ab-d1d8012b842f"]
+---
+time 1713446595
+old [description:"seats" entry:"1713446446" modified:"1713446489" project:"CAR-CLEANING" status:"pending" tags:"car" tags_car:"x" uuid:"4d06affe-beaa-4a28-b250-393e60ea8d2c"]
+new [description:"seats" entry:"1713446446" modified:"1713446595" project:"CAR-CLEANING" start:"1713446595" status:"pending" tags:"car" tags_car:"x" uuid:"4d06affe-beaa-4a28-b250-393e60ea8d2c"]
+---
+time 1713446595
+old [description:"dashboard" entry:"1713446455" modified:"1713446489" project:"CAR-CLEANING" status:"pending" tags:"car" tags_car:"x" uuid:"dcdc0eee-a000-494d-88f3-19139048c5c5"]
+new [description:"dashboard" entry:"1713446455" modified:"1713446595" project:"CAR-CLEANING" start:"1713446595" status:"pending" tags:"car" tags_car:"x" uuid:"dcdc0eee-a000-494d-88f3-19139048c5c5"]
+---
+time 1713446595
+old [description:"floor" entry:"1713446462" modified:"1713446489" project:"CAR-CLEANING" status:"pending" tags:"car" tags_car:"x" uuid:"a540b981-38b2-4895-b6d7-d8832b6ada13"]
+new [description:"floor" entry:"1713446462" modified:"1713446595" project:"CAR-CLEANING" start:"1713446595" status:"pending" tags:"car" tags_car:"x" uuid:"a540b981-38b2-4895-b6d7-d8832b6ada13"]
+---
+time 1713460265
+old [description:"window" entry:"1713446441" modified:"1713446595" project:"CAR-CLEANING" start:"1713446593" status:"pending" tags:"car" tags_car:"x" uuid:"41fe261c-7f30-42e0-84ab-d1d8012b842f"]
+new [description:"window" end:"1713460255" entry:"1713446441" modified:"1713460265" project:"CAR-CLEANING" status:"completed" tags:"car" tags_car:"x" uuid:"41fe261c-7f30-42e0-84ab-d1d8012b842f"]
+---
+time 1713460267
+old [description:"seats" entry:"1713446446" modified:"1713446595" project:"CAR-CLEANING" start:"1713446595" status:"pending" tags:"car" tags_car:"x" uuid:"4d06affe-beaa-4a28-b250-393e60ea8d2c"]
+new [description:"seats" end:"1713460266" entry:"1713446446" modified:"1713460267" project:"CAR-CLEANING" status:"completed" tags:"car" tags_car:"x" uuid:"4d06affe-beaa-4a28-b250-393e60ea8d2c"]
+---
+time 1713460268
+old [description:"dashboard" entry:"1713446455" modified:"1713446595" project:"CAR-CLEANING" start:"1713446595" status:"pending" tags:"car" tags_car:"x" uuid:"dcdc0eee-a000-494d-88f3-19139048c5c5"]
+new [description:"dashboard" end:"1713460267" entry:"1713446455" modified:"1713460268" project:"CAR-CLEANING" status:"completed" tags:"car" tags_car:"x" uuid:"dcdc0eee-a000-494d-88f3-19139048c5c5"]
+---
+time 1713460270
+old [description:"floor" entry:"1713446462" modified:"1713446595" project:"CAR-CLEANING" start:"1713446595" status:"pending" tags:"car" tags_car:"x" uuid:"a540b981-38b2-4895-b6d7-d8832b6ada13"]
+new [description:"floor" end:"1713460268" entry:"1713446462" modified:"1713460270" project:"CAR-CLEANING" status:"completed" tags:"car" tags_car:"x" uuid:"a540b981-38b2-4895-b6d7-d8832b6ada13"]
+---
+time 1713460301
+old [dep_41fe261c-7f30-42e0-84ab-d1d8012b842f:"x" dep_4d06affe-beaa-4a28-b250-393e60ea8d2c:"x" dep_a540b981-38b2-4895-b6d7-d8832b6ada13:"x" dep_dcdc0eee-a000-494d-88f3-19139048c5c5:"x" depends:"41fe261c-7f30-42e0-84ab-d1d8012b842f,4d06affe-beaa-4a28-b250-393e60ea8d2c,a540b981-38b2-4895-b6d7-d8832b6ada13,dcdc0eee-a000-494d-88f3-19139048c5c5" description:"Clean car" due:"1713448800" entry:"1713415006" modified:"1713446557" status:"pending" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
+new [dep_41fe261c-7f30-42e0-84ab-d1d8012b842f:"x" dep_4d06affe-beaa-4a28-b250-393e60ea8d2c:"x" dep_a540b981-38b2-4895-b6d7-d8832b6ada13:"x" dep_dcdc0eee-a000-494d-88f3-19139048c5c5:"x" depends:"41fe261c-7f30-42e0-84ab-d1d8012b842f,4d06affe-beaa-4a28-b250-393e60ea8d2c,a540b981-38b2-4895-b6d7-d8832b6ada13,dcdc0eee-a000-494d-88f3-19139048c5c5" description:"Clean car" due:"1713448800" end:"1713460299" entry:"1713415006" modified:"1713460301" status:"deleted" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
+---
+time 1713460343
+new [description:"Create a task set. In short, make a script which creates sets of tasks to avoid entering them manually" entry:"1713460343" modified:"1713460343" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"04a21066-b47e-4749-b3ad-e4cd3a92c4c1"]
+---
+time 1713460371
+new [description:"inflate tires" due:"1713461571" entry:"1713460371" modified:"1713460371" status:"pending" uuid:"44a9398f-5b12-46fc-af63-9d880e553b5e"]
+---
+time 1713460431
+old [description:"Sell bike" entry:"1713411256" modified:"1713411256" project:"Sell stock" status:"pending" uuid:"e995bd5a-5b64-443e-a7ad-e1e95c0a8848"]
+new [description:"Sell bike" entry:"1713411256" modified:"1713460431" project:"Sell stock" scheduled:"1713499200" status:"pending" uuid:"e995bd5a-5b64-443e-a7ad-e1e95c0a8848"]
+---
+time 1713460431
+old [description:"Sell scooter" entry:"1713411279" modified:"1713411279" project:"Sell stock" status:"pending" uuid:"d63efea7-6e4c-473a-9a4d-9b4e867fbc01"]
+new [description:"Sell scooter" entry:"1713411279" modified:"1713460431" project:"Sell stock" scheduled:"1713499200" status:"pending" uuid:"d63efea7-6e4c-473a-9a4d-9b4e867fbc01"]
+---
+time 1713460462
+new [description:"oil change" due:"1713499200" entry:"1713460462" modified:"1713460462" status:"pending" uuid:"e18a9954-1e43-4089-a459-721de0345332"]
+---
+time 1713460490
+old [description:"oil change" due:"1713499200" entry:"1713460462" modified:"1713460462" status:"pending" uuid:"e18a9954-1e43-4089-a459-721de0345332"]
+new [dep_515c77db-ba24-4376-96e5-b5070eb21c98:"x" depends:"515c77db-ba24-4376-96e5-b5070eb21c98" description:"oil change" due:"1713499200" entry:"1713460462" modified:"1713460490" status:"pending" uuid:"e18a9954-1e43-4089-a459-721de0345332"]
+---
+time 1713460524
+old [cat:"HOM" description:"mount dishrack" entry:"1713369426" modified:"1713370447" priority:"L" project:"Kitchen" scheduled:"1713801426" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"f169a9df-1c31-4d66-810c-e445b6cd25b1"]
+new [cat:"HOM" description:"mount dishrack" entry:"1713369426" modified:"1713460524" priority:"L" project:"Kitchen" scheduled:"1713801426" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"f169a9df-1c31-4d66-810c-e445b6cd25b1" wait:"1713892524"]
+---
+time 1713460578
+old [description:"Sell bike" entry:"1713411256" modified:"1713460431" project:"Sell stock" scheduled:"1713499200" status:"pending" uuid:"e995bd5a-5b64-443e-a7ad-e1e95c0a8848"]
+new [description:"Sell bike" entry:"1713411256" modified:"1713460578" project:"sell-stock" scheduled:"1713499200" status:"pending" uuid:"e995bd5a-5b64-443e-a7ad-e1e95c0a8848"]
+---
+time 1713460578
+old [description:"Sell scooter" entry:"1713411279" modified:"1713460431" project:"Sell stock" scheduled:"1713499200" status:"pending" uuid:"d63efea7-6e4c-473a-9a4d-9b4e867fbc01"]
+new [description:"Sell scooter" entry:"1713411279" modified:"1713460578" project:"sell-stock" scheduled:"1713499200" status:"pending" uuid:"d63efea7-6e4c-473a-9a4d-9b4e867fbc01"]
+---
+time 1713460579
+old [description:"Sell TV" entry:"1713411283" modified:"1713411283" project:"Sell stock" status:"pending" uuid:"429cc2cd-372d-40f1-9c1a-03712239e0e5"]
+new [description:"Sell TV" entry:"1713411283" modified:"1713460579" project:"sell-stock" status:"pending" uuid:"429cc2cd-372d-40f1-9c1a-03712239e0e5"]
+---
+time 1713460580
+old [description:"Look through storage for other sellables" entry:"1713411327" modified:"1713411327" project:"Sell stock" status:"pending" uuid:"e01ed830-37d0-4267-8016-eeb7b862779a"]
+new [description:"Look through storage for other sellables" entry:"1713411327" modified:"1713460580" project:"sell-stock" status:"pending" uuid:"e01ed830-37d0-4267-8016-eeb7b862779a"]
+---
+time 1713460581
+old [description:"Take pictures of bike, and scooter" entry:"1713411356" modified:"1713411356" project:"Sell stock" status:"pending" uuid:"cf8e2520-fc25-40ef-896a-fc3f813dcd8c"]
+new [description:"Take pictures of bike, and scooter" entry:"1713411356" modified:"1713460581" project:"sell-stock" status:"pending" uuid:"cf8e2520-fc25-40ef-896a-fc3f813dcd8c"]
+---
+time 1713460609
+old [description:"Sell bike" entry:"1713411256" modified:"1713460578" project:"sell-stock" scheduled:"1713499200" status:"pending" uuid:"e995bd5a-5b64-443e-a7ad-e1e95c0a8848"]
+new [description:"Sell bike" entry:"1713411256" modified:"1713460609" project:"sell-stock" scheduled:"1713499200" status:"pending" uuid:"e995bd5a-5b64-443e-a7ad-e1e95c0a8848" wait:"1713892604"]
+---
+time 1713460609
+old [description:"Sell scooter" entry:"1713411279" modified:"1713460578" project:"sell-stock" scheduled:"1713499200" status:"pending" uuid:"d63efea7-6e4c-473a-9a4d-9b4e867fbc01"]
+new [description:"Sell scooter" entry:"1713411279" modified:"1713460609" project:"sell-stock" scheduled:"1713499200" status:"pending" uuid:"d63efea7-6e4c-473a-9a4d-9b4e867fbc01" wait:"1713892609"]
+---
+time 1713460610
+old [description:"Sell TV" entry:"1713411283" modified:"1713460579" project:"sell-stock" status:"pending" uuid:"429cc2cd-372d-40f1-9c1a-03712239e0e5"]
+new [description:"Sell TV" entry:"1713411283" modified:"1713460610" project:"sell-stock" status:"pending" uuid:"429cc2cd-372d-40f1-9c1a-03712239e0e5" wait:"1713892609"]
+---
+time 1713460611
+old [description:"Look through storage for other sellables" entry:"1713411327" modified:"1713460580" project:"sell-stock" status:"pending" uuid:"e01ed830-37d0-4267-8016-eeb7b862779a"]
+new [description:"Look through storage for other sellables" entry:"1713411327" modified:"1713460611" project:"sell-stock" status:"pending" uuid:"e01ed830-37d0-4267-8016-eeb7b862779a" wait:"1713892610"]
+---
+time 1713460612
+old [description:"Take pictures of bike, and scooter" entry:"1713411356" modified:"1713460581" project:"sell-stock" status:"pending" uuid:"cf8e2520-fc25-40ef-896a-fc3f813dcd8c"]
+new [description:"Take pictures of bike, and scooter" entry:"1713411356" modified:"1713460612" project:"sell-stock" status:"pending" uuid:"cf8e2520-fc25-40ef-896a-fc3f813dcd8c" wait:"1713892611"]
+---
+time 1713460650
+old [cat:"WRK" dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" depends:"62e9cba8-5701-4448-8cf2-d64523bf8c57,ddfc83e0-6781-4319-98f1-a33b325d1d90" description:"Get back to work ASAP" entry:"1713314351" modified:"1713369839" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+new [cat:"WRK" dep_44a9398f-5b12-46fc-af63-9d880e553b5e:"x" dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" depends:"44a9398f-5b12-46fc-af63-9d880e553b5e,62e9cba8-5701-4448-8cf2-d64523bf8c57,ddfc83e0-6781-4319-98f1-a33b325d1d90" description:"Get back to work ASAP" entry:"1713314351" modified:"1713460650" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+---
+time 1713460728
+old [cat:"WRK" dep_44a9398f-5b12-46fc-af63-9d880e553b5e:"x" dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" depends:"44a9398f-5b12-46fc-af63-9d880e553b5e,62e9cba8-5701-4448-8cf2-d64523bf8c57,ddfc83e0-6781-4319-98f1-a33b325d1d90" description:"Get back to work ASAP" entry:"1713314351" modified:"1713460650" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+new [cat:"WRK" dep_44a9398f-5b12-46fc-af63-9d880e553b5e:"x" dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"44a9398f-5b12-46fc-af63-9d880e553b5e,62e9cba8-5701-4448-8cf2-d64523bf8c57,ddfc83e0-6781-4319-98f1-a33b325d1d90,ff6941d0-97e9-4061-ab7d-c1913078673a" description:"Get back to work ASAP" entry:"1713314351" modified:"1713460728" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+---
+time 1713460728
+old [description:"inflate tires" due:"1713461571" entry:"1713460371" modified:"1713460371" status:"pending" uuid:"44a9398f-5b12-46fc-af63-9d880e553b5e"]
+new [dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"ff6941d0-97e9-4061-ab7d-c1913078673a" description:"inflate tires" due:"1713461571" entry:"1713460371" modified:"1713460728" status:"pending" uuid:"44a9398f-5b12-46fc-af63-9d880e553b5e"]
+---
+time 1713460765
+old [description:"Get wallet" entry:"1713411459" modified:"1713411459" status:"pending" uuid:"ff6941d0-97e9-4061-ab7d-c1913078673a"]
+new [description:"Get wallet" entry:"1713411459" modified:"1713460765" status:"pending" tags:"next" tags_next:"x" uuid:"ff6941d0-97e9-4061-ab7d-c1913078673a"]
+---
+time 1713461064
+new [description:"x" entry:"1713461064" modified:"1713461064" status:"pending" tags:"critical" tags_critical:"x" uuid:"b2401952-8b3d-40d9-9413-49fe61c11e0c"]
+---

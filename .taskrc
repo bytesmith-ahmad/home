@@ -82,7 +82,9 @@ report.simple.labels=ID,Proj,Desc                       # Labels are the column 
 report.simple.sort=project+\/,entry+                    # The / solidus indicates that project is a break column, which means a blank line is inserted between unique values, for a visual grouping effect.
 report.simple.filter=status:pending limit:5             # Otherwise our report will just display all tasks
 
-# <insert custom config> **********************************
+# special tags **********************************
+
+urgency.user.tag.critical.coefficient=100
 
 # <insert custom config> **********************************
 
