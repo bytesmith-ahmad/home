@@ -326,3 +326,7 @@
 {"description":"inflate tires","due":"20240418T173251Z","entry":"20240418T171251Z","modified":"20240418T171848Z","status":"pending","uuid":"44a9398f-5b12-46fc-af63-9d880e553b5e","depends":["ff6941d0-97e9-4061-ab7d-c1913078673a"]}
 {"description":"Get wallet","entry":"20240418T033739Z","modified":"20240418T171925Z","status":"pending","uuid":"ff6941d0-97e9-4061-ab7d-c1913078673a","tags":["next"]}
 {"description":"x","entry":"20240418T172424Z","modified":"20240418T172424Z","status":"pending","uuid":"b2401952-8b3d-40d9-9413-49fe61c11e0c","tags":["critical"]}
+{"description":"x","end":"20240418T204806Z","entry":"20240418T172424Z","modified":"20240418T204807Z","status":"deleted","uuid":"b2401952-8b3d-40d9-9413-49fe61c11e0c","tags":["critical"]}
+{"description":"Get wallet","end":"20240418T204831Z","entry":"20240418T033739Z","modified":"20240418T204831Z","status":"completed","uuid":"ff6941d0-97e9-4061-ab7d-c1913078673a","tags":["next"]}
+{"description":"return money to mechanic shed:10min","entry":"20240418T210501Z","modified":"20240418T210501Z","status":"pending","uuid":"45fc1ec4-8830-4d43-a553-e8a65e19ed39"}
+{"description":"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo","entry":"20240418T211448Z","modified":"20240418T211448Z","scheduled":"20240419T000000Z","status":"pending","uuid":"e35578ab-9f61-4f75-a220-0d9465338cdd"}

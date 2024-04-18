@@ -1178,3 +1178,17 @@ new [description:"Get wallet" entry:"1713411459" modified:"1713460765" status:"p
 time 1713461064
 new [description:"x" entry:"1713461064" modified:"1713461064" status:"pending" tags:"critical" tags_critical:"x" uuid:"b2401952-8b3d-40d9-9413-49fe61c11e0c"]
 ---
+time 1713473287
+old [description:"x" entry:"1713461064" modified:"1713461064" status:"pending" tags:"critical" tags_critical:"x" uuid:"b2401952-8b3d-40d9-9413-49fe61c11e0c"]
+new [description:"x" end:"1713473286" entry:"1713461064" modified:"1713473287" status:"deleted" tags:"critical" tags_critical:"x" uuid:"b2401952-8b3d-40d9-9413-49fe61c11e0c"]
+---
+time 1713473311
+old [description:"Get wallet" entry:"1713411459" modified:"1713460765" status:"pending" tags:"next" tags_next:"x" uuid:"ff6941d0-97e9-4061-ab7d-c1913078673a"]
+new [description:"Get wallet" end:"1713473311" entry:"1713411459" modified:"1713473311" status:"completed" tags:"next" tags_next:"x" uuid:"ff6941d0-97e9-4061-ab7d-c1913078673a"]
+---
+time 1713474301
+new [description:"return money to mechanic shed:10min" entry:"1713474301" modified:"1713474301" status:"pending" uuid:"45fc1ec4-8830-4d43-a553-e8a65e19ed39"]
+---
+time 1713474888
+new [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713474888" scheduled:"1713484800" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+---
