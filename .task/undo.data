@@ -920,3 +920,89 @@ time 1713370447
 old [cat:"HOM" description:"mount dishrack" entry:"1713369426" modified:"1713369582" priority:"M" project:"Kitchen" scheduled:"1713801426" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"f169a9df-1c31-4d66-810c-e445b6cd25b1"]
 new [cat:"HOM" description:"mount dishrack" entry:"1713369426" modified:"1713370447" priority:"L" project:"Kitchen" scheduled:"1713801426" status:"pending" tags:"HOME" tags_HOME:"x" uuid:"f169a9df-1c31-4d66-810c-e445b6cd25b1"]
 ---
+time 1713391114
+old [description:"get jack stand to change tires" entry:"1713369822" modified:"1713369822" status:"pending" tags:"errand" tags_errand:"x" uuid:"62e9cba8-5701-4448-8cf2-d64523bf8c57"]
+new [description:"get jack stand to change tires" end:"1713391114" entry:"1713369822" modified:"1713391114" status:"completed" tags:"errand" tags_errand:"x" uuid:"62e9cba8-5701-4448-8cf2-d64523bf8c57"]
+---
+time 1713391212
+old [description:"DB final @D101" due:"1713380400" entry:"1713065586" modified:"1713065707" priority:"H" status:"pending" tags:"appointment" tags_appointment:"x" uuid:"15f8f7b8-7958-4765-9db2-13264be7fabb"]
+new [description:"DB final @D101" due:"1713380400" end:"1713391212" entry:"1713065586" modified:"1713391212" priority:"H" status:"completed" tags:"appointment" tags_appointment:"x" uuid:"15f8f7b8-7958-4765-9db2-13264be7fabb"]
+---
+time 1713391248
+old [description:"Buy piece of wood to replace jack stand @Totem" entry:"1713368086" modified:"1713368086" scheduled:"1713387600" status:"pending" tags:"errand" tags_errand:"x" uuid:"ddfc83e0-6781-4319-98f1-a33b325d1d90"]
+new [description:"Buy piece of wood to replace jack stand @Totem" end:"1713391244" entry:"1713368086" modified:"1713391248" scheduled:"1713387600" status:"deleted" tags:"errand" tags_errand:"x" uuid:"ddfc83e0-6781-4319-98f1-a33b325d1d90"]
+---
+time 1713391286
+old [description:"Go to DJ to cash in money" entry:"1713369018" modified:"1713369018" status:"pending" tags:"errand,finance" tags_errand:"x" tags_finance:"x" uuid:"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf"]
+new [description:"Go to DJ to cash in money" entry:"1713369018" modified:"1713391286" status:"pending" tags:"errand,finance" tags_errand:"x" tags_finance:"x" uuid:"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf" wait:"1713402086"]
+---
+time 1713391410
+old [description:"Check mail sitting on desk" entry:"1712868593" modified:"1713101588" priority:"H" scheduled:"1714091426" status:"pending" tags:"admin" tags_admin:"x" uuid:"fb8dbed5-d6fd-4813-b57b-c28691849e34"]
+new [description:"Check mail sitting on desk" entry:"1712868593" modified:"1713391410" priority:"H" scheduled:"1714091426" status:"pending" tags:"admin" tags_admin:"x" uuid:"fb8dbed5-d6fd-4813-b57b-c28691849e34" wait:"1713564210"]
+---
+time 1713391470
+new [description:"switch tires" entry:"1713391469" modified:"1713391469" scheduled:"1713393269" status:"pending" uuid:"af8a986c-c842-427d-a415-8ab56c8c2c96"]
+---
+time 1713391499
+old [description:"switch tires" entry:"1713391469" modified:"1713391469" scheduled:"1713393269" status:"pending" uuid:"af8a986c-c842-427d-a415-8ab56c8c2c96"]
+new [description:"switch tires" entry:"1713391469" modified:"1713391499" scheduled:"1713393269" status:"pending" tags:"next" tags_next:"x" uuid:"af8a986c-c842-427d-a415-8ab56c8c2c96"]
+---
+time 1713392716
+old [description:"switch tires" entry:"1713391469" modified:"1713391499" scheduled:"1713393269" status:"pending" tags:"next" tags_next:"x" uuid:"af8a986c-c842-427d-a415-8ab56c8c2c96"]
+new [description:"switch tires" entry:"1713391469" modified:"1713392716" scheduled:"1713393269" start:"1713392716" status:"pending" tags:"next" tags_next:"x" uuid:"af8a986c-c842-427d-a415-8ab56c8c2c96"]
+---
+time 1713405577
+old [description:"switch tires" entry:"1713391469" modified:"1713392716" scheduled:"1713393269" start:"1713392716" status:"pending" tags:"next" tags_next:"x" uuid:"af8a986c-c842-427d-a415-8ab56c8c2c96"]
+new [annotation_1713405577:"annot:Put grease next time" description:"switch tires" end:"1713405577" entry:"1713391469" modified:"1713405577" scheduled:"1713393269" status:"completed" tags:"next" tags_next:"x" uuid:"af8a986c-c842-427d-a415-8ab56c8c2c96"]
+---
+time 1713406725
+new [description:"cv to zahra" entry:"1713406725" modified:"1713406725" status:"pending" uuid:"2c8be475-e440-4b0d-acb0-139e0c69e03b"]
+---
+time 1713411256
+new [description:"Sell bike" entry:"1713411256" modified:"1713411256" project:"Sell stock" status:"pending" uuid:"e995bd5a-5b64-443e-a7ad-e1e95c0a8848"]
+---
+time 1713411279
+new [description:"Sell scooter" entry:"1713411279" modified:"1713411279" project:"Sell stock" status:"pending" uuid:"d63efea7-6e4c-473a-9a4d-9b4e867fbc01"]
+---
+time 1713411283
+new [description:"Sell TV" entry:"1713411283" modified:"1713411283" project:"Sell stock" status:"pending" uuid:"429cc2cd-372d-40f1-9c1a-03712239e0e5"]
+---
+time 1713411327
+new [description:"Look through storage for other sellables" entry:"1713411327" modified:"1713411327" project:"Sell stock" status:"pending" uuid:"e01ed830-37d0-4267-8016-eeb7b862779a"]
+---
+time 1713411356
+new [description:"Take pictures of bike, and scooter" entry:"1713411356" modified:"1713411356" project:"Sell stock" status:"pending" uuid:"cf8e2520-fc25-40ef-896a-fc3f813dcd8c"]
+---
+time 1713411459
+new [description:"Get wallet" entry:"1713411459" modified:"1713411459" status:"pending" uuid:"ff6941d0-97e9-4061-ab7d-c1913078673a"]
+---
+time 1713411472
+old [description:"Go to DJ to cash in money" entry:"1713369018" modified:"1713391286" status:"pending" tags:"errand,finance" tags_errand:"x" tags_finance:"x" uuid:"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf" wait:"1713402086"]
+new [dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"ff6941d0-97e9-4061-ab7d-c1913078673a" description:"Go to DJ to cash in money" entry:"1713369018" modified:"1713411472" status:"pending" tags:"errand,finance" tags_errand:"x" tags_finance:"x" uuid:"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf" wait:"1713402086"]
+---
+time 1713411539
+new [description:"cleaning test test" entry:"1713411539" modified:"1713411539" project:"Car" status:"pending" uuid:"36cf8911-7234-4b12-b1c7-cdb90731e090"]
+---
+time 1713411624
+old [description:"cleaning test test" entry:"1713411539" modified:"1713411539" project:"Car" status:"pending" uuid:"36cf8911-7234-4b12-b1c7-cdb90731e090"]
+new [description:"cleaning test test" entry:"1713411539" modified:"1713411624" priority:"H" project:"Car cleaning" status:"pending" uuid:"36cf8911-7234-4b12-b1c7-cdb90731e090"]
+---
+time 1713411806
+old [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713369967" priority:"L" project:"bash" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+new [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713411806" priority:"L" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+---
+time 1713411812
+old [description:"consider making task private with it's own private github" entry:"1713029463" modified:"1713370078" project:"bash" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"289423dd-ae5b-4fd5-9f3d-a0aa461455fc"]
+new [description:"consider making task private with it's own private github" entry:"1713029463" modified:"1713411812" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"289423dd-ae5b-4fd5-9f3d-a0aa461455fc"]
+---
+time 1713411818
+old [description:"Look into Go for TUIs instead of Python" entry:"1713047136" modified:"1713370137" project:"bash" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"b164e17d-4a32-4f7b-b6f7-350616350ec4"]
+new [description:"Look into Go for TUIs instead of Python" entry:"1713047136" modified:"1713411818" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"b164e17d-4a32-4f7b-b6f7-350616350ec4"]
+---
+time 1713411869
+old [dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" depends:"62e9cba8-5701-4448-8cf2-d64523bf8c57" description:"Get car ready to pick her up" entry:"1713042724" modified:"1713369934" project:"Bring wife" status:"pending" tags:"afterexams" tags_afterexams:"x" uuid:"18ca7721-fd6c-43a1-88e6-819a262d11d0"]
+new [dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" depends:"62e9cba8-5701-4448-8cf2-d64523bf8c57" description:"Get car ready to pick her up" end:"1713411866" entry:"1713042724" modified:"1713411869" project:"Bring wife" status:"deleted" tags:"afterexams" tags_afterexams:"x" uuid:"18ca7721-fd6c-43a1-88e6-819a262d11d0"]
+---
+time 1713415006
+new [description:"Clean car" due:"1713448800" entry:"1713415006" modified:"1713415006" status:"pending" tags:"work" tags_work:"x" uuid:"8c131cc5-1278-4c48-8aae-1714b430215b"]
+---
