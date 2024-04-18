@@ -1,11 +1,11 @@
 # Ignore everything...
 /*
 
-# ... except for these directories ...
+# ... but do not ignore those directories ...
 !/aux/
 !/bin/
 
-# ... and except for those files
+# ... nor ignore those files.
 !.bashrc
 !.idearc
 !.taskrc
