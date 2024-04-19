@@ -108,5 +108,5 @@ if ! shopt -oq posix; then
 fi
 
 #^ Run these scripts to configure my terminal environment
-. ~/bin/.config
-. ~/bin/startup.sh
+source ~/bin/bashconfig.sh
+source ~/bin/startup.sh
