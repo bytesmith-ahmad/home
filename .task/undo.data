@@ -1192,3 +1192,150 @@ new [description:"return money to mechanic shed:10min" entry:"1713474301" modifi
 time 1713474888
 new [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713474888" scheduled:"1713484800" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
 ---
+time 1713485257
+new [description:"TAXES" due:"1713571657" entry:"1713485257" modified:"1713485257" status:"pending" tags:"next" tags_next:"x" uuid:"90239a6c-a84e-4b28-add6-0eafa70bed6f"]
+---
+time 1713485267
+old [dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"ff6941d0-97e9-4061-ab7d-c1913078673a" description:"inflate tires" due:"1713461571" entry:"1713460371" modified:"1713460728" status:"pending" uuid:"44a9398f-5b12-46fc-af63-9d880e553b5e"]
+new [dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"ff6941d0-97e9-4061-ab7d-c1913078673a" description:"inflate tires" due:"1713461571" end:"1713485267" entry:"1713460371" modified:"1713485267" status:"completed" uuid:"44a9398f-5b12-46fc-af63-9d880e553b5e"]
+---
+time 1713485279
+old [dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"ff6941d0-97e9-4061-ab7d-c1913078673a" description:"Go to DJ to cash in money" entry:"1713369018" modified:"1713411472" status:"pending" tags:"errand,finance" tags_errand:"x" tags_finance:"x" uuid:"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf" wait:"1713402086"]
+new [dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"ff6941d0-97e9-4061-ab7d-c1913078673a" description:"Go to DJ to cash in money" end:"1713485279" entry:"1713369018" modified:"1713485279" status:"completed" tags:"errand,finance" tags_errand:"x" tags_finance:"x" uuid:"cc4b11d7-a406-4540-a6e5-89dfd4a1fcdf" wait:"1713402086"]
+---
+time 1713485423
+old [cat:"WRK" dep_44a9398f-5b12-46fc-af63-9d880e553b5e:"x" dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"44a9398f-5b12-46fc-af63-9d880e553b5e,62e9cba8-5701-4448-8cf2-d64523bf8c57,ddfc83e0-6781-4319-98f1-a33b325d1d90,ff6941d0-97e9-4061-ab7d-c1913078673a" description:"Get back to work ASAP" entry:"1713314351" modified:"1713460728" priority:"H" scheduled:"1713919151" status:"pending" tags:"WORK" tags_WORK:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+new [cat:"WRK" dep_44a9398f-5b12-46fc-af63-9d880e553b5e:"x" dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"44a9398f-5b12-46fc-af63-9d880e553b5e,62e9cba8-5701-4448-8cf2-d64523bf8c57,ddfc83e0-6781-4319-98f1-a33b325d1d90,ff6941d0-97e9-4061-ab7d-c1913078673a" description:"work" entry:"1713314351" modified:"1713485423" priority:"H" scheduled:"1713434400" status:"pending" tags:"work" tags_work:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+---
+time 1713485521
+old [cat:"WRK" dep_44a9398f-5b12-46fc-af63-9d880e553b5e:"x" dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"44a9398f-5b12-46fc-af63-9d880e553b5e,62e9cba8-5701-4448-8cf2-d64523bf8c57,ddfc83e0-6781-4319-98f1-a33b325d1d90,ff6941d0-97e9-4061-ab7d-c1913078673a" description:"work" entry:"1713314351" modified:"1713485423" priority:"H" scheduled:"1713434400" status:"pending" tags:"work" tags_work:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+new [cat:"WRK" dep_44a9398f-5b12-46fc-af63-9d880e553b5e:"x" dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"44a9398f-5b12-46fc-af63-9d880e553b5e,62e9cba8-5701-4448-8cf2-d64523bf8c57,ddfc83e0-6781-4319-98f1-a33b325d1d90,ff6941d0-97e9-4061-ab7d-c1913078673a" description:"work" entry:"1713314351" modified:"1713485521" priority:"H" scheduled:"1713520800" status:"pending" tags_work:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+---
+time 1713485571
+old [cat:"WRK" dep_44a9398f-5b12-46fc-af63-9d880e553b5e:"x" dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" dep_ddfc83e0-6781-4319-98f1-a33b325d1d90:"x" dep_ff6941d0-97e9-4061-ab7d-c1913078673a:"x" depends:"44a9398f-5b12-46fc-af63-9d880e553b5e,62e9cba8-5701-4448-8cf2-d64523bf8c57,ddfc83e0-6781-4319-98f1-a33b325d1d90,ff6941d0-97e9-4061-ab7d-c1913078673a" description:"work" entry:"1713314351" modified:"1713485521" priority:"H" scheduled:"1713520800" status:"pending" tags:"work" tags_work:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+new [cat:"WRK" description:"work" entry:"1713314351" modified:"1713485571" priority:"H" scheduled:"1713520800" status:"pending" tags_work:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+---
+time 1713485608
+old [dep_515c77db-ba24-4376-96e5-b5070eb21c98:"x" depends:"515c77db-ba24-4376-96e5-b5070eb21c98" description:"oil change" due:"1713499200" entry:"1713460462" modified:"1713460490" status:"pending" uuid:"e18a9954-1e43-4089-a459-721de0345332"]
+new [description:"oil change" due:"1713499200" entry:"1713460462" modified:"1713485608" status:"pending" uuid:"e18a9954-1e43-4089-a459-721de0345332"]
+---
+time 1713485656
+old [description:"oil change" due:"1713499200" entry:"1713460462" modified:"1713485608" status:"pending" uuid:"e18a9954-1e43-4089-a459-721de0345332"]
+new [description:"oil change" due:"1713585600" entry:"1713460462" modified:"1713485656" status:"pending" uuid:"e18a9954-1e43-4089-a459-721de0345332"]
+---
+time 1713486569
+new [description:"monitor brightspace" due:"1713499199" entry:"1713486569" modified:"1713486569" recur:"1d" rtype:"periodic" status:"recurring" uuid:"3f753306-d306-44b1-9efd-2fd5d11bbb94" wait:"1713832169"]
+---
+time 1713486573
+new [description:"monitor brightspace" due:"1713499199" entry:"1713486573" imask:"0" modified:"1713486569" parent:"3f753306-d306-44b1-9efd-2fd5d11bbb94" recur:"1d" rtype:"periodic" status:"pending" uuid:"d9f03e4b-8d28-4bbf-a7fd-e37e47bb7e76" wait:"1713832169"]
+---
+time 1713486573
+old [description:"monitor brightspace" due:"1713499199" entry:"1713486569" modified:"1713486569" recur:"1d" rtype:"periodic" status:"recurring" uuid:"3f753306-d306-44b1-9efd-2fd5d11bbb94" wait:"1713832169"]
+new [description:"monitor brightspace" due:"1713499199" entry:"1713486569" mask:"W" modified:"1713486573" recur:"1d" rtype:"periodic" status:"recurring" uuid:"3f753306-d306-44b1-9efd-2fd5d11bbb94" wait:"1713832169"]
+---
+time 1713486634
+old [description:"monitor brightspace" due:"1713499199" entry:"1713486569" mask:"W" modified:"1713486573" recur:"1d" rtype:"periodic" status:"recurring" uuid:"3f753306-d306-44b1-9efd-2fd5d11bbb94" wait:"1713832169"]
+new [description:"monitor brightspace" due:"1713844799" entry:"1713486569" mask:"W" modified:"1713486634" recur:"1d" rtype:"periodic" status:"recurring" uuid:"3f753306-d306-44b1-9efd-2fd5d11bbb94" wait:"1713832169"]
+---
+time 1713486957
+old [description:"DJ requested 580$ by april 24th, MUST CALL so they can withdraw" due:"1713931200" entry:"1713370426" modified:"1713370426" status:"pending" tags:"finance" tags_finance:"x" uuid:"f5e9035f-bef8-4de7-b9ac-3b24da770c38"]
+new [description:"DJ requested 580$ by april 24th, MUST CALL so they can withdraw" due:"1713931200" entry:"1713370426" modified:"1713486957" status:"pending" tags:"finance" tags_finance:"x" uuid:"f5e9035f-bef8-4de7-b9ac-3b24da770c38" wait:"1713659757"]
+---
+time 1713487138
+old [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713474888" scheduled:"1713484800" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+new [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713487138" scheduled:"1713484800" start:"1713487138" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+---
+time 1713487487
+old [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713487138" scheduled:"1713484800" start:"1713487138" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+new [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713487487" scheduled:"1713484800" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+---
+time 1713487496
+old [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713487487" scheduled:"1713484800" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+new [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713487496" scheduled:"1713484800" start:"1713487496" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+---
+time 1713487518
+old [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713487496" scheduled:"1713484800" start:"1713487496" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+new [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713487518" scheduled:"1713484800" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+---
+time 1713488759
+old [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713487518" scheduled:"1713484800" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+new [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713488759" scheduled:"1713484800" start:"1713488759" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+---
+time 1713548368
+new [description:"set up dropbox" entry:"1713548368" modified:"1713548368" status:"pending" uuid:"beeed07c-c494-4909-b821-482789072de4"]
+---
+time 1713548377
+new [description:"look up NAS" entry:"1713548377" modified:"1713548377" status:"pending" uuid:"04fb8610-38d5-49dd-80a2-17d76507487f"]
+---
+time 1713548389
+new [description:"publish poparide" entry:"1713548389" modified:"1713548389" status:"pending" uuid:"075b3870-49e2-48d7-8a6e-b5d0061dac62"]
+---
+time 1713548459
+new [description:"taxes" entry:"1713548459" modified:"1713548459" priority:"H" status:"pending" uuid:"53947f7a-a9d6-476c-a45d-ca04e51da43b"]
+---
+time 1713548496
+old [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713488759" scheduled:"1713484800" start:"1713488759" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+new [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713548496" scheduled:"1713484800" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
+---
+time 1713548563
+new [description:"adjust sidequest urg" entry:"1713548563" modified:"1713548563" scheduled:"1713548563" status:"pending" uuid:"7f3baa70-8106-44f2-97ed-739034c75ac4"]
+---
+time 1713551202
+new [description:"test" entry:"1713551202" modified:"1713551202" status:"pending" tags:"critical" tags_critical:"x" uuid:"885d881f-3d5f-4c40-bd9c-7d10e9bc9537"]
+---
+time 1713551770
+old [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713411806" priority:"L" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+new [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713551770" status:"pending" tags_sidequest:"x" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+---
+time 1713552451
+old [description:"test" entry:"1713551202" modified:"1713551202" status:"pending" tags:"critical" tags_critical:"x" uuid:"885d881f-3d5f-4c40-bd9c-7d10e9bc9537"]
+new [description:"test" end:"1713552447" entry:"1713551202" modified:"1713552451" status:"deleted" tags:"critical" tags_critical:"x" uuid:"885d881f-3d5f-4c40-bd9c-7d10e9bc9537"]
+---
+time 1713552530
+old [description:"adjust sidequest urg" entry:"1713548563" modified:"1713548563" scheduled:"1713548563" status:"pending" uuid:"7f3baa70-8106-44f2-97ed-739034c75ac4"]
+new [description:"adjust sidequest urg" end:"1713552530" entry:"1713548563" modified:"1713552530" scheduled:"1713548563" status:"completed" uuid:"7f3baa70-8106-44f2-97ed-739034c75ac4"]
+---
+time 1713552542
+old [description:"taxes" entry:"1713548459" modified:"1713548459" priority:"H" status:"pending" uuid:"53947f7a-a9d6-476c-a45d-ca04e51da43b"]
+new [description:"taxes" end:"1713552540" entry:"1713548459" modified:"1713552542" priority:"H" status:"deleted" uuid:"53947f7a-a9d6-476c-a45d-ca04e51da43b"]
+---
+time 1713552650
+old [description:"return money to mechanic shed:10min" entry:"1713474301" modified:"1713474301" status:"pending" uuid:"45fc1ec4-8830-4d43-a553-e8a65e19ed39"]
+new [description:"return money to mechanic shed:10min" entry:"1713474301" modified:"1713552650" scheduled:"1713558600" status:"pending" uuid:"45fc1ec4-8830-4d43-a553-e8a65e19ed39"]
+---
+time 1713552700
+old [dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" depends:"62e9cba8-5701-4448-8cf2-d64523bf8c57" description:"Rotate tires" entry:"1713369877" modified:"1713369877" status:"pending" tags:"car" tags_car:"x" uuid:"224936cf-ffe9-44c5-9e22-ef748a86243d"]
+new [dep_62e9cba8-5701-4448-8cf2-d64523bf8c57:"x" depends:"62e9cba8-5701-4448-8cf2-d64523bf8c57" description:"Rotate tires" end:"1713552700" entry:"1713369877" modified:"1713552700" status:"completed" tags:"car" tags_car:"x" uuid:"224936cf-ffe9-44c5-9e22-ef748a86243d"]
+---
+time 1713552700
+old [description:"cv to zahra" entry:"1713406725" modified:"1713406725" status:"pending" uuid:"2c8be475-e440-4b0d-acb0-139e0c69e03b"]
+new [description:"cv to zahra" end:"1713552700" entry:"1713406725" modified:"1713552700" status:"completed" uuid:"2c8be475-e440-4b0d-acb0-139e0c69e03b"]
+---
+time 1713553190
+old [description:"set up dropbox" entry:"1713548368" modified:"1713548368" status:"pending" uuid:"beeed07c-c494-4909-b821-482789072de4"]
+new [description:"set up dropbox" entry:"1713548368" modified:"1713553190" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"beeed07c-c494-4909-b821-482789072de4"]
+---
+time 1713553190
+old [description:"look up NAS" entry:"1713548377" modified:"1713548377" status:"pending" uuid:"04fb8610-38d5-49dd-80a2-17d76507487f"]
+new [description:"look up NAS" entry:"1713548377" modified:"1713553190" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"04fb8610-38d5-49dd-80a2-17d76507487f"]
+---
+time 1713553455
+old [description:"move credentials from chrome to password-store" dir:"\/home\/ahmad\/test" entry:"1712864289" modified:"1713370066" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1"]
+new [description:"move credentials from chrome to password-store" dir:"\/home\/ahmad\/test" entry:"1712864289" modified:"1713553455" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"71c8f043-0e93-4d72-8db4-95f6eaec60e1" wait:"1713899055"]
+---
+time 1713553455
+old [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713551770" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047"]
+new [description:"Optionally link task to a folder, which is to be zipped and archived when done" entry:"1712865838" modified:"1713553455" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"c344a63c-da1a-4637-b417-ac5da8f42047" wait:"1713899055"]
+---
+time 1713554148
+old [annotation_1713334055:"docs stored as text in \/home\/ahmad\/arch\/pers*\/docs*.sql" cat:"SDQ" description:"Create tasks for expiring documents" entry:"1713333950" modified:"1713334055" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"5dd90969-aeb8-4402-973d-45f95903f7d9"]
+new [annotation_1713334055:"docs stored as text in \/home\/ahmad\/arch\/pers*\/docs*.sql" cat:"SDQ" description:"Create tasks for expiring documents" entry:"1713333950" modified:"1713554148" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"5dd90969-aeb8-4402-973d-45f95903f7d9" wait:"1713899748"]
+---
+time 1713554148
+old [annotation_1713334207:"Consider using Taskwarrior as database of choice for other data too" cat:"SDQ" description:"Migrate anniversaries to separate instance of Taskwarrior?" entry:"1713334160" modified:"1713334207" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"f46b8db7-72d1-4f50-8e3e-aa8d1b7cb628"]
+new [annotation_1713334207:"Consider using Taskwarrior as database of choice for other data too" cat:"SDQ" description:"Migrate anniversaries to separate instance of Taskwarrior?" entry:"1713334160" modified:"1713554148" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"f46b8db7-72d1-4f50-8e3e-aa8d1b7cb628" wait:"1713899748"]
+---
+time 1713554148
+old [annotation_1713334606:"Refer to https:\/\/taskwarrior.org\/docs\/hooks\/" cat:"SDQ" description:"Add hook\/script which creates directory on create, and another which opens directory" entry:"1713334385" modified:"1713334606" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"8db746de-aaae-4e10-b3bd-cced8e5d8a12"]
+new [annotation_1713334606:"Refer to https:\/\/taskwarrior.org\/docs\/hooks\/" cat:"SDQ" description:"Add hook\/script which creates directory on create, and another which opens directory" entry:"1713334385" modified:"1713554148" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"8db746de-aaae-4e10-b3bd-cced8e5d8a12" wait:"1713899748"]
+---
