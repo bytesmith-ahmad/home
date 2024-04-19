@@ -1370,3 +1370,28 @@ time 1713556905
 old [description:"dummy" entry:"1713556334" modified:"1713556334" status:"pending" uuid:"59668917-d706-4f6d-a65a-05c1c6726a0f"]
 new [description:"dummy" end:"1713556904" entry:"1713556334" modified:"1713556905" status:"deleted" uuid:"59668917-d706-4f6d-a65a-05c1c6726a0f"]
 ---
+time 1713557077
+new [description:"Mortgage (add recurring later)" due:"1711339200" entry:"1713557077" modified:"1713557077" status:"pending" uuid:"5faf40f9-3c7c-4f8b-a971-04abf91cb78d"]
+---
+time 1713557121
+new [description:"create interior-cleaning taskset script" entry:"1713557121" modified:"1713557121" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"a56bc6c8-60e5-43d8-9885-241ef55e0822"]
+---
+time 1713557149
+new [description:"create course package for friends" entry:"1713557149" modified:"1713557149" status:"pending" uuid:"4911ce90-50cc-4762-a4b8-3e01db82d348"]
+---
+time 1713557180
+new [description:"grease" entry:"1713557180" modified:"1713557180" status:"pending" tags:"shopping" tags_shopping:"x" uuid:"7f68df18-d50c-4f95-a6f6-fda6e00cc320" wait:"1714766780"]
+---
+time 1713557482
+new [description:"addign waiting task ddoes not return instant feedback with report last_insert" entry:"1713557482" modified:"1713557482" status:"pending" tags:"bug" tags_bug:"x" uuid:"c3f8ec39-506b-49ad-80b6-0d41c7520be7"]
+---
+time 1713557677
+new [description:"insert all overdue bills, start paying ASAP" entry:"1713557677" modified:"1713557677" priority:"H" scheduled:"1713585600" status:"pending" uuid:"57f3da3d-1405-4583-8797-c322a8706684"]
+---
+time 1713557715
+old [description:"publish poparide" entry:"1713548389" modified:"1713548389" status:"pending" uuid:"075b3870-49e2-48d7-8a6e-b5d0061dac62"]
+new [description:"publish poparide" entry:"1713548389" modified:"1713557715" start:"1713557715" status:"pending" uuid:"075b3870-49e2-48d7-8a6e-b5d0061dac62"]
+---
+time 1713557767
+new [description:"autopush tasks" entry:"1713557767" modified:"1713557767" priority:"L" status:"pending" uuid:"ba898597-68f8-4abe-b781-91f9ce6c1c48"]
+---

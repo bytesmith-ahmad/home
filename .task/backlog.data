@@ -380,3 +380,11 @@
 {"description":"dummy","end":"20240419T200142Z","entry":"20240419T193829Z","modified":"20240419T200143Z","status":"deleted","uuid":"35f090a7-2537-43f7-8c00-196834d8fbf8"}
 {"cat":"DUM","description":"sdfsdf","dir":"xx","due":"20240420T035959Z","end":"20240419T200143Z","entry":"20240419T193948Z","modified":"20240419T200144Z","priority":"L","project":"dummyproject","status":"deleted","uuid":"155e0a74-8a7c-4048-83ce-187ffa288c83","depends":["71c8f043-0e93-4d72-8db4-95f6eaec60e1"]}
 {"description":"dummy","end":"20240419T200144Z","entry":"20240419T195214Z","modified":"20240419T200145Z","status":"deleted","uuid":"59668917-d706-4f6d-a65a-05c1c6726a0f"}
+{"description":"Mortgage (add recurring later)","due":"20240325T040000Z","entry":"20240419T200437Z","modified":"20240419T200437Z","status":"pending","uuid":"5faf40f9-3c7c-4f8b-a971-04abf91cb78d"}
+{"description":"create interior-cleaning taskset script","entry":"20240419T200521Z","modified":"20240419T200521Z","status":"pending","uuid":"a56bc6c8-60e5-43d8-9885-241ef55e0822","tags":["sidequest"]}
+{"description":"create course package for friends","entry":"20240419T200549Z","modified":"20240419T200549Z","status":"pending","uuid":"4911ce90-50cc-4762-a4b8-3e01db82d348"}
+{"description":"grease","entry":"20240419T200620Z","modified":"20240419T200620Z","status":"pending","uuid":"7f68df18-d50c-4f95-a6f6-fda6e00cc320","wait":"20240503T200620Z","tags":["shopping"]}
+{"description":"addign waiting task ddoes not return instant feedback with report last_insert","entry":"20240419T201122Z","modified":"20240419T201122Z","status":"pending","uuid":"c3f8ec39-506b-49ad-80b6-0d41c7520be7","tags":["bug"]}
+{"description":"insert all overdue bills, start paying ASAP","entry":"20240419T201437Z","modified":"20240419T201437Z","priority":"H","scheduled":"20240420T040000Z","status":"pending","uuid":"57f3da3d-1405-4583-8797-c322a8706684"}
+{"description":"publish poparide","entry":"20240419T173949Z","modified":"20240419T201515Z","start":"20240419T201515Z","status":"pending","uuid":"075b3870-49e2-48d7-8a6e-b5d0061dac62"}
+{"description":"autopush tasks","entry":"20240419T201607Z","modified":"20240419T201607Z","priority":"L","status":"pending","uuid":"ba898597-68f8-4abe-b781-91f9ce6c1c48"}
