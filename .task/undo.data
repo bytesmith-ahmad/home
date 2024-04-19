@@ -1339,3 +1339,34 @@ time 1713554148
 old [annotation_1713334606:"Refer to https:\/\/taskwarrior.org\/docs\/hooks\/" cat:"SDQ" description:"Add hook\/script which creates directory on create, and another which opens directory" entry:"1713334385" modified:"1713334606" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"8db746de-aaae-4e10-b3bd-cced8e5d8a12"]
 new [annotation_1713334606:"Refer to https:\/\/taskwarrior.org\/docs\/hooks\/" cat:"SDQ" description:"Add hook\/script which creates directory on create, and another which opens directory" entry:"1713334385" modified:"1713554148" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"8db746de-aaae-4e10-b3bd-cced8e5d8a12" wait:"1713899748"]
 ---
+time 1713554907
+new [description:"add to arch -> Tire status = fr6 rr4 fl6 rl4" entry:"1713554907" modified:"1713554907" status:"pending" uuid:"074b3284-1a61-480c-bf84-b1f58db845e8"]
+---
+time 1713555017
+new [description:"dummy" entry:"1713555017" modified:"1713555017" status:"pending" uuid:"01e6ce18-9f42-40b6-84f7-189083dc1039"]
+---
+time 1713555509
+new [description:"dummy" entry:"1713555509" modified:"1713555509" status:"pending" uuid:"35f090a7-2537-43f7-8c00-196834d8fbf8"]
+---
+time 1713555588
+new [cat:"DUM" dep_71c8f043-0e93-4d72-8db4-95f6eaec60e1:"x" depends:"71c8f043-0e93-4d72-8db4-95f6eaec60e1" description:"sdfsdf" dir:"xx" due:"1713585599" entry:"1713555588" modified:"1713555588" priority:"L" project:"dummyproject" status:"pending" uuid:"155e0a74-8a7c-4048-83ce-187ffa288c83"]
+---
+time 1713556334
+new [description:"dummy" entry:"1713556334" modified:"1713556334" status:"pending" uuid:"59668917-d706-4f6d-a65a-05c1c6726a0f"]
+---
+time 1713556902
+old [description:"dummy" entry:"1713555017" modified:"1713555017" status:"pending" uuid:"01e6ce18-9f42-40b6-84f7-189083dc1039"]
+new [description:"dummy" end:"1713556899" entry:"1713555017" modified:"1713556902" status:"deleted" uuid:"01e6ce18-9f42-40b6-84f7-189083dc1039"]
+---
+time 1713556903
+old [description:"dummy" entry:"1713555509" modified:"1713555509" status:"pending" uuid:"35f090a7-2537-43f7-8c00-196834d8fbf8"]
+new [description:"dummy" end:"1713556902" entry:"1713555509" modified:"1713556903" status:"deleted" uuid:"35f090a7-2537-43f7-8c00-196834d8fbf8"]
+---
+time 1713556904
+old [cat:"DUM" dep_71c8f043-0e93-4d72-8db4-95f6eaec60e1:"x" depends:"71c8f043-0e93-4d72-8db4-95f6eaec60e1" description:"sdfsdf" dir:"xx" due:"1713585599" entry:"1713555588" modified:"1713555588" priority:"L" project:"dummyproject" status:"pending" uuid:"155e0a74-8a7c-4048-83ce-187ffa288c83"]
+new [cat:"DUM" dep_71c8f043-0e93-4d72-8db4-95f6eaec60e1:"x" depends:"71c8f043-0e93-4d72-8db4-95f6eaec60e1" description:"sdfsdf" dir:"xx" due:"1713585599" end:"1713556903" entry:"1713555588" modified:"1713556904" priority:"L" project:"dummyproject" status:"deleted" uuid:"155e0a74-8a7c-4048-83ce-187ffa288c83"]
+---
+time 1713556905
+old [description:"dummy" entry:"1713556334" modified:"1713556334" status:"pending" uuid:"59668917-d706-4f6d-a65a-05c1c6726a0f"]
+new [description:"dummy" end:"1713556904" entry:"1713556334" modified:"1713556905" status:"deleted" uuid:"59668917-d706-4f6d-a65a-05c1c6726a0f"]
+---
