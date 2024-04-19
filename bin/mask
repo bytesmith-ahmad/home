@@ -1,8 +1,16 @@
 #!/bin/bash
 
+# Check if there is exactly one argument
+if [ "$#" -eq 1 ]; then
+    task modify "$1" wait:1h
+    task limit:10
+    echo "Task $1 postponed successfully for 1 hour."
+    exit 0
+fi
+
 # Check if at least two arguments are provided
 if [ "$#" -lt 2 ]; then
-    echo "Usage: $0 <task1> <task2> ... <taskN>"
+    echo "Usage: $0 <id> <id> ... <duration>"
     exit 1
 fi
 
@@ -16,4 +24,5 @@ for ((i = 1; i < $#; i++)); do
     task modify "$task" wait:"$last_task"
 done
 
+task limit:10
 echo "Tasks postponed successfully."
