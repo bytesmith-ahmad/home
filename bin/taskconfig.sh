@@ -40,7 +40,16 @@ report.simple.labels=ID,Proj,Desc                       # Labels are the column 
 report.simple.sort=project+\/,entry+                    # The / solidus indicates that project is a break column, which means a blank line is inserted between unique values, for a visual grouping effect.
 report.simple.filter=status:pending limit:5             # Otherwise our report will just display all tasks
 
+# last inserted report ************************************************
+
+report.last_insert.description=Reports all info on last inserted task
+report.last_insert.columns=id,uuid.short,status,start.active,depends.indicator,priority,project.parent,tags,recur.indicator,wait.remaining,scheduled.remaining,due,until.remaining,description
+report.last_insert.labels=ID,UUID,Status,A,D,P,Project,Tags,R,Wait,Sch,Due,Until,Description
+report.last_insert.sort=entry-
+report.last_insert.filter=limit:1 status:pending
+
 # Contexts for separating physical environments ***********
+#
 # 		The attributes mentioned below are added to task
 # 		automatically when the task is created.
 

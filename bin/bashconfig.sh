@@ -31,11 +31,11 @@ alias taskconfig="$EDITOR ~/bin/taskconfig.sh"  # extension of ~/.taskrc
 # TaskWarrior
 
 alias tasks='task limit:10'
-start() { task start  "$@" && task limit:$lim; }
-stop()  { task stop   "$@" && task limit:$lim; }
-add()   { task add    "$@" && task limit:$lim; }
+add()   { task add    "$@" && task last_insert; }
 mod()   { task modify "$@" && task limit:$lim; }
 del()   { task delete "$@" && task limit:$lim; }
+start() { task start  "$@" && task limit:$lim; }
+stop()  { task stop   "$@" && task limit:$lim; }
 undo()  { task undo   "$@" && task limit:$lim; }
 alias edit='task edit'
 alias errands='source errands'
