@@ -1,3 +1,5 @@
+[dep_9e0b6fde-9a93-4684-8bd4-6b39c47240ea:"x" depends:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea" description:"work" end:"1713562926" entry:"1713562892" modified:"1713562927" status:"deleted" tags:"work" tags_work:"x" uuid:"cb732527-151a-454f-b46c-ea7d95c0aaf4"]
+[description:"publish poparide" end:"1713561957" entry:"1713548389" modified:"1713561957" status:"completed" uuid:"075b3870-49e2-48d7-8a6e-b5d0061dac62"]
 [description:"Look into Go for TUIs instead of Python" end:"1713558135" entry:"1713047136" modified:"1713558136" status:"deleted" tags:"sidequest" tags_sidequest:"x" uuid:"b164e17d-4a32-4f7b-b6f7-350616350ec4"]
 [description:"Create a task set. In short, make a script which creates sets of tasks to avoid entering them manually" end:"1713558121" entry:"1713460343" modified:"1713558123" status:"deleted" tags:"sidequest" tags_sidequest:"x" uuid:"04a21066-b47e-4749-b3ad-e4cd3a92c4c1"]
 [annotation_1713335230:"https:\/\/timewarrior.net\/docs\/" description:"Check timewarrior" end:"1713558061" entry:"1713335214" modified:"1713558062" status:"deleted" tags:"sidequest" tags_sidequest:"x" uuid:"27b022e0-593a-4ba8-b543-bcafcb712068"]

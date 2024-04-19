@@ -1446,3 +1446,96 @@ time 1713558278
 old [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713548496" scheduled:"1713484800" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd"]
 new [description:"sync with TODO https:\/\/github.com\/simachri\/taskwarrior-ms-todo" entry:"1713474888" modified:"1713558278" scheduled:"1713484800" status:"pending" uuid:"e35578ab-9f61-4f75-a220-0d9465338cdd" wait:"1713601478"]
 ---
+time 1713558574
+new [description:"Update Uber vehicle insurance" entry:"1713558574" modified:"1713558574" priority:"H" status:"pending" tags:"work" tags_work:"x" uuid:"0abcb0f1-9f6c-4911-b859-edb93321724b"]
+---
+time 1713561957
+old [description:"publish poparide" entry:"1713548389" modified:"1713557715" start:"1713557715" status:"pending" uuid:"075b3870-49e2-48d7-8a6e-b5d0061dac62"]
+new [description:"publish poparide" end:"1713561957" entry:"1713548389" modified:"1713561957" status:"completed" uuid:"075b3870-49e2-48d7-8a6e-b5d0061dac62"]
+---
+time 1713562039
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" modified:"1713562039" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713562039
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" imask:"0" modified:"1713562039" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"f4aad3ec-33ba-4696-8d2e-672fad3ef0ab"]
+---
+time 1713562039
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" modified:"1713562039" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"-" modified:"1713562039" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713562358
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"-" modified:"1713562039" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"W" modified:"1713562358" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713562358
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" imask:"0" modified:"1713562039" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"f4aad3ec-33ba-4696-8d2e-672fad3ef0ab"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" imask:"0" modified:"1713562358" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"f4aad3ec-33ba-4696-8d2e-672fad3ef0ab" wait:"1713565958"]
+---
+time 1713562430
+old [description:"Update Uber vehicle insurance" entry:"1713558574" modified:"1713558574" priority:"H" status:"pending" tags:"work" tags_work:"x" uuid:"0abcb0f1-9f6c-4911-b859-edb93321724b"]
+new [description:"Update Uber vehicle insurance" entry:"1713558574" modified:"1713562430" priority:"H" status:"pending" tags:"work" tags_work:"x" uuid:"0abcb0f1-9f6c-4911-b859-edb93321724b" wait:"1713566030"]
+---
+time 1713562517
+old [description:"Add appointments category (as tags)" entry:"1713058946" modified:"1713558019" project:"TaskWarrior" status:"pending" uuid:"9e12a525-de41-4b0c-aad1-14825f113737"]
+new [description:"Add appointments category (as tags)" entry:"1713058946" modified:"1713562517" project:"TaskWarrior" status:"pending" uuid:"9e12a525-de41-4b0c-aad1-14825f113737" wait:"1713566117"]
+---
+time 1713562788
+old [description:"oil change" due:"1713585600" entry:"1713460462" modified:"1713485656" status:"pending" uuid:"e18a9954-1e43-4089-a459-721de0345332"]
+new [description:"oil change" due:"1713585600" entry:"1713460462" modified:"1713562788" start:"1713562788" status:"pending" uuid:"e18a9954-1e43-4089-a459-721de0345332"]
+---
+time 1713562788
+old [description:"return money to mechanic shed:10min" entry:"1713474301" modified:"1713552650" scheduled:"1713558600" status:"pending" uuid:"45fc1ec4-8830-4d43-a553-e8a65e19ed39"]
+new [description:"return money to mechanic shed:10min" entry:"1713474301" modified:"1713562788" scheduled:"1713558600" start:"1713562788" status:"pending" uuid:"45fc1ec4-8830-4d43-a553-e8a65e19ed39"]
+---
+time 1713562803
+old [description:"oil change" due:"1713585600" entry:"1713460462" modified:"1713562788" start:"1713562788" status:"pending" uuid:"e18a9954-1e43-4089-a459-721de0345332"]
+new [description:"oil change" due:"1713585600" entry:"1713460462" modified:"1713562803" start:"1713562788" status:"pending" tags:"next" tags_next:"x" uuid:"e18a9954-1e43-4089-a459-721de0345332"]
+---
+time 1713562803
+old [description:"return money to mechanic shed:10min" entry:"1713474301" modified:"1713562788" scheduled:"1713558600" start:"1713562788" status:"pending" uuid:"45fc1ec4-8830-4d43-a553-e8a65e19ed39"]
+new [description:"return money to mechanic shed:10min" entry:"1713474301" modified:"1713562803" scheduled:"1713558600" start:"1713562788" status:"pending" tags:"next" tags_next:"x" uuid:"45fc1ec4-8830-4d43-a553-e8a65e19ed39"]
+---
+time 1713562853
+new [description:"rest" entry:"1713562853" modified:"1713562853" status:"pending" tags:"work" tags_work:"x" uuid:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea"]
+---
+time 1713562892
+new [dep_9e0b6fde-9a93-4684-8bd4-6b39c47240ea:"x" depends:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea" description:"work" entry:"1713562892" modified:"1713562892" status:"pending" tags:"work" tags_work:"x" uuid:"cb732527-151a-454f-b46c-ea7d95c0aaf4"]
+---
+time 1713562927
+old [dep_9e0b6fde-9a93-4684-8bd4-6b39c47240ea:"x" depends:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea" description:"work" entry:"1713562892" modified:"1713562892" status:"pending" tags:"work" tags_work:"x" uuid:"cb732527-151a-454f-b46c-ea7d95c0aaf4"]
+new [dep_9e0b6fde-9a93-4684-8bd4-6b39c47240ea:"x" depends:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea" description:"work" end:"1713562926" entry:"1713562892" modified:"1713562927" status:"deleted" tags:"work" tags_work:"x" uuid:"cb732527-151a-454f-b46c-ea7d95c0aaf4"]
+---
+time 1713562940
+old [cat:"WRK" description:"work" entry:"1713314351" modified:"1713485571" priority:"H" scheduled:"1713520800" status:"pending" tags:"work" tags_work:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+new [cat:"WRK" dep_9e0b6fde-9a93-4684-8bd4-6b39c47240ea:"x" depends:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea" description:"work" entry:"1713314351" modified:"1713562940" priority:"H" scheduled:"1713520800" status:"pending" tags:"work" tags_work:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+---
+time 1713562983
+old [description:"Set up NAS so that I can access Xenon's files from Luminous" entry:"1713548377" modified:"1713557902" priority:"M" project:"TaskWarrior" status:"pending" uuid:"04fb8610-38d5-49dd-80a2-17d76507487f"]
+new [description:"Set up NAS so that I can access Xenon's files from Luminous" entry:"1713548377" modified:"1713562983" priority:"M" project:"TaskWarrior" scheduled:"1713908583" status:"pending" uuid:"04fb8610-38d5-49dd-80a2-17d76507487f"]
+---
+time 1713563172
+new [description:"Regular schedule" due:"1713607200" entry:"1713563172" modified:"1713563172" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e"]
+---
+time 1713563172
+new [description:"Regular schedule" due:"1713607200" entry:"1713563172" imask:"0" modified:"1713563172" parent:"97683306-1859-45e1-9960-d8a0d962673e" recur:"daily" rtype:"periodic" status:"pending" tags:"work" tags_work:"x" uuid:"dfb83da9-8894-43b6-afe5-7bf8df3cce1a"]
+---
+time 1713563172
+old [description:"Regular schedule" due:"1713607200" entry:"1713563172" modified:"1713563172" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e"]
+new [description:"Regular schedule" due:"1713607200" entry:"1713563172" mask:"-" modified:"1713563172" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e"]
+---
+time 1713563206
+old [cat:"WRK" dep_9e0b6fde-9a93-4684-8bd4-6b39c47240ea:"x" depends:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea" description:"work" entry:"1713314351" modified:"1713562940" priority:"H" scheduled:"1713520800" status:"pending" tags:"work" tags_work:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+new [cat:"WRK" dep_9e0b6fde-9a93-4684-8bd4-6b39c47240ea:"x" depends:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea" description:"work (draft)" entry:"1713314351" modified:"1713563206" priority:"H" scheduled:"1713520800" status:"pending" tags:"work" tags_work:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+---
+time 1713563446
+old [description:"Regular schedule" due:"1713607200" entry:"1713563172" mask:"-" modified:"1713563172" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e"]
+new [description:"Regular schedule" due:"1713607200" entry:"1713563172" mask:"W" modified:"1713563446" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e"]
+---
+time 1713563446
+old [description:"Regular schedule" due:"1713607200" entry:"1713563172" imask:"0" modified:"1713563172" parent:"97683306-1859-45e1-9960-d8a0d962673e" recur:"daily" rtype:"periodic" status:"pending" tags:"work" tags_work:"x" uuid:"dfb83da9-8894-43b6-afe5-7bf8df3cce1a"]
+new [description:"Regular schedule" due:"1713607200" entry:"1713563172" imask:"0" modified:"1713563446" parent:"97683306-1859-45e1-9960-d8a0d962673e" recur:"daily" rtype:"periodic" status:"pending" tags:"work" tags_work:"x" uuid:"dfb83da9-8894-43b6-afe5-7bf8df3cce1a" wait:"1713758400"]
+---
+time 1713563456
+old [description:"Regular schedule" due:"1713607200" entry:"1713563172" mask:"W" modified:"1713563446" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e"]
+new [description:"Regular schedule" due:"1713607200" entry:"1713563172" mask:"W" modified:"1713563456" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e" wait:"1713758400"]
+---
