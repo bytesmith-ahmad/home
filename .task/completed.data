@@ -1,3 +1,6 @@
+[description:"Look into Go for TUIs instead of Python" end:"1713558135" entry:"1713047136" modified:"1713558136" status:"deleted" tags:"sidequest" tags_sidequest:"x" uuid:"b164e17d-4a32-4f7b-b6f7-350616350ec4"]
+[description:"Create a task set. In short, make a script which creates sets of tasks to avoid entering them manually" end:"1713558121" entry:"1713460343" modified:"1713558123" status:"deleted" tags:"sidequest" tags_sidequest:"x" uuid:"04a21066-b47e-4749-b3ad-e4cd3a92c4c1"]
+[annotation_1713335230:"https:\/\/timewarrior.net\/docs\/" description:"Check timewarrior" end:"1713558061" entry:"1713335214" modified:"1713558062" status:"deleted" tags:"sidequest" tags_sidequest:"x" uuid:"27b022e0-593a-4ba8-b543-bcafcb712068"]
 [description:"dummy" end:"1713556899" entry:"1713555017" modified:"1713556902" status:"deleted" uuid:"01e6ce18-9f42-40b6-84f7-189083dc1039"]
 [description:"dummy" end:"1713556902" entry:"1713555509" modified:"1713556903" status:"deleted" uuid:"35f090a7-2537-43f7-8c00-196834d8fbf8"]
 [cat:"DUM" dep_71c8f043-0e93-4d72-8db4-95f6eaec60e1:"x" depends:"71c8f043-0e93-4d72-8db4-95f6eaec60e1" description:"sdfsdf" dir:"xx" due:"1713585599" end:"1713556903" entry:"1713555588" modified:"1713556904" priority:"L" project:"dummyproject" status:"deleted" uuid:"155e0a74-8a7c-4048-83ce-187ffa288c83"]
