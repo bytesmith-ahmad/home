@@ -5503,3 +5503,118 @@ new [description:"Monitor poparide for requests" due:"1713639600" entry:"1713634
 time 1713634004
 old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+X++++++" modified:"1713627385" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
 new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+X++++++-" modified:"1713634004" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+time 1713635327
+new [description:"Check vehicle reg payments" entry:"1713635327" modified:"1713635327" priority:"H" status:"pending" uuid:"607e0353-0078-4890-90bb-09e9ce8db26d"]
+---
+time 1713635380
+new [description:"add tickets to expenses as well as expenses" entry:"1713635380" modified:"1713635380" priority:"H" status:"pending" uuid:"7a38e46b-8f96-4c93-885b-d01ab05fbdc4"]
+---
+time 1713635467
+new [description:"change oil annotation:5w20 synthetic oil every x range recur:1m wait:3w, record price range in annotation" due:"1715449867" entry:"1713635467" modified:"1713635467" recur:"1m" rtype:"periodic" status:"recurring" uuid:"1a032880-a927-4c18-964a-1d95edbe0b35"]
+---
+time 1713635467
+new [description:"change oil annotation:5w20 synthetic oil every x range recur:1m wait:3w, record price range in annotation" due:"1715449867" entry:"1713635467" imask:"0" modified:"1713635467" parent:"1a032880-a927-4c18-964a-1d95edbe0b35" recur:"1m" rtype:"periodic" status:"pending" uuid:"30d65bb5-7ce9-4689-8677-c2d9a489d163"]
+---
+time 1713635467
+old [description:"change oil annotation:5w20 synthetic oil every x range recur:1m wait:3w, record price range in annotation" due:"1715449867" entry:"1713635467" modified:"1713635467" recur:"1m" rtype:"periodic" status:"recurring" uuid:"1a032880-a927-4c18-964a-1d95edbe0b35"]
+new [description:"change oil annotation:5w20 synthetic oil every x range recur:1m wait:3w, record price range in annotation" due:"1715449867" entry:"1713635467" mask:"-" modified:"1713635467" recur:"1m" rtype:"periodic" status:"recurring" uuid:"1a032880-a927-4c18-964a-1d95edbe0b35"]
+---
+time 1713635498
+old [description:"change oil annotation:5w20 synthetic oil every x range recur:1m wait:3w, record price range in annotation" due:"1715449867" entry:"1713635467" imask:"0" modified:"1713635467" parent:"1a032880-a927-4c18-964a-1d95edbe0b35" recur:"1m" rtype:"periodic" status:"pending" uuid:"30d65bb5-7ce9-4689-8677-c2d9a489d163"]
+new [description:"change oil" due:"1715449867" entry:"1713635467" imask:"0" modified:"1713635498" parent:"1a032880-a927-4c18-964a-1d95edbe0b35" recur:"1m" rtype:"periodic" status:"pending" uuid:"30d65bb5-7ce9-4689-8677-c2d9a489d163"]
+---
+time 1713635502
+old [description:"change oil annotation:5w20 synthetic oil every x range recur:1m wait:3w, record price range in annotation" due:"1715449867" entry:"1713635467" mask:"-" modified:"1713635467" recur:"1m" rtype:"periodic" status:"recurring" uuid:"1a032880-a927-4c18-964a-1d95edbe0b35"]
+new [description:"change oil" due:"1715449867" entry:"1713635467" mask:"-" modified:"1713635502" recur:"1m" rtype:"periodic" status:"recurring" uuid:"1a032880-a927-4c18-964a-1d95edbe0b35"]
+---
+time 1713635522
+old [description:"change oil" due:"1715449867" entry:"1713635467" imask:"0" modified:"1713635498" parent:"1a032880-a927-4c18-964a-1d95edbe0b35" recur:"1m" rtype:"periodic" status:"pending" uuid:"30d65bb5-7ce9-4689-8677-c2d9a489d163"]
+new [description:"annotate 5w20 synthetic oil every x range recur:1m" due:"1715449867" entry:"1713635467" imask:"0" modified:"1713635522" parent:"1a032880-a927-4c18-964a-1d95edbe0b35" recur:"1m" rtype:"periodic" status:"pending" uuid:"30d65bb5-7ce9-4689-8677-c2d9a489d163"]
+---
+time 1713635537
+old [description:"change oil" due:"1715449867" entry:"1713635467" mask:"-" modified:"1713635502" recur:"1m" rtype:"periodic" status:"recurring" uuid:"1a032880-a927-4c18-964a-1d95edbe0b35"]
+new [description:"annotate 5w20 synthetic oil every x range recur:1m" due:"1715449867" entry:"1713635467" mask:"-" modified:"1713635537" recur:"1m" rtype:"periodic" status:"recurring" uuid:"1a032880-a927-4c18-964a-1d95edbe0b35"]
+---
+time 1713635558
+old [description:"annotate 5w20 synthetic oil every x range recur:1m" due:"1715449867" entry:"1713635467" imask:"0" modified:"1713635522" parent:"1a032880-a927-4c18-964a-1d95edbe0b35" recur:"1m" rtype:"periodic" status:"pending" uuid:"30d65bb5-7ce9-4689-8677-c2d9a489d163"]
+new [description:"change oil" due:"1715449867" entry:"1713635467" imask:"0" modified:"1713635558" parent:"1a032880-a927-4c18-964a-1d95edbe0b35" recur:"1m" rtype:"periodic" status:"pending" uuid:"30d65bb5-7ce9-4689-8677-c2d9a489d163"]
+---
+time 1713635560
+old [description:"annotate 5w20 synthetic oil every x range recur:1m" due:"1715449867" entry:"1713635467" mask:"-" modified:"1713635537" recur:"1m" rtype:"periodic" status:"recurring" uuid:"1a032880-a927-4c18-964a-1d95edbe0b35"]
+new [description:"change oil" due:"1715449867" entry:"1713635467" mask:"-" modified:"1713635560" recur:"1m" rtype:"periodic" status:"recurring" uuid:"1a032880-a927-4c18-964a-1d95edbe0b35"]
+---
+time 1713635581
+old [description:"change oil" due:"1715449867" entry:"1713635467" imask:"0" modified:"1713635558" parent:"1a032880-a927-4c18-964a-1d95edbe0b35" recur:"1m" rtype:"periodic" status:"pending" uuid:"30d65bb5-7ce9-4689-8677-c2d9a489d163"]
+new [annotation_1713635564:"5w20 synthetic oil every x range recur:1m\n              wait:3w, record price range in annotation" description:"change oil" due:"1715449867" entry:"1713635467" imask:"0" modified:"1713635581" parent:"1a032880-a927-4c18-964a-1d95edbe0b35" recur:"1m" rtype:"periodic" status:"pending" uuid:"30d65bb5-7ce9-4689-8677-c2d9a489d163"]
+---
+time 1713635636
+new [description:"see fine instructions" entry:"1713635636" modified:"1713635636" priority:"H" status:"pending" uuid:"608ca0bc-c5a3-4879-a8da-47ff5615a16c"]
+---
+time 1713635660
+old [description:"see fine instructions" entry:"1713635636" modified:"1713635636" priority:"H" status:"pending" uuid:"608ca0bc-c5a3-4879-a8da-47ff5615a16c"]
+new [annotation_1713635644:"INSTRUCTIONS TO PAY TICKET IN SMALL PAYMENTS" description:"see fine instructions" entry:"1713635636" modified:"1713635660" priority:"H" status:"pending" uuid:"608ca0bc-c5a3-4879-a8da-47ff5615a16c"]
+---
+time 1713635699
+old [annotation_1713635644:"INSTRUCTIONS TO PAY TICKET IN SMALL PAYMENTS" description:"see fine instructions" entry:"1713635636" modified:"1713635660" priority:"H" status:"pending" uuid:"608ca0bc-c5a3-4879-a8da-47ff5615a16c"]
+new [annotation_1713635644:"INSTRUCTIONS TO PAY TICKET IN SMALL PAYMENTS" annotation_1713635679:"1. wait for avis de jugement by mail\n                       2. once received, call 18665365140" description:"see fine instructions" entry:"1713635636" modified:"1713635699" priority:"H" status:"pending" uuid:"608ca0bc-c5a3-4879-a8da-47ff5615a16c"]
+---
+time 1713635742
+new [description:"apply for appartement in Toronto in case we get job there" entry:"1713635742" modified:"1713635742" status:"pending" uuid:"f690960a-11b0-480f-9c7e-569c158caa7c"]
+---
+time 1713635828
+new [description:"Power adapter for car" entry:"1713635828" modified:"1713635828" priority:"L" status:"pending" tags:"shopping" tags_shopping:"x" uuid:"a7baf00e-b197-4521-85e4-43bb1fa76074"]
+---
+time 1713636190
+new [description:"COURT PREPARE DOCUMENTS" due:"1719806400" entry:"1713636190" modified:"1713636190" priority:"H" status:"pending" uuid:"224e2cd7-684e-4d75-8da7-3d447c46d2f4"]
+---
+time 1713636205
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+X++++++-" modified:"1713634004" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+X++++++X" modified:"1713636205" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713636205
+old [description:"Monitor poparide for requests" due:"1713639600" entry:"1713634004" imask:"10" modified:"1713627385" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"b6933187-2433-48fd-bf64-92c28221b097"]
+new [description:"Monitor poparide for requests" due:"1713639600" end:"1713636201" entry:"1713634004" imask:"10" modified:"1713636205" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"b6933187-2433-48fd-bf64-92c28221b097"]
+---
+time 1713636208
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+X++++++X" modified:"1713636205" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" end:"1713636208" entry:"1713562039" mask:"XX+X++++++X" modified:"1713636208" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713636513
+old [cat:"WRK" dep_9e0b6fde-9a93-4684-8bd4-6b39c47240ea:"x" depends:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea" description:"work (draft)" entry:"1713314351" modified:"1713563206" priority:"H" scheduled:"1713520800" status:"pending" tags:"work" tags_work:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98"]
+new [cat:"WRK" dep_9e0b6fde-9a93-4684-8bd4-6b39c47240ea:"x" depends:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea" description:"work (draft)" entry:"1713314351" modified:"1713636513" priority:"H" scheduled:"1713520800" status:"pending" tags:"work" tags_work:"x" uuid:"515c77db-ba24-4376-96e5-b5070eb21c98" wait:"1713982109"]
+---
+time 1713636514
+old [description:"Mortgage (add recurring later)" due:"1711339200" entry:"1713557077" modified:"1713558278" status:"pending" uuid:"5faf40f9-3c7c-4f8b-a971-04abf91cb78d" wait:"1713601478"]
+new [description:"Mortgage (add recurring later)" due:"1711339200" entry:"1713557077" modified:"1713636514" status:"pending" uuid:"5faf40f9-3c7c-4f8b-a971-04abf91cb78d" wait:"1713982113"]
+---
+time 1713636514
+old [annotation_1713635644:"INSTRUCTIONS TO PAY TICKET IN SMALL PAYMENTS" annotation_1713635679:"1. wait for avis de jugement by mail\n                       2. once received, call 18665365140" description:"see fine instructions" entry:"1713635636" modified:"1713635699" priority:"H" status:"pending" uuid:"608ca0bc-c5a3-4879-a8da-47ff5615a16c"]
+new [annotation_1713635644:"INSTRUCTIONS TO PAY TICKET IN SMALL PAYMENTS" annotation_1713635679:"1. wait for avis de jugement by mail\n                       2. once received, call 18665365140" description:"see fine instructions" entry:"1713635636" modified:"1713636514" priority:"H" status:"pending" uuid:"608ca0bc-c5a3-4879-a8da-47ff5615a16c" wait:"1713982114"]
+---
+time 1713636517
+old [description:"COURT PREPARE DOCUMENTS" due:"1719806400" entry:"1713636190" modified:"1713636190" priority:"H" status:"pending" uuid:"224e2cd7-684e-4d75-8da7-3d447c46d2f4"]
+new [description:"COURT PREPARE DOCUMENTS" due:"1719806400" entry:"1713636190" modified:"1713636517" priority:"H" status:"pending" uuid:"224e2cd7-684e-4d75-8da7-3d447c46d2f4" wait:"1713982114"]
+---
+time 1713636582
+old [description:"import Tasks from TODO list" entry:"1712868615" modified:"1713558018" project:"TaskWarrior" status:"pending" uuid:"106fc802-e8f5-4d0a-9425-9241deac7045"]
+new [description:"import Tasks from TODO list" end:"1713636582" entry:"1712868615" modified:"1713636582" project:"TaskWarrior" status:"completed" uuid:"106fc802-e8f5-4d0a-9425-9241deac7045"]
+---
+time 1713636666
+old [description:"TAXES" due:"1713571657" entry:"1713485257" modified:"1713485257" status:"pending" tags:"next" tags_next:"x" uuid:"90239a6c-a84e-4b28-add6-0eafa70bed6f"]
+new [description:"TAXES" dir:"test" due:"1713571657" entry:"1713485257" modified:"1713636666" status:"pending" tags:"next" tags_next:"x" uuid:"90239a6c-a84e-4b28-add6-0eafa70bed6f"]
+---
+time 1713637517
+old [description:"TAXES" dir:"test" due:"1713571657" entry:"1713485257" modified:"1713636666" status:"pending" tags:"next" tags_next:"x" uuid:"90239a6c-a84e-4b28-add6-0eafa70bed6f"]
+new [description:"TAXES" dir:"\/home\/ahmad\/workspace\/taxes" due:"1713571657" entry:"1713485257" modified:"1713637517" status:"pending" tags:"next" tags_next:"x" uuid:"90239a6c-a84e-4b28-add6-0eafa70bed6f"]
+---
+time 1713638596
+old [description:"insert all overdue bills, start paying ASAP" entry:"1713557677" modified:"1713558278" priority:"H" scheduled:"1713585600" status:"pending" uuid:"57f3da3d-1405-4583-8797-c322a8706684" wait:"1713601478"]
+new [description:"insert all overdue bills, start paying ASAP" dir:"\/home\/ahmad\/workspace\/57f3da3d-1405-4583-8797-c322a8706684" entry:"1713557677" modified:"1713638596" priority:"H" scheduled:"1713585600" status:"pending" uuid:"57f3da3d-1405-4583-8797-c322a8706684" wait:"1713601478"]
+---
+time 1713638659
+old [description:"https:\/\/mosque-aylmer.ca\/marriage\/" entry:"1713029509" modified:"1713102152" priority:"H" project:"marriage" scheduled:"1714091427" status:"pending" uuid:"6de52125-7c45-4510-9f11-da7a52028228" wait:"1713585600"]
+new [description:"https:\/\/mosque-aylmer.ca\/marriage\/" dir:"\/home\/ahmad\/workspace\/6de52125-7c45-4510-9f11-da7a52028228" entry:"1713029509" modified:"1713638659" priority:"H" project:"marriage" scheduled:"1714091427" status:"pending" uuid:"6de52125-7c45-4510-9f11-da7a52028228" wait:"1713585600"]
+---
+time 1713640365
+new [description:"fix bin\/goto" entry:"1713640365" modified:"1713640365" priority:"H" status:"pending" uuid:"499a5fdd-7cfc-4ae0-a807-a9624fce9b51"]
+---
