@@ -13,6 +13,7 @@ if git status -uno | grep -q 'Your branch is behind'; then
     if [[ "$answer" =~ ^[Yy]$ ]]; then
         # User confirmed, pull changes
         git pull "$github_repo"
+        reset
     else
         echo "Changes not pulled."
     fi

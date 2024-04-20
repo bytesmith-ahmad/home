@@ -51,3 +51,4 @@
 [description:"Regular schedule" due:"1713693600" entry:"1713618782" imask:"1" modified:"1713563456" parent:"97683306-1859-45e1-9960-d8a0d962673e" recur:"daily" rtype:"periodic" status:"pending" tags:"work" tags_work:"x" uuid:"5c929a6c-53d5-41d6-8a3a-177af6690b22" wait:"1713844800"]
 [description:"Sort and archive ALL data into D drive. Backup to Luminous." entry:"1713627365" modified:"1713627365" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"347a06c0-ed75-4ac0-96e4-e52d3da6b6cb"]
 [description:"Monitor poparide for requests" due:"1713639600" entry:"1713634004" imask:"10" modified:"1713627385" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"b6933187-2433-48fd-bf64-92c28221b097"]
+[description:"one repo for arch, one for tasks, one for config+bin, and so on" entry:"1713633888" modified:"1713633888" status:"pending" uuid:"6817ed3d-c8ba-4526-b8f5-ea7b27f2f8f6"]
