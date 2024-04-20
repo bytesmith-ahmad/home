@@ -19,6 +19,7 @@ export PS1=$PS
 export github="https://github.com/bytesmith-ahmad"
 
 #TaskWarrior
+export wksp="$HOME/workspace"
 lim=10    # limits the number of tasks shown
 
 # COMMANDS ******************************************************************************************
@@ -39,6 +40,7 @@ stop()  { task stop   "$@" && task limit:$lim; }
 undo()  { task undo   "$@" && task limit:$lim; }
 complete() { task done   "$@" && task limit:$lim; }
 alias edit='task edit'
+alias goto='source goto.sh '
 alias errands='source errands'
 alias switch='source switch_task_context.sh'
 sync-tasks() {
