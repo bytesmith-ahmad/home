@@ -5834,3 +5834,10 @@ new [description:"Upgrade Lumi's memory speed and size" entry:"1713714027" modif
 time 1713714864
 new [description:"add firacode mono font to my linux package" entry:"1713714864" modified:"1713714864" status:"pending" uuid:"05a16b75-9fa0-4fd2-949b-cbb0b277ac8a"]
 ---
+time 1713716192
+new [description:"Regular schedule" due:"1713780000" entry:"1713716192" imask:"2" modified:"1713618782" parent:"97683306-1859-45e1-9960-d8a0d962673e" recur:"daily" rtype:"periodic" status:"pending" tags:"work" tags_work:"x" uuid:"9d839e11-b9ea-4bcc-8a8c-efbd09616d3d" wait:"1713931200"]
+---
+time 1713716192
+old [description:"Regular schedule" due:"1713607200" entry:"1713563172" mask:"WW" modified:"1713618782" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e" wait:"1713758400"]
+new [description:"Regular schedule" due:"1713607200" entry:"1713563172" mask:"WWW" modified:"1713716192" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e" wait:"1713758400"]
+---

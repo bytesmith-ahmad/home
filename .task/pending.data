@@ -43,7 +43,7 @@
 [description:"autopush tasks" entry:"1713557767" modified:"1713557767" priority:"L" status:"pending" uuid:"ba898597-68f8-4abe-b781-91f9ce6c1c48"]
 [description:"make work recurring" entry:"1713558229" modified:"1713582672" status:"pending" tags:"work" tags_work:"x" uuid:"d63ecb37-3208-4abe-80b6-06c5a56c6bb7" wait:"1713928271"]
 [description:"Update Uber vehicle insurance" entry:"1713558574" modified:"1713582675" priority:"H" status:"pending" tags:"work" tags_work:"x" uuid:"0abcb0f1-9f6c-4911-b859-edb93321724b" wait:"1713928272"]
-[description:"Regular schedule" due:"1713607200" entry:"1713563172" mask:"WW" modified:"1713618782" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e" wait:"1713758400"]
+[description:"Regular schedule" due:"1713607200" entry:"1713563172" mask:"WWW" modified:"1713716192" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e" wait:"1713758400"]
 [description:"Regular schedule" due:"1713607200" entry:"1713563172" imask:"0" modified:"1713563446" parent:"97683306-1859-45e1-9960-d8a0d962673e" recur:"daily" rtype:"periodic" status:"pending" tags:"work" tags_work:"x" uuid:"dfb83da9-8894-43b6-afe5-7bf8df3cce1a" wait:"1713758400"]
 [description:"IUD appointment for Nabi" entry:"1713579003" modified:"1713582676" priority:"H" scheduled:"1713931200" status:"pending" uuid:"3bc31251-0925-4f2a-b74a-bf7ef7b64dda" wait:"1713928275"]
 [description:"Regular schedule" due:"1713693600" entry:"1713618782" imask:"1" modified:"1713563456" parent:"97683306-1859-45e1-9960-d8a0d962673e" recur:"daily" rtype:"periodic" status:"pending" tags:"work" tags_work:"x" uuid:"5c929a6c-53d5-41d6-8a3a-177af6690b22" wait:"1713844800"]
@@ -67,3 +67,4 @@
 [description:"Test steam on Luminous after Linux" entry:"1713713559" modified:"1713713559" project:"install-linux" status:"pending" uuid:"a6a9d70e-909b-417f-bee9-ef7338afcc67"]
 [description:"Upgrade Lumi's memory speed and size" entry:"1713714027" modified:"1713714027" status:"pending" uuid:"140ca31a-5e5d-4cdf-add1-dd65928b881d"]
 [description:"add firacode mono font to my linux package" entry:"1713714864" modified:"1713714864" status:"pending" uuid:"05a16b75-9fa0-4fd2-949b-cbb0b277ac8a"]
+[description:"Regular schedule" due:"1713780000" entry:"1713716192" imask:"2" modified:"1713618782" parent:"97683306-1859-45e1-9960-d8a0d962673e" recur:"daily" rtype:"periodic" status:"pending" tags:"work" tags_work:"x" uuid:"9d839e11-b9ea-4bcc-8a8c-efbd09616d3d" wait:"1713931200"]
