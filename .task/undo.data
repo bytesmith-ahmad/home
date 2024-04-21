@@ -5618,3 +5618,219 @@ new [description:"https:\/\/mosque-aylmer.ca\/marriage\/" dir:"\/home\/ahmad\/wo
 time 1713640365
 new [description:"fix bin\/goto" entry:"1713640365" modified:"1713640365" priority:"H" status:"pending" uuid:"499a5fdd-7cfc-4ae0-a807-a9624fce9b51"]
 ---
+time 1713713230
+new [description:"Regular schedule" due:"1713780000" entry:"1713713230" imask:"2" modified:"1713628175" parent:"97683306-1859-45e1-9960-d8a0d962673e" recur:"daily" rtype:"periodic" status:"pending" tags:"work" tags_work:"x" uuid:"37a0e2b7-0509-4da2-97c9-f78d7fe46ece" wait:"1713931200"]
+---
+time 1713713230
+old [description:"Regular schedule" due:"1713607200" entry:"1713563172" mask:"WW" modified:"1713628175" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e" wait:"1713758400"]
+new [description:"Regular schedule" due:"1713607200" entry:"1713563172" mask:"WWW" modified:"1713713230" recur:"daily" rtype:"periodic" status:"recurring" tags:"work" tags_work:"x" uuid:"97683306-1859-45e1-9960-d8a0d962673e" wait:"1713758400"]
+---
+time 1713713230
+new [description:"Monitor poparide for requests" due:"1713646800" entry:"1713713230" imask:"11" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"0be33c5c-12d1-461e-b3ff-c32d75784501"]
+---
+time 1713713230
+new [description:"Monitor poparide for requests" due:"1713654000" entry:"1713713230" imask:"12" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"8f128c77-4e44-44ad-acf1-f2e6b59a2ca8"]
+---
+time 1713713230
+new [description:"Monitor poparide for requests" due:"1713661200" entry:"1713713230" imask:"13" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"05feb7a4-2a10-4603-82f6-61a20b10d70f"]
+---
+time 1713713230
+new [description:"Monitor poparide for requests" due:"1713668400" entry:"1713713230" imask:"14" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"c3d06964-d374-479b-9819-03b986f08611"]
+---
+time 1713713230
+new [description:"Monitor poparide for requests" due:"1713675600" entry:"1713713230" imask:"15" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"b7f7260f-897c-4117-a6bc-295bd56fbce7"]
+---
+time 1713713230
+new [description:"Monitor poparide for requests" due:"1713682800" entry:"1713713230" imask:"16" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"3c526a3f-0c39-4372-96aa-a865c5375f38"]
+---
+time 1713713230
+new [description:"Monitor poparide for requests" due:"1713690000" entry:"1713713230" imask:"17" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"2e312c0a-accb-4d2a-a62e-efa0e67c4050"]
+---
+time 1713713230
+new [description:"Monitor poparide for requests" due:"1713697200" entry:"1713713230" imask:"18" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"e9acc710-baa5-4389-a338-524452b6807f"]
+---
+time 1713713230
+new [description:"Monitor poparide for requests" due:"1713704400" entry:"1713713230" imask:"19" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"150df263-33c9-4c61-96a8-27090603489e"]
+---
+time 1713713230
+new [description:"Monitor poparide for requests" due:"1713711600" entry:"1713713230" imask:"20" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"0d3aa8e7-fbfe-4005-bcbe-1289a2471b0e"]
+---
+time 1713713230
+new [description:"Monitor poparide for requests" due:"1713718800" entry:"1713713230" imask:"21" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"81188023-30e8-433e-b7cb-4eb6808d94b1"]
+---
+time 1713713230
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+X-------" modified:"1713633888" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+X------------------" modified:"1713713230" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713254
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+X------------------" modified:"1713713230" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XX-----------------" modified:"1713713254" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713254
+old [description:"Monitor poparide for requests" due:"1713596400" entry:"1713628175" imask:"4" modified:"1713582197" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"2e62431c-2020-4cae-80c4-56197f08203b"]
+new [description:"Monitor poparide for requests" due:"1713596400" end:"1713713251" entry:"1713628175" imask:"4" modified:"1713713254" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"2e62431c-2020-4cae-80c4-56197f08203b"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XX-----------------" modified:"1713713254" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXX----------------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713603600" entry:"1713628175" imask:"5" modified:"1713582197" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"64d1f1d3-37e2-4f80-9e70-326106be6b46"]
+new [description:"Monitor poparide for requests" due:"1713603600" end:"1713713263" entry:"1713628175" imask:"5" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"64d1f1d3-37e2-4f80-9e70-326106be6b46"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXX----------------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXX---------------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713610800" entry:"1713628175" imask:"6" modified:"1713582197" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"abeff08c-004d-4aef-95d1-cd5823b0f3b7"]
+new [description:"Monitor poparide for requests" due:"1713610800" end:"1713713263" entry:"1713628175" imask:"6" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"abeff08c-004d-4aef-95d1-cd5823b0f3b7"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXX---------------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXX--------------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713618000" entry:"1713628175" imask:"7" modified:"1713582197" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"7ce02a12-683d-4f99-82d1-fef7c847917e"]
+new [description:"Monitor poparide for requests" due:"1713618000" end:"1713713263" entry:"1713628175" imask:"7" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"7ce02a12-683d-4f99-82d1-fef7c847917e"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXX--------------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXX-------------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713625200" entry:"1713628175" imask:"8" modified:"1713582197" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"7ea44083-2c8a-4ad3-abdf-03166ab3d144"]
+new [description:"Monitor poparide for requests" due:"1713625200" end:"1713713263" entry:"1713628175" imask:"8" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"7ea44083-2c8a-4ad3-abdf-03166ab3d144"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXX-------------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXX------------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713632400" entry:"1713628175" imask:"9" modified:"1713582197" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"aad0c693-7abf-4f7d-8a72-e5efce673e76"]
+new [description:"Monitor poparide for requests" due:"1713632400" end:"1713713263" entry:"1713628175" imask:"9" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"aad0c693-7abf-4f7d-8a72-e5efce673e76"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXX------------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXX-----------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713639600" entry:"1713633888" imask:"10" modified:"1713628175" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"2009bd6b-907c-4948-a87d-8d077e6fc642"]
+new [description:"Monitor poparide for requests" due:"1713639600" end:"1713713263" entry:"1713633888" imask:"10" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"2009bd6b-907c-4948-a87d-8d077e6fc642"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXX-----------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXX----------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713646800" entry:"1713713230" imask:"11" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"0be33c5c-12d1-461e-b3ff-c32d75784501"]
+new [description:"Monitor poparide for requests" due:"1713646800" end:"1713713263" entry:"1713713230" imask:"11" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"0be33c5c-12d1-461e-b3ff-c32d75784501"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXX----------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXX---------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713654000" entry:"1713713230" imask:"12" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"8f128c77-4e44-44ad-acf1-f2e6b59a2ca8"]
+new [description:"Monitor poparide for requests" due:"1713654000" end:"1713713263" entry:"1713713230" imask:"12" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"8f128c77-4e44-44ad-acf1-f2e6b59a2ca8"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXX---------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXX--------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713661200" entry:"1713713230" imask:"13" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"05feb7a4-2a10-4603-82f6-61a20b10d70f"]
+new [description:"Monitor poparide for requests" due:"1713661200" end:"1713713263" entry:"1713713230" imask:"13" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"05feb7a4-2a10-4603-82f6-61a20b10d70f"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXX--------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXX-------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713668400" entry:"1713713230" imask:"14" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"c3d06964-d374-479b-9819-03b986f08611"]
+new [description:"Monitor poparide for requests" due:"1713668400" end:"1713713263" entry:"1713713230" imask:"14" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"c3d06964-d374-479b-9819-03b986f08611"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXX-------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXX------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713675600" entry:"1713713230" imask:"15" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"b7f7260f-897c-4117-a6bc-295bd56fbce7"]
+new [description:"Monitor poparide for requests" due:"1713675600" end:"1713713263" entry:"1713713230" imask:"15" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"b7f7260f-897c-4117-a6bc-295bd56fbce7"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXX------" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXX-----" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713682800" entry:"1713713230" imask:"16" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"3c526a3f-0c39-4372-96aa-a865c5375f38"]
+new [description:"Monitor poparide for requests" due:"1713682800" end:"1713713263" entry:"1713713230" imask:"16" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"3c526a3f-0c39-4372-96aa-a865c5375f38"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXX-----" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXXX----" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713690000" entry:"1713713230" imask:"17" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"2e312c0a-accb-4d2a-a62e-efa0e67c4050"]
+new [description:"Monitor poparide for requests" due:"1713690000" end:"1713713263" entry:"1713713230" imask:"17" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"2e312c0a-accb-4d2a-a62e-efa0e67c4050"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXXX----" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXXXX---" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713697200" entry:"1713713230" imask:"18" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"e9acc710-baa5-4389-a338-524452b6807f"]
+new [description:"Monitor poparide for requests" due:"1713697200" end:"1713713263" entry:"1713713230" imask:"18" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"e9acc710-baa5-4389-a338-524452b6807f"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXXXX---" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXXXXX--" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713704400" entry:"1713713230" imask:"19" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"150df263-33c9-4c61-96a8-27090603489e"]
+new [description:"Monitor poparide for requests" due:"1713704400" end:"1713713263" entry:"1713713230" imask:"19" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"150df263-33c9-4c61-96a8-27090603489e"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXXXXX--" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXXXXXX-" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713711600" entry:"1713713230" imask:"20" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"0d3aa8e7-fbfe-4005-bcbe-1289a2471b0e"]
+new [description:"Monitor poparide for requests" due:"1713711600" end:"1713713263" entry:"1713713230" imask:"20" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"0d3aa8e7-fbfe-4005-bcbe-1289a2471b0e"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXXXXXX-" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXXXXXXX" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713718800" entry:"1713713230" imask:"21" modified:"1713633888" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"pending" uuid:"81188023-30e8-433e-b7cb-4eb6808d94b1"]
+new [description:"Monitor poparide for requests" due:"1713718800" end:"1713713263" entry:"1713713230" imask:"21" modified:"1713713263" parent:"d8019e76-94f1-440f-aa2d-a362b91cbb13" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"81188023-30e8-433e-b7cb-4eb6808d94b1"]
+---
+time 1713713263
+old [description:"Monitor poparide for requests" due:"1713567600" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXXXXXXX" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"recurring" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+new [description:"Monitor poparide for requests" due:"1713567600" end:"1713713263" entry:"1713562039" mask:"XX+XXXXXXXXXXXXXXXXXXX" modified:"1713713263" priority:"H" recur:"2h" rtype:"periodic" status:"deleted" uuid:"d8019e76-94f1-440f-aa2d-a362b91cbb13"]
+---
+time 1713713294
+old [description:"rest" entry:"1713562853" modified:"1713562853" status:"pending" tags:"work" tags_work:"x" uuid:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea"]
+new [description:"rest" end:"1713713292" entry:"1713562853" modified:"1713713294" status:"deleted" tags:"work" tags_work:"x" uuid:"9e0b6fde-9a93-4684-8bd4-6b39c47240ea"]
+---
+time 1713713362
+old [description:"placeholder" entry:"1713044064" modified:"1713044064" project:"Convert PC to Linux" status:"pending" uuid:"64aa30a8-ca55-4828-b7de-8666cebe15c7" wait:"1713648864"]
+new [description:"research side effects" entry:"1713044064" modified:"1713713362" project:"install-linux" status:"pending" uuid:"64aa30a8-ca55-4828-b7de-8666cebe15c7" wait:"1713648864"]
+---
+time 1713713455
+new [description:"move all files to Xenon's D drive" entry:"1713713455" modified:"1713713455" project:"install-linux" status:"pending" uuid:"4d4cd689-4983-4d45-aee7-52fcf2affb32"]
+---
+time 1713713515
+old [description:"https:\/\/www.reddit.com\/r\/unixporn\/top\/?t=all" entry:"1713047099" modified:"1713370092" project:"Convert PC to Linux" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"2984f7b1-099e-4580-aefa-c27b8c63ed87"]
+new [description:"https:\/\/www.reddit.com\/r\/unixporn\/top\/?t=all" entry:"1713047099" modified:"1713713515" project:"install-linux" status:"pending" tags:"sidequest" tags_sidequest:"x" uuid:"2984f7b1-099e-4580-aefa-c27b8c63ed87"]
+---
+time 1713713559
+new [description:"Test steam on Luminous after Linux" entry:"1713713559" modified:"1713713559" project:"install-linux" status:"pending" uuid:"a6a9d70e-909b-417f-bee9-ef7338afcc67"]
+---
+time 1713714027
+new [description:"Upgrade Lumi's memory speed and size" entry:"1713714027" modified:"1713714027" status:"pending" uuid:"140ca31a-5e5d-4cdf-add1-dd65928b881d"]
+---
+time 1713714864
+new [description:"add firacode mono font to my linux package" entry:"1713714864" modified:"1713714864" status:"pending" uuid:"05a16b75-9fa0-4fd2-949b-cbb0b277ac8a"]
+---
