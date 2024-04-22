@@ -8,7 +8,7 @@ NC='\033[0m' # No Color
 # Function to check if folder exists and create directory
 create_workspace_dir() {
     local uuid=$(task _get "$1.uuid")
-    local workspace_dir="$HOME/workspace/$uuid"
+    local workspace_dir="$HOME/.task/$uuid"
     
     if [ -d "$workspace_dir" ]; then
         echo -e "${RED}Warning:${NC} Directory already exists at $workspace_dir"
@@ -29,3 +29,14 @@ fi
 
 # Call function with task ID argument
 create_workspace_dir "$1"
+
+goto() {
+    local dir
+    dir=$(task _get "$1.dir")
+    if [ -n "$dir" ]; then
+        cd "$dir" || echo "Failed to change directory to $dir"
+        tree
+    else
+        echo "Directory not found for task $1"
+    fi
+}

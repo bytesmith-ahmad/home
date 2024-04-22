@@ -32,32 +32,17 @@ alias taskconfig="$EDITOR ~/bin/taskconfig.sh"  # extension of ~/.taskrc
 # TaskWarrior MOVED TO SCRIPTS
 
 alias tasks='task limit:10'
-# add()   { task add    "$@" && task last_insert; }
 alias add='source task-add'
-# mod()   { task modify "$@" && task limit:$lim; }
 alias mod='source task-mod'
-# del()   { task delete "$@" && task limit:$lim; }
 alias del='source task-del'
-# start() { task start  "$@" && task limit:$lim; }
 alias start='source task-start'
-# stop()  { task stop   "$@" && task limit:$lim; }
+alias goto='source task-open'
 alias stop='source task-stop'
-# undo()  { task undo   "$@" && task limit:$lim; }
 alias undo='source task-undo'
-# complete(){ task done "$@" && task limit:$lim; }
 alias done='source task-done'
 alias edit='task edit'
-alias goto='source goto.sh '
 alias errands='source errands'
 alias switch='source switch_task_context.sh'
-# sync-tasks() {
-	# cd .task
-	# git pull
-	# git add .
-	# git commit -m "updating tasks"
-	# git push
-	# cd ..
-# }
 
 # File handling
 
