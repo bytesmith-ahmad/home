@@ -6,24 +6,25 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-# Retrieve UUID for the task
 uuid=$(task _get "$1.uuid")
-
-# Check if directory exists
-dir="$HOME/.task/$uuid"
-if [ -d "$dir" ]; then
-    echo "Directory exists for task $1"
-else
-    echo "Directory does not exist for task $1. Creating directory..."
-    mkdir -p "$dir"
-    echo "Directory created at $dir"
-fi
-
-# Retrieve task ID and description
 id=$(task _get "$1.id")
 description=$(task _get "$1.description")
 
-# Create id file
-echo "Id: $id" > "$dir/id"
-echo "Desc: $description" >> "$dir/id"
-echo "id file created at $dir/id"
+# Check if directory exists
+dir="$HOME/.task/workspace/$uuid"
+if [ -d "$dir" ]; then
+    cd $dir
+else
+    echo "Directory does not exist for task $1. Creating directory..."
+    mkdir -p "$dir"
+    
+    # Create id file
+    echo "Id: $id" > "$dir/id"
+    echo "Desc: $description" >> "$dir/id"
+    echo "id file created at $dir/id"
+
+    # Commit and push to GitHub
+    if git -C "$HOME/.task" add . && git -C "$HOME/.task" commit -m "Created new dir" --quiet && git -C "$HOME/.task" push origin master --quiet; then
+        echo "Changes committed and pushed to GitHub repository"
+    fi
+fi
