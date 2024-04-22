@@ -38,20 +38,23 @@ del()   { task delete "$@" && task limit:$lim; }
 start() { task start  "$@" && task limit:$lim; }
 stop()  { task stop   "$@" && task limit:$lim; }
 undo()  { task undo   "$@" && task limit:$lim; }
-complete() { task done   "$@" && task limit:$lim; }
+complete(){ task done "$@" && task limit:$lim; }
 alias edit='task edit'
 alias goto='source goto.sh '
 alias errands='source errands'
 alias switch='source switch_task_context.sh'
 sync-tasks() {
-	git add .task*
+	cd .task
+	git pull
+	git add .
 	git commit -m "updating tasks"
 	git push
+	cd ..
 }
 
 # File handling
 
-alias see="tree -L 1"
+alias peek="tree -L 1"
 alias note="notepad.exe" 
 alias open-db=sqlitebrowser
 

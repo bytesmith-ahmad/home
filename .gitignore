@@ -2,7 +2,6 @@
 /*
 
 # ... but do not ignore those directories ...
-!/aux/
 !/bin/
 
 # ... nor ignore those files.
