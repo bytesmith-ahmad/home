@@ -1,0 +1,6 @@
+#!/bin/bash
+
+task delete "$@"
+git -C .task commit -am "deleted task" >> "$HOME/.task/git.log"
+git -C .task push 2> "$HOME/.task/error.log"
+task limit:$LIM

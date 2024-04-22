@@ -1,0 +1,6 @@
+#!/bin/bash
+
+task done "$@"
+git -C .task commit -am "completed task" >> "$HOME/.task/git.log"
+git -C .task push 2> "$HOME/.task/error.log"
+task limit:$LIM

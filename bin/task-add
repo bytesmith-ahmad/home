@@ -1,0 +1,6 @@
+#!/bin/bash
+
+task add "$@"
+git -C .task commit -am "added task" >> "$HOME/.task/git.log"
+git -C .task push 2> "$HOME/.task/error.log"
+task last_insert

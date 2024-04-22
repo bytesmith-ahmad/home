@@ -1,5 +1,27 @@
 #!/bin/bash
 
+# Define colors for different categories
+task_color="\033[33m"       # Yellow for tasks
+password_color="\033[34m"   # Blue for passwords
+archive_color="\033[35m"    # Magenta for archives
+home_color="\033[38;5;208m" # Orange for home
+reset_color="\033[0m"
+
+# Synchronize tasks
+echo -en "${task_color}Tasks: ${reset_color}"
+git -C .task pull
+
+# Synchronize password-store
+echo -en "${password_color}Passwords: ${reset_color}"
+pass git pull
+
+# Syncronize archives
+echo -en "${archive_color}Archives: ${reset_color}"
+git -C arch pull
+
+# Synchronize home
+echo -en "${home_color}Home: ${reset_color}"
+
 # Define your GitHub repository URL
 github_repo="$github/home"
 
