@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git -C .task add .
+git -C .task commit -am "sending from $NAME"
+git -C .task push
