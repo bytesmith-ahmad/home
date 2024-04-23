@@ -48,6 +48,14 @@ report.last_insert.labels=ID,UUID,Status,A,D,P,Project,Tags,R,Wait,Sch,Due,Until
 report.last_insert.sort=entry-
 report.last_insert.filter=limit:1 status:pending
 
+# expenses report **********************************
+
+report.expenses.description=Reports all expenses
+report.expenses.columns=id,status,project.parent,tags,recur.indicator,wait.remaining,scheduled.remaining,due,until.remaining,description
+report.expenses.labels=ID,Status,Project,Tags,R,Wait,Sch,Due,Until,Description
+# report.expenses.sort=entry-
+report.expenses.filter=+expenses
+
 # Contexts for separating physical environments ***********
 #
 # 		The attributes mentioned below are added to task
@@ -65,8 +73,6 @@ context.home.read=   cat:HOM   priority:M  scheduled:5days           +HOME
 context.home.write=  cat:HOM   priority:M  scheduled:5days           +HOME
 context.jbap.read=   cat:JBA               scheduled:1days      +Job +application
 context.jbap.write=  cat:JBA               scheduled:1days      +Job +application
-
-# <insert custom config> **********************************
 
 # <insert custom config> **********************************
 

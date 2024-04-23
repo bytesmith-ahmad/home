@@ -10,8 +10,11 @@ git -C "$HOME/arch" status
 echo -e "\e[93mHOME $separator${_0}"
 git -C "$HOME" status
 
-echo -e "\e[93mTASK $separator${_0}"
+echo -e "\e[93mTASKS $separator${_0}"
 git -C "$HOME/.task" status
+
+echo -e "\e[93mBILLS $separator${_0}"
+git -C "$HOME/.bills" status
 
 echo -e "\e[93mPASS $separator${_0}"
 pass git status

@@ -1,16 +1,27 @@
 # Ignore everything...
 /*
 
-# ... but do not ignore those directories ...
+# ...except for:
+
+# scripts
+
 !/bin/
 
-# ... nor ignore those files.
-!.bashrc
-!.idearc
-!.taskrc
+# git files
+
 !.gitconfig
 !.gitignore
+!README.md
+
+# config files
+
+!.bashrc
+!.billrc
+!.idearc
+!.taskrc
+
+# symlinks
+
 !cloud
 !downloads
-!README.md
 !repos
