@@ -84,7 +84,7 @@ function __prompt_command() {
     white="\e[0;37m"
     _0="\e[0m"
     if [[ -n $(git status -s) ]]; then
-        echo -e "${white}⌠$_0"
+        echo -e "${white}⌠ Δ$_0"
         # Store the total number of lines in the output
         total_lines=$(git -c color.status=always status -s | wc -l)
         # Iterate over each line of the output

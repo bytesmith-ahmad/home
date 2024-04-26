@@ -1,4 +1,77 @@
 #!/bin/bash
 
-echo "Archived files (concept)"
-tree -L 1
+# Function to display usage instructions
+function display_usage() {
+    echo "Usage: $0 [options] [patterns]"
+    echo "Options:"
+    echo "  --help     Display this help message"
+    echo "  -a         Show hidden files"
+    echo "  -s         Display file sizes"
+    echo "  -L <level> Limit the depth of the directory tree"
+    echo "Patterns:"
+    echo "  Specify search patterns to filter directory names"
+}
+
+# Check if the user provided the --help option
+if [[ "$1" == "--help" ]]; then
+    display_usage
+    exit 0
+fi
+
+if [ $# -eq 0 ]; then
+    echo "Consider adding limit config"
+    tree arch
+    exit 0
+fi
+
+# Construct the pattern string by joining the arguments with |
+pattern=""
+for arg in "$@"; do
+    if [ -z "$pattern" ]; then
+        pattern="*$arg*"
+    else
+        pattern="$pattern|*$arg*"
+    fi
+done
+
+# Search using tree command
+# tree --prune arch -P "$pattern"
+
+# Search using tree command and only display output if found
+output=$(tree --prune arch -P "$pattern")
+# Check if the output contains any directories or files
+if [[ $output == *"directories, 0 files"* ]]; then
+    exit 1
+else
+    echo "$output"
+fi
+
+#tree --prune arch -P 'iraqi*|car*'
+
+### To implement in future:
+
+# 1. Error Handling:
+# Add checks to handle cases where the specified directory doesn't exist
+# or where the 'tree' command is not available.
+
+# 2. Custom Output:
+# Allow users to specify options for the 'tree' command,
+# such as showing hidden files (-a), displaying file sizes (-s),
+# or limiting the depth of the directory tree (-L).
+
+# 3. Interactive Mode:
+# Implement an interactive mode where users can input search patterns
+# one by one and see the results immediately.
+
+# 4. Documentation:
+# Include a help message (-h or --help) to explain how to use the script
+# and what options are available.
+
+# 5. Logging:
+# Optionally, log the script's activity to a file for record-keeping
+# or debugging purposes.
+
+# 6. Configuration File:
+# Allow users to specify search patterns and other options in a
+# configuration file, making it easier to use the script with
+# predefined settings.
