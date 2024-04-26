@@ -12,8 +12,23 @@ export VISUAL="code --wait"
 export EDITOR="micro"
 
 # Prompt string (PS to make PS1 dynamic)
-export PS="\[\e[5;92m\]\$(date +'%H:%M')\[\e[0m\] \[\033[01;34m\]\w\[\033[00m\] \[\e[5m\]⚡\[\e[0m\]"
-export PS1=$PS
+
+PS="\[\e[5;92m\]\$(date +'%H:%M')\[\e[0m\] \[\033[01;34m\]\w\[\033[00m\] \[\e[5m\]⚡\[\e[0m\]"
+
+# new version
+export PROMPT_COMMAND=__prompt_command
+function __prompt_command() {
+    local EXIT="$?"   # This needs to be first
+    PS1=""
+
+    if [ $EXIT != 0 ]; then
+        exit_color="\[\e[31m\]" #  Red for error
+    else
+        exit_color="\[\e[0m\]"  # None for success
+    fi
+    
+    PS1="\[\e[5;92m\]\$(date +'%H:%M')\[\e[0m\] \[\033[01;34m\]\w\[\033[00m\] ${exit_color}\[\e[5m\]⚡\[\e[0m\]"
+}
 
 # Web links
 export github="https://github.com/bytesmith-ahmad"
