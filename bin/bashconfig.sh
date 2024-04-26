@@ -17,19 +17,62 @@ PS="\[\e[5;92m\]\$(date +'%H:%M')\[\e[0m\] \[\033[01;34m\]\w\[\033[00m\] \[\e[5m
 
 # new version
 export PROMPT_COMMAND=__prompt_command
+# Function to check if the current branch is ahead of the remote branch
 function __prompt_command() {
-    local EXIT="$?"   # This needs to be first
+    # This needs to be first
+    local EXIT="$?"
+
+    # Definitions
+    local default_color="\[\e[0m\]"  # Reset color
+    local warning_color="\[\e[33m\]" # Yellow color
+    local error_color="\[\e[31m\]"   # Red color
+    local default_symbol=''          # 
+    local up_to_date_symbol="♡"      #
+    local not_added_symbol="🔶"      # Symbol for case 
+    local not_committed_symbol="🔷"  # Symbol for case 
+    local ahead_symbol="🔺"          # Symbol for case 
+    local behind_symbol="🔻"         # Symbol for case 
+
+    # Default values
+    local SYMBOL=""
+    local COLOR="\[\e[0m\]"
     PS1=""
 
+    # Check git status
+    local git_status=$(git status 2>&1)
+    
+    if [[ $git_status == *"not a git repository"* ]]; then
+        SYMBOL=$default_symbol
+        COLOR=$default_color
+    elif [[ $git_status == *"Untracked files:"* ]]; then
+        SYMBOL=$not_added_symbol
+        COLOR=$warning_color
+    elif [[ $git_status == *"Changes not staged for commit"* ]]; then
+        SYMBOL=$not_added_symbol
+        COLOR=$warning_color
+    elif [[ $git_status == *"Changes to be committed"* ]]; then
+        SYMBOL=$not_committed_symbol
+        COLOR=$warning_color
+    elif [[ $git_status == *"Your branch is ahead"* ]]; then
+        SYMBOL=$ahead_symbol
+        COLOR=$warning_color
+    elif [[ $git_status == *"Your branch is behind"* ]]; then
+        SYMBOL=$behind_symbol
+        COLOR=$warning_color
+    elif [[ $git_status == *"Your branch is up to date"* ]]; then
+        SYMBOL=$up_to_date_symbol
+        COLOR=$default_color
+    fi
+
+    # Notify error, ovverrides warning
     if [ $EXIT != 0 ]; then
-        exit_color="\[\e[31m\]" #  Red for error
-    else
-        exit_color="\[\e[0m\]"  # None for success
+        COLOR=$error_color
     fi
     
-    PS1="\[\e[5;92m\]\$(date +'%H:%M')\[\e[0m\] \[\033[01;34m\]\w\[\033[00m\] ${exit_color}\[\e[5m\]⚡\[\e[0m\]"
+    PS1="${SYMBOL} \[\e[5;92m\]\$(date +'%H:%M')\[\e[0m\] \[\033[01;34m\]\w\[\033[00m\] ${COLOR}\[\e[5m\]⚡\[\e[0m\]"
 
-    # Show git status as well
+    # Show git status as well before printing prompt
+    echo "==="
     git status -s
 }
 
@@ -76,3 +119,6 @@ alias cgpt='chrome https://chat.openai.com/c/cc6e1725-5fee-454d-a15f-9477655cbc2
 # Utilities
 
 alias c='xclip -selection clipboard'
+
+# Common typos
+alias gti='git'
