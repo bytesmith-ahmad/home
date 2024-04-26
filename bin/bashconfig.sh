@@ -28,6 +28,9 @@ function __prompt_command() {
     fi
     
     PS1="\[\e[5;92m\]\$(date +'%H:%M')\[\e[0m\] \[\033[01;34m\]\w\[\033[00m\] ${exit_color}\[\e[5m\]⚡\[\e[0m\]"
+
+    # Show git status as well
+    git status -s
 }
 
 # Web links
