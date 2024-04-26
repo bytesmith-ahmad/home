@@ -81,8 +81,10 @@ function __prompt_command() {
 
     # single integral ∫
     # Check if git status output is not empty
+    white="\e[0;37m"
+    _0="\e[0m"
     if [[ -n $(git status -s) ]]; then
-        echo ⌠
+        echo -e "${white}⌠$_0"
         # Store the total number of lines in the output
         total_lines=$(git -c color.status=always status -s | wc -l)
         # Iterate over each line of the output
@@ -92,9 +94,9 @@ function __prompt_command() {
             ((line_count++))
             # Prepend a character to the beginning of each line
             if ((line_count < total_lines)); then
-                printf "|$line\n"
+                printf "${white}|$_0$line\n"
             else
-                printf "⌡$line\n"
+                printf "${white}⌡$_0$line\n"
             fi
         done <<< "$(git -c color.status=always status -s)"
     fi
