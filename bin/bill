@@ -1,2 +1,5 @@
 #!/bin/bash
 task rc:/home/ahmad/.billrc "$@"
+git -C .bills add .
+git -C .bills commit --quiet -am "placeholder"
+#git -C .bills push --quiet

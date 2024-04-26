@@ -14,6 +14,7 @@ dir="$HOME/.task/workspace/$uuid"
 # Check if directory exists
 if [ -d "$dir" ]; then
     cd $dir
+    tree .
 else
     echo "Directory does not exist for task $1. Creating directory..."
     mkdir -p "$dir"
