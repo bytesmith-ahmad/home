@@ -71,9 +71,33 @@ function __prompt_command() {
     
     PS1="${SYMBOL} \[\e[5;92m\]\$(date +'%H:%M')\[\e[0m\] \[\033[01;34m\]\w\[\033[00m\] ${COLOR}\[\e[5m\]⚡\[\e[0m\]"
 
-    # Show git status as well before printing prompt
-    echo "==="
-    git status -s
+    # keeping this simpler version in case the other breaks
+    # if [[ -n $(git status -s) ]]; then
+        # echo ⌠
+        # echo -n ⌡
+        # git status -s
+        # echo "---"
+    # fi
+
+    # single integral ∫
+    # Check if git status output is not empty
+    if [[ -n $(git status -s) ]]; then
+        echo ⌠
+        # Store the total number of lines in the output
+        total_lines=$(git -c color.status=always status -s | wc -l)
+        # Iterate over each line of the output
+        line_count=0
+        while IFS= read -r line; do
+            # Increment line count
+            ((line_count++))
+            # Prepend a character to the beginning of each line
+            if ((line_count < total_lines)); then
+                printf "|$line\n"
+            else
+                printf "⌡$line\n"
+            fi
+        done <<< "$(git -c color.status=always status -s)"
+    fi
 }
 
 # Web links
