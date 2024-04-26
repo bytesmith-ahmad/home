@@ -15,7 +15,7 @@ export EDITOR="micro"
 
 PS="\[\e[5;92m\]\$(date +'%H:%M')\[\e[0m\] \[\033[01;34m\]\w\[\033[00m\] \[\e[5m\]⚡\[\e[0m\]"
 
-# new version
+# new version, move to file *****************************************
 export PROMPT_COMMAND=__prompt_command
 # Function to check if the current branch is ahead of the remote branch
 function __prompt_command() {
@@ -71,19 +71,11 @@ function __prompt_command() {
     
     PS1="${SYMBOL} \[\e[5;92m\]\$(date +'%H:%M')\[\e[0m\] \[\033[01;34m\]\w\[\033[00m\] ${COLOR}\[\e[5m\]⚡\[\e[0m\]"
 
-    # keeping this simpler version in case the other breaks
-    # if [[ -n $(git status -s) ]]; then
-        # echo ⌠
-        # echo -n ⌡
-        # git status -s
-        # echo "---"
-    # fi
-
     # single integral ∫
     # Check if git status output is not empty
     white="\e[0;37m"
     _0="\e[0m"
-    if [[ -n $(git status -s) ]]; then
+    if [[ -n $(git status -s 2>/dev/null) ]]; then
         echo -e "${white}⌠ Δ$_0"
         # Store the total number of lines in the output
         total_lines=$(git -c color.status=always status -s | wc -l)
@@ -101,6 +93,14 @@ function __prompt_command() {
         done <<< "$(git -c color.status=always status -s)"
     fi
 }
+
+# keeping this simpler version in case the other breaks
+# if [[ -n $(git status -s) ]]; then
+    # echo ⌠
+    # echo -n ⌡
+    # git status -s
+    # echo "---"
+# fi
 
 # Web links
 export github="https://github.com/bytesmith-ahmad"
