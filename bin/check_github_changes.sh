@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define colors for different categories
-task_color="\033[33m"       # Yellow for tasks
+task_color="\033[91m"       # Yellow for tasks
 password_color="\033[34m"   # Blue for passwords
 archive_color="\033[35m"    # Magenta for archives
 finance_color="\033[32m"    # Green for finances
