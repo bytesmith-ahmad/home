@@ -38,7 +38,7 @@ done
 # tree --prune arch -P "$pattern"
 
 # Search using tree command and only display output if found
-output=$(tree --prune arch -P "$pattern")
+output=$(tree -C --prune arch -P "$pattern")
 # Check if the output contains any directories or files
 if [[ $output == *"directories, 0 files"* ]]; then
     exit 1

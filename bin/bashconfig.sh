@@ -116,6 +116,13 @@ export LIM=10    # limits the number of tasks shown
 alias config="$EDITOR ~/bin/bashconfig.sh"      # extension of ~/.bashrc
 alias taskconfig="$EDITOR ~/bin/taskconfig.sh"  # extension of ~/.taskrc
 
+# File handling
+
+alias view='wslview'          # opens any document
+alias viewdb='sqlitebrowser'  # opens .db files
+alias peek="tree -L 1"        # shows surface level content of dirs
+alias note="notepad.exe"      # open with note
+
 # TaskWarrior MOVED TO SCRIPTS
 
 alias tasks='task limit:10'
@@ -130,12 +137,6 @@ alias done='source task-done'
 alias edit='task edit'
 alias errands='source errands'
 alias switch='source switch_task_context.sh'
-
-# File handling
-
-alias peek="tree -L 1"
-alias note="notepad.exe" 
-alias open-db=sqlitebrowser
 
 # Web
 
