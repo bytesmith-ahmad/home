@@ -1,6 +1,8 @@
 #!/bin/bash
 
+# accidental duplicates, refactor before removing
 archives=$HOME/arch
+parent_dir="$HOME/arch"
 
 # Function to display usage instructions
 function display_usage() {
@@ -76,8 +78,23 @@ if [[ "$1" == "sh" ]]; then
     # Get the rest of the arguments as shell commands
     shift
     # Change directory to ~/arch and execute the provided shell commands
-    (cd "$archives" && "$@")
+    (cd "$archives" && eval "$@")
     exit $?
+fi
+
+# shortcut bypassing 'sh'
+
+# Check if the first argument is a valid command
+if command -v "$1" &>/dev/null; then
+    # Change directory to the parent directory
+    cd "$parent_dir" || exit 1
+
+    # Execute the command with the provided arguments
+    eval "$@"
+    exit $?
+else
+    echo "Command '$1' not found"
+    exit 1
 fi
 
 # Execute search if flag is raised ************************************************************
