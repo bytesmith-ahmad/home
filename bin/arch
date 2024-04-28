@@ -14,11 +14,16 @@ function display_usage() {
     echo "  Specify search patterns to filter directory names"
 }
 
-# Check if the user provided the --help option
+# search flag
+search=0
+
+# Check if the user provided the --help option ************************************************
 if [[ "$1" == "--help" ]]; then
     display_usage
     exit 0
 fi
+
+# [select] ************************************************************************************
 
 if [ $# -eq 0 ]; then
     echo "Consider adding limit config"
@@ -26,7 +31,47 @@ if [ $# -eq 0 ]; then
     exit 0
 fi
 
-# If the first argument is 'in', execute shell commands inside ~/arch
+# [Select + filter] Construct the pattern string by joining the arguments with | **************
+
+pattern=""
+for arg in "$@"; do
+    if [ -z "$pattern" ]; then
+        pattern="*$arg*"
+    else
+        pattern="$pattern|*$arg*"
+    fi
+    search=1
+done
+
+# [create] ($EDITOR $path) ********************************************************************
+
+# not implemented
+
+# [update] If the first argument is 'edit', edit documents in ~/arch **************************
+if [[ "$1" == "edit" ]]; then
+    # Use eval to expand wildcard pattern in $2
+    files=$(eval "ls -d $HOME/arch/$2")
+    
+    # Check if any files match the pattern
+    if [ -n "$files" ]; then
+        # Iterate over the matched files and edit them with the $EDITOR
+        for file in $files; do
+            $EDITOR "$file"
+        done
+        exit $?
+    else
+        echo -e "\e[31mNo matching files found.\e[0m"
+        exit 1
+    fi
+fi
+
+# [delete] (rm or rmdir) **********************************************************************
+
+# not implemented
+
+# Anything that doesn't fit above operations can be executed using 'sh' ***********************
+
+# If the first argument is 'sh', execute shell commands inside ~/arch
 if [[ "$1" == "sh" ]]; then
     # Get the rest of the arguments as shell commands
     shift
@@ -35,27 +80,24 @@ if [[ "$1" == "sh" ]]; then
     exit $?
 fi
 
-# Construct the pattern string by joining the arguments with |
-pattern=""
-for arg in "$@"; do
-    if [ -z "$pattern" ]; then
-        pattern="*$arg*"
+# Execute search if flag is raised ************************************************************
+
+if [ "$search" -eq 1 ]; then
+    # Search using tree command and only display output if found
+    output=$(tree $archives -C --dirsfirst --prune --matchdirs -P "$pattern")
+    # Check if the output contains any directories or files
+    if [[ $output == *"0 directories, 0 files"* ]]; then
+        exit 1
     else
-        pattern="$pattern|*$arg*"
+        echo "$output"
+        exit 0
     fi
-done
-
-# Search using tree command
-# tree --prune arch -P "$pattern"
-
-# Search using tree command and only display output if found
-output=$(tree $archives -C --prune --matchdirs -P "$pattern")
-# Check if the output contains any directories or files
-if [[ $output == *"directories, 0 files"* ]]; then
-    exit 1
 else
-    echo "$output"
+    echo "No search pattern provided."
+    exit 1
 fi
+
+# End of program ==============================================================================
 
 #tree --prune arch -P 'iraqi*|car*'
 
