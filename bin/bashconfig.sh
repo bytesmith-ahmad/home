@@ -1,5 +1,7 @@
 #!bin/bash
 
+echo -e "\e[33m[config] Consider splitting variables and aliases\e[0m"
+
 # BASH SETTINGS
 
 # VARIABLES ****************************************************************************************
@@ -118,6 +120,7 @@ alias taskconfig="$EDITOR ~/bin/taskconfig.sh"  # extension of ~/.taskrc
 
 # File handling
 
+#alias sql='sqlite3'
 alias view='wslview'          # opens any document
 alias viewdb='sqlitebrowser'  # opens .db files
 alias peek="tree -L 1"        # shows surface level content of dirs
