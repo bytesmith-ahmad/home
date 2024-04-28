@@ -1,5 +1,7 @@
 #!/bin/bash
 
+archives=$HOME/arch
+
 # Function to display usage instructions
 function display_usage() {
     echo "Usage: $0 [options] [patterns]"
@@ -20,8 +22,17 @@ fi
 
 if [ $# -eq 0 ]; then
     echo "Consider adding limit config"
-    tree arch
+    tree $archives
     exit 0
+fi
+
+# If the first argument is 'in', execute shell commands inside ~/arch
+if [[ "$1" == "sh" ]]; then
+    # Get the rest of the arguments as shell commands
+    shift
+    # Change directory to ~/arch and execute the provided shell commands
+    (cd "$archives" && "$@")
+    exit $?
 fi
 
 # Construct the pattern string by joining the arguments with |
@@ -38,7 +49,7 @@ done
 # tree --prune arch -P "$pattern"
 
 # Search using tree command and only display output if found
-output=$(tree -C --prune arch -P "$pattern")
+output=$(tree $archives -C --prune --matchdirs -P "$pattern")
 # Check if the output contains any directories or files
 if [[ $output == *"directories, 0 files"* ]]; then
     exit 1
