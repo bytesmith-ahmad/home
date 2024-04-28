@@ -1,5 +1,43 @@
 #!/bin/bash
 
+# TODO: whitelist command manually such as cat, mkdir, touch, edit, rm, etc.
+# Commands to whitelist:
+
+### --help
+
+## optional switches to eliminate ambiguity
+
+### -p to force pattern
+### -c to force command
+
+## else will determine by whitelist
+
+### custom
+####warp: sends main process to that location, while keeping reference to original locatin with export
+####pwd: builtin
+
+### insert
+####mkdir: builtin
+####touch: builtin
+
+### update
+####edit: alias for micro
+
+### delete
+####rmdir: builtin
+####rm: builtin
+
+### select
+####cat: builtin
+####yq: parse yaml
+####md: parse markdown
+# (anything that isn't one of the above is considered pattern.)
+
+# anything else assume it's pattern for filter!
+
+echo -e "\e[33mWarning: buggy script, beware!\e[0m"
+# issue: args interpreted as commands instead of filter!
+
 # accidental duplicates, refactor before removing
 archives=$HOME/arch
 parent_dir="$HOME/arch"
@@ -74,7 +112,7 @@ fi
 # Anything that doesn't fit above operations can be executed using 'sh' ***********************
 
 # If the first argument is 'sh', execute shell commands inside ~/arch
-if [[ "$1" == "sh" ]]; then
+if [[ "$1" == "-s" ]]; then
     # Get the rest of the arguments as shell commands
     shift
     # Change directory to ~/arch and execute the provided shell commands
@@ -82,20 +120,20 @@ if [[ "$1" == "sh" ]]; then
     exit $?
 fi
 
-# shortcut bypassing 'sh'
+# shortcut bypassing 'sh', nevermind
 
-# Check if the first argument is a valid command
-if command -v "$1" &>/dev/null; then
-    # Change directory to the parent directory
-    cd "$parent_dir" || exit 1
-
-    # Execute the command with the provided arguments
-    eval "$@"
-    exit $?
-else
-    echo "Command '$1' not found"
-    exit 1
-fi
+# # Check if the first argument is a valid command
+# if command -v "$1" &>/dev/null; then
+    # # Change directory to the parent directory
+    # cd "$parent_dir" || exit 1
+# 
+    # # Execute the command with the provided arguments
+    # eval "$@"
+    # exit $?
+# else
+    # echo "Command '$1' not found"
+    # exit 1
+# fi
 
 # Execute search if flag is raised ************************************************************
 
