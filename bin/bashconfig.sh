@@ -1,5 +1,6 @@
 #!bin/bash
 
+# warnings
 echo -e "\e[33m[config] Consider splitting variables and aliases\e[0m"
 
 # BASH SETTINGS
@@ -121,6 +122,7 @@ alias taskconfig="$EDITOR ~/bin/taskconfig.sh"  # extension of ~/.taskrc
 # File handling
 
 #alias sql='sqlite3'
+alias bat='batcat'
 alias view='wslview'          # opens any document
 alias viewdb='sqlitebrowser'  # opens .db files
 alias peek="tree -L 1"        # shows surface level content of dirs
@@ -148,6 +150,7 @@ alias cgpt='chrome https://chat.openai.com/c/cc6e1725-5fee-454d-a15f-9477655cbc2
 
 # Utilities
 
+stats='status'
 alias c='xclip -selection clipboard'
 alias calc='bc -ql'
 # alias yq="yq '.comments=\"\"'"
