@@ -150,6 +150,7 @@ alias cgpt='chrome https://chat.openai.com/c/cc6e1725-5fee-454d-a15f-9477655cbc2
 
 alias c='xclip -selection clipboard'
 alias calc='bc -ql'
+# alias yq="yq '.comments=\"\"'"
 
 # Common typos
 alias gti='git'
