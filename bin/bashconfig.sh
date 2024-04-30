@@ -121,6 +121,7 @@ alias taskconfig="$EDITOR ~/bin/taskconfig.sh"  # extension of ~/.taskrc
 
 # File handling
 
+alias E="$EDITOR"
 alias list='tar -tzvf'
 alias ..='cd ..'
 #alias sql='sqlite3'

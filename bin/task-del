@@ -1,6 +1,11 @@
 #!/bin/bash
 
+task_dir="$HOME/.task"
+
 task delete "$@"
-git -C .task commit -am "deleted task" >> "$HOME/.task/git.log"
-git -C .task push 2> "$HOME/.task/error.log"
+git -C $task_dir add .
+git -C $task_dir commit -m "deleted task" >> "$HOME/.task/git.log"
+git -C $task_dir push 2> "$HOME/.task/error.log"
+git -C $HOME add .task
+git -C $HOME commit -m "updating task module"
 task limit:$LIM

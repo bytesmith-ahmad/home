@@ -1,5 +1,10 @@
 #!/bin/bash
 
-git -C .task add .
-git -C .task commit -am "sending from $NAME"
-git -C .task push
+task_dir="$HOME/.task"
+
+git -C $task_dir add .
+git -C $task_dir commit -am "sending from $NAME"
+git -C $task_dir push 2> "$HOME/.task/error.log"
+git -C $HOME add .task
+git -C $HOME commit -m "updating task module"
+git -C $HOME push
