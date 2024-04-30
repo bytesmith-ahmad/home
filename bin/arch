@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Warnings about this script
+echo -e "\e[33mWarning: buggy script, beware!\e[0m"
+# issue: args interpreted as commands instead of filter!
+
 # TODO: whitelist command manually such as cat, mkdir, touch, edit, rm, etc.
 # Commands to whitelist:
 
@@ -35,12 +39,9 @@
 
 # anything else assume it's pattern for filter!
 
-echo -e "\e[33mWarning: buggy script, beware!\e[0m"
-# issue: args interpreted as commands instead of filter!
-
 # accidental duplicates, refactor before removing
-archives=$HOME/arch
-parent_dir="$HOME/arch"
+archives="$HOME/archives"
+parent_dir="$HOME/archives"
 
 # Function to display usage instructions
 function display_usage() {
