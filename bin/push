@@ -1,10 +1,30 @@
 #!/bin/bash
 
+sync_home() {
+    local msg="$1"
+    
+    git -C "$HOME" add .
+    if [ -n "$msg" ]; then
+        git -C "$HOME" commit -m "$msg"
+    else
+        git -C "$HOME" commit
+    fi
+    git -C "$HOME" push
+}
+
+sync_arch(){
+    git -C $HOME/arch add .
+    git -C $HOME/arch commit -am "updating arch module" > /dev/null
+    git -C $HOME/arch push
+}
+
+sync_bill(){}
+
+sync_task(){}
+
 # Check the number of arguments
 if [ "$#" -eq 0 ]; then
-    echo "Usage: $0 <option>"
-    echo "Options: task, bill, arch"
-    exit 1
+    sync_home
 elif [ "$#" -ge 2 ]; then
     echo "Usage: $0 <option>"
     echo "Options: task, bill, arch"
@@ -30,10 +50,7 @@ case "$1" in
         exit 0
         ;;
     *arch*)
-        git -C ~/arch add .
-        git -C ~/arch commit -am "updating arch module" > /dev/null
-        git -C ~/arch push
-        #TODO**********************************
+        sync_arch
         exit 0
         ;;
     *)

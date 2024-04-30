@@ -121,6 +121,8 @@ alias taskconfig="$EDITOR ~/bin/taskconfig.sh"  # extension of ~/.taskrc
 
 # File handling
 
+alias list='tar -tzvf'
+alias ..='cd ..'
 #alias sql='sqlite3'
 alias bat='batcat'
 alias view='wslview'          # opens any document
