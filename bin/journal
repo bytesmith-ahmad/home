@@ -28,7 +28,7 @@ function open_journal_for_date() {
     if [ "$journal_date" = "$(get_today_date)" ]; then
         "$editor" "$journal_file" &
     else
-        cat "$journal_file"
+        bat "$journal_file"
     fi
 }
 
@@ -42,8 +42,14 @@ function main() {
 
     # Case 2: If one argument provided, open journal for specified date
     if [ "$#" -eq 1 ]; then
-        open_journal_for_date "$1"
-        exit 0
+        if [ "$1" == "sync" ]; then
+            git -C "$JOURNAL" add .
+            git -C "$JOURNAL" commit -m "Sent from $NAME"
+            git -C "$JOURNAL" push
+        else
+            open_journal_for_date "$1"
+            exit 0
+        fi
     fi
 
     # Display usage instructions if incorrect number of arguments provided
@@ -54,4 +60,5 @@ function main() {
 }
 
 # Call the main function with provided arguments
+git -C "$JOURNAL" pull
 main "$@"
