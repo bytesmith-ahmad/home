@@ -6,6 +6,7 @@ password_color="\033[34m"   # Blue for passwords
 archive_color="\033[35m"    # Magenta for archives
 finance_color="\033[32m"    # Green for finances
 home_color="\033[38;5;208m" # Orange for home
+journal_color="\033[96m"    # Cyan for journal
 reset_color="\033[0m"
 
 # Synchronize home
@@ -43,6 +44,9 @@ git -C .bills pull
 # Synchronize password-store
 echo -en "${password_color}Passwords: ${reset_color}"
 pass git pull
-# Syncronize archives
+# Synchronize archives
 echo -en "${archive_color}Archives: ${reset_color}"
 git -C arch pull
+# Synchronize journal
+echo -en "${journal_color}Journal: ${reset_color}"
+git -C journal pull

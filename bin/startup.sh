@@ -1,10 +1,45 @@
 #!/bin/bash
 
-# Check for github changes and pull them
-~/bin/check_github_changes.sh
+# sequence of startup
+main() {
+    # warning "example warning"
+    update_home
+    echo ""
+    show_date
+    echo ""
+    show_RV
+    echo ""
+    task_summary
+}
 
-# Run screenfetch for system information
-# screenfetch
+warning(){
+    echo -e "\e[33m$@\e[0m"
+}
+
+update_home() {
+    # Check for github changes and pull them
+    ~/bin/check_github_changes.sh
+}
+
+show_date() {
+    # Display date and time with decoration
+    print_decoration "*" 28
+    print_color "$(date)" "1;36"
+    print_decoration "*" 28
+}
+
+show_RV() {
+    echo -ne "\e[7;97mAPPOINTMENTS\e[27;39m"
+    task all +appointment
+}
+
+# Display tasks from taskwarrior
+task_summary() {
+    echo -ne "\e[7;97mTASKS\e[27;39m"
+    # task summary
+    task context none >/dev/null 2>&1
+    task limit:5
+}
 
 # Function to print decorations
 print_decoration() {
@@ -20,21 +55,4 @@ print_color() {
     printf "\033[${color}m%s\033[0m\n" "$text"
 }
 
-# Display date and time with decoration
-echo ""
-print_decoration "*" 28
-print_color "$(date)" "1;36"
-print_decoration "*" 28
-
-# Display tasks from taskwarrior
-task summary
-task context none >/dev/null 2>&1
-task limit:5
-
-# Display guidance message with decoration
-echo -e "\e[33mConsider a 'help' command in case I forget what to do\e[0m"
-# print_decoration "-" 50
-# print_color "For guidance: enter 'guide'" "1;33"
-# #print_color "To view list of commands: 'ls -1 bin'" "1;33"
-# print_decoration "-" 50
-# echo ""
+main
