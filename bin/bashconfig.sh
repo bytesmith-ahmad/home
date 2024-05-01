@@ -133,6 +133,7 @@ alias note="notepad.exe"      # open with note
 
 # TaskWarrior MOVED TO SCRIPTS
 
+alias appointments='task all +appointment'
 alias tasks='task limit:10'
 alias add='source task-add'
 alias mod='source task-mod'
