@@ -15,6 +15,16 @@ declare -A option_descriptions=(
 # config
 archive_path="$HOME/archives"
 
+# TESTS:
+# no arg: passed
+# help: passed
+# dev: passed
+# edit: fail
+# tree: passed
+# warp: fail
+# execute: fail
+# launch: pass
+
 main() {
     #warning "This is a warning"
     
