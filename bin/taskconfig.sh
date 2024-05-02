@@ -2,6 +2,10 @@
 
 # TASKWARRIOR SETTINGS
 
+# adding due countdown to all report ******************************************
+
+report.all.columns=id,status.short,uuid.short,start.active,entry.age,end.age,depends.indicator,priority,project.parent,tags.count,recur.indicator,wait.remaining,scheduled.remaining,due.countdown,until.remaining,description
+
 # special tags **********************************
 
 urgency.user.tag.work.coefficient=2.0           # small boost, may need more
