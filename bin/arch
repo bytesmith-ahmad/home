@@ -63,7 +63,7 @@ help() {
 warn() { echo -e "\e[33m$@\e[0m"; }
 
 arch_fzf() {
-    output=$(find "$archive_path" -type f | fzf)
+    output=$(find "$archive_path" -type f -o -type d | fzf)
     es="$?"
     echo "📋 $style1$output$reset"ac
     echo "$output" | xclip -selection clipboard
