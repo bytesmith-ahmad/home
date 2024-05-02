@@ -28,7 +28,7 @@ function open_journal_for_date() {
     if [ "$journal_date" = "$(get_today_date)" ]; then
         "$editor" "$journal_file" &
     else
-        bat "$journal_file"
+        batcat "$journal_file"
     fi
 }
 
