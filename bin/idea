@@ -1,2 +1,0 @@
-#!/bin/bash
-task rc:/home/ahmad/.idearc "$@"
