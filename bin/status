@@ -27,7 +27,7 @@ function check_git_status() {
     fi
 }
 
-check_git_status "$HOME/arch" "ARCH"
+check_git_status "$HOME/archives" "ARCH"
 check_git_status "$HOME/.bills" "BILL"
 check_git_status "$HOME" "HOME"
 check_git_status "$HOME/journal" "JRNL"
