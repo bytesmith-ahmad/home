@@ -4,8 +4,9 @@
 declare -A option_descriptions=(
     [" "]="Conduct fuzzy search of archives using fzf"
     ["--help"]="Display this help message"
-    ["--dev"]="Open the script with $EDITOR"
+    ["dev"]="Open the script with $EDITOR"
     ["edit"]="Edit document"
+    ["sync"]="Pushes changes to Github"
     ["tree"]="Display the directory tree"
     ["warp"]="[Not implemented] cd to chosen directory"
     ['<command>']="Executes bultin shell command in archives"
@@ -33,8 +34,10 @@ main() {
     case "$1" in
         help | --help) help ;;
         -s | -c) execute_command "$@" ;;
-        --dev) open_this_file ;;
+        dev) open_this_file ;;
         edit) open_chosen_file ;;
+        pull) pull_from_github ;;
+        sync) push_to_github ;;
         tree) arch_tree ;;
         warp) cd_to_directory ;;
         echo | mkdir | touch | rmdir | rm | bat | cat | yq | md | jq) execute_command "$@" ;;
@@ -43,6 +46,27 @@ main() {
 
     echo -e "\e[31mERROR\e[0m" >&2
     exit 1
+}
+
+arch_fzf() {
+    output=$(find "$archive_path" -type f -o -type d | fzf)
+    es="$?"
+    echo "📋 $style1$output$reset"ac
+    echo "$output" | xclip -selection clipboard
+    exit $es
+}
+
+arch_tree() {
+    tree "$archive_path"
+    exit "$?"
+}
+
+execute_command() {
+    warn Not tested
+    if [[ $1 == '-c' || $1 == '-s' ]]; then shift ; fi
+    # Change directory to ~/arch and execute the provided shell commands
+    (cd "$archives" && eval "$@")
+    exit $?
 }
 
 # Help function to display usage information and option descriptions
@@ -58,44 +82,6 @@ help() {
         printf "  ${GREEN}%-12s${NC} %s\n" "$option" "${option_descriptions[$option]}"
     done
     exit 0
-}
-
-warn() { echo -e "\e[33m$@\e[0m"; }
-
-arch_fzf() {
-    output=$(find "$archive_path" -type f -o -type d | fzf)
-    es="$?"
-    echo "📋 $style1$output$reset"ac
-    echo "$output" | xclip -selection clipboard
-    exit $es
-}
-
-open_this_file() {
-    micro $0
-    exit "$?"
-}
-
-open_chosen_file() {
-    warn Not tested
-    # Use eval to expand wildcard pattern in $2
-    files=$(eval "ls -d $archive_path/$2")
-    
-    # Check if any files match the pattern
-    if [ -n "$files" ]; then
-        # Iterate over the matched files and edit them with the $EDITOR
-        for file in $files; do
-            $EDITOR "$file"
-        done
-        exit $?
-    else
-        echo -e "\e[31mNo matching files found.\e[0m"
-        exit 1
-    fi
-}
-
-arch_tree() {
-    tree "$archive_path"
-    exit "$?"
 }
 
 launch_search() {
@@ -122,12 +108,41 @@ launch_search() {
     fi
 }
 
-execute_command() {
+open_chosen_file() {
     warn Not tested
-    if [[ $1 == '-c' || $1 == '-s' ]]; then shift ; fi
-    # Change directory to ~/arch and execute the provided shell commands
-    (cd "$archives" && eval "$@")
-    exit $?
+    # Use eval to expand wildcard pattern in $2
+    files=$(eval "ls -d $archive_path/$2")
+    
+    # Check if any files match the pattern
+    if [ -n "$files" ]; then
+        # Iterate over the matched files and edit them with the $EDITOR
+        for file in $files; do
+            $EDITOR "$file"
+        done
+        exit $?
+    else
+        echo -e "\e[31mNo matching files found.\e[0m"
+        exit 1
+    fi
 }
+
+open_this_file() {
+    micro $0
+    exit "$?"
+}
+
+pull_from_github() {
+    git -C $archive_path pull
+    exit "$?"
+}
+
+push_to_github() {
+    git -C $archive_path add .
+    git -C $archive_path commit -m "sent from $NAME"
+    git -C $archive_path push
+    exit "$?"
+}
+
+warn() { echo -e "\e[33m$@\e[0m"; }
 
 main "$@"
