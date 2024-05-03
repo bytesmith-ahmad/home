@@ -4,3 +4,6 @@
 [submodule "bills"]
 	path = .bills
 	url = https://github.com/bytesmith-ahmad/bills
+[submodule "journal"]
+	path = journal
+	url = https://github.com/bytesmith-ahmad/journal
