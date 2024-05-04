@@ -3,6 +3,9 @@
 
 # ...except for:
 
+# errors
+!ERROR
+
 # scripts
 
 !/bin/
