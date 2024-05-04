@@ -46,6 +46,8 @@ function main() {
             git -C "$JOURNAL" add .
             git -C "$JOURNAL" commit -m "Sent from $NAME"
             git -C "$JOURNAL" push
+            git -C "$HOME" add journal
+            git -C "$HOME" commit -m "sent from $NAME" 
         else
             open_journal_for_date "$1"
             exit 0
