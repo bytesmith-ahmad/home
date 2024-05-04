@@ -77,7 +77,7 @@ open_this_file() {
 
 push_to_github() {
     git -C $target add .
-    git -C $target commit -m "$1" > /dev/null
+    git -C $target commit -m "'$*'" > /dev/null
     git -C $target push
     es="$?"
     git -C $HOME add .task
