@@ -36,6 +36,14 @@ uda.cat.type=string
 urgency.uda.cat.coefficient=1.0
 color.uda.cat=color255
 
+# deleted task report *******************************************
+
+report.trash.description=List all deleted tasks
+report.trash.columns=status.short,uuid.short,description      # we need to specify the columns in the report, and the order in which those are shown
+report.trash.labels=St,uuid,desc                      # Labels are the column heading labels in the report.
+report.trash.sort=entry+
+report.trash.filter=status:deleted
+
 # simple report *******************************************
 
 report.simple.description=Simple list of open tasks by project

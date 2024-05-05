@@ -7,6 +7,7 @@ target="$HOME/.task"
 # Define an associative array to store option descriptions
 declare -A option_descriptions=(
     [" "]="Display at most 10 tasks"
+    ["courses"]="Shows you courses"
     ["dev"]="Develop this script"
     ["help"]="Display a help message"
     ["open"]="cd to task's directory [Not implemented]"
@@ -26,6 +27,7 @@ main() {
     if [ $# -eq 0 ]; then no_arg_fn; fi
 
     case "$1" in
+        courses) show_courses ;;
         dev) open_this_file ;;
         help | --help) help ;;
         open) warn "Not implemented." ; exit 1 ;;
@@ -40,10 +42,15 @@ main() {
 
 # Now add functions here in alphabetical order **********************************************
 
+show_courses() {
+    t next +course
+}
+
 execute_and_push() {
     task "$@"
     case "$1" in
         ad*|mod*|edit|done|undo|del*) push_to_github "$@" ;;
+        start|stop|done) no_arg_fn ;;
         *) exit "$?";;
     esac
 }

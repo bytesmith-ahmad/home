@@ -121,6 +121,7 @@ alias taskconfig="$EDITOR ~/bin/taskconfig.sh"  # extension of ~/.taskrc
 
 # File handling
 
+alias md="glow"
 alias E="$EDITOR"
 alias list='tar -tzvf'
 alias ..='cd ..'
@@ -133,6 +134,7 @@ alias note="notepad.exe"      # open with note
 
 # TaskWarrior MOVED TO SCRIPTS
 
+alias courses='t courses'
 alias r-v='task all +appointment'
 alias tasks='task limit:10'
 alias add='source task-add'
