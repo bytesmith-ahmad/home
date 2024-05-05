@@ -35,18 +35,22 @@ else
     echo "No changes found in the remote repository."
 fi
 
-# Synchronize tasks
-echo -en "${task_color}Tasks: ${reset_color}"
-git -C .task pull
-# Synchronize bills
-echo -en "${finance_color}Bills: ${reset_color}"
-git -C .bills pull
 # Synchronize password-store
 echo -en "${password_color}Passwords: ${reset_color}"
 pass git pull
+
 # Synchronize archives
 echo -en "${archive_color}Archives: ${reset_color}"
 git -C arch pull
+
 # Synchronize journal
 echo -en "${journal_color}Journal: ${reset_color}"
 git -C journal pull
+
+# Synchronize bills
+echo -en "${finance_color}Bills: ${reset_color}"
+git -C .bills pull
+
+# Synchronize tasks
+echo -en "${task_color}Task: ${reset_color}"
+git -C .task pull
