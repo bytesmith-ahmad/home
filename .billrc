@@ -41,6 +41,12 @@ data.location=/home/ahmad/.bills
 
 #*************************************************
 
+# The number of tags is irrelevant
+
+urgency.tags.coefficient=0
+
+#*************************************************
+
 editor=micro
 
 # amout ******************************************
