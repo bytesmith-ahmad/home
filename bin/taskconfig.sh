@@ -29,13 +29,6 @@ uda.dir.type=string
 urgency.uda.dir.coefficient=1.0
 color.uda.dir=color255
 
-# category column ******************************************
-
-uda.cat.label=CAT
-uda.cat.type=string
-urgency.uda.cat.coefficient=1.0
-color.uda.cat=color255
-
 # deleted task report *******************************************
 
 report.trash.description=List all deleted tasks

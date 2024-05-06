@@ -56,9 +56,15 @@ execute_and_push() {
 }
 
 no_arg_fn() {
-    warn 'Default behavior. Do [t dev] to modify.'
-    task limit:10
-    exit "$?"
+    out=$(task active 2>&1)
+    if [ "$out" = "No matches." ]; then
+        warn "No active tasks currently"
+        task limit:10
+        exit "$?"
+    else
+        task active
+        exit "$?"
+    fi
 }
 
 # Help function to display usage information and option descriptions
