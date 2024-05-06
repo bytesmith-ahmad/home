@@ -41,7 +41,7 @@ pass git pull
 
 # Synchronize archives
 echo -en "${archive_color}Archives: ${reset_color}"
-git -C arch pull
+git -C archives pull
 
 # Synchronize journal
 echo -en "${journal_color}Journal: ${reset_color}"
