@@ -10,3 +10,6 @@
 [submodule "rc-files"]
 	path = rc-files
 	url = https://github.com/bytesmith-ahmad/rc-files
+[submodule "pass"]
+	path = pass
+	url = https://github.com/bytesmith-ahmad/pass
