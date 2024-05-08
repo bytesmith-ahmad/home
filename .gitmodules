@@ -2,7 +2,7 @@
 	path = .task
 	url = https://github.com/bytesmith-ahmad/task
 [submodule "bills"]
-	path = .bills
+	path = bills
 	url = https://github.com/bytesmith-ahmad/bills
 [submodule "journal"]
 	path = journal
