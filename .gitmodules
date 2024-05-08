@@ -13,3 +13,6 @@
 [submodule "pass"]
 	path = pass
 	url = https://github.com/bytesmith-ahmad/pass
+[submodule "archives"]
+	path = archives
+	url = https://github.com/bytesmith-ahmad/archives
