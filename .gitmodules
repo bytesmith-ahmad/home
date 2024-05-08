@@ -7,9 +7,6 @@
 [submodule "journal"]
 	path = journal
 	url = https://github.com/bytesmith-ahmad/journal
-[submodule "pass"]
-	path = pass
-	url = https://github.com/bytesmith-ahmad/pass
 [submodule "rc-files"]
 	path = rc-files
 	url = https://github.com/bytesmith-ahmad/rc-files
