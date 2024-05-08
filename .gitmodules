@@ -16,3 +16,6 @@
 [submodule "archives"]
 	path = archives
 	url = https://github.com/bytesmith-ahmad/archives
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/bytesmith-ahmad/scripts
