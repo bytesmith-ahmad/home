@@ -19,3 +19,6 @@
 [submodule "scripts"]
 	path = scripts
 	url = https://github.com/bytesmith-ahmad/scripts
+[submodule "tasks"]
+	path = tasks
+	url = https://github.com/bytesmith-ahmad/tasks
